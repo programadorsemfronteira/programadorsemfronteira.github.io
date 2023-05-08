@@ -27,7 +27,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   nesse processo do zero. Programar mudou a minha vida e tenho certeza que pode
   mudar a sua. Procurando uma oportunidade? Ela pode estar aqu!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://programadorsemfronteira.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: prgsemfronteira
 github_username:  amorimjj
 linkedin_username: jeferson-amorim
