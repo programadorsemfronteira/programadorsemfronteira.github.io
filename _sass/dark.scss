@@ -1,0 +1,42 @@
+$color1: #3081F7;
+$color2: #59A8FB;
+$color3: #0062d3;
+
+.dark {
+
+    body, .box-shadow-full, .service-box, .card, .work-box, .post-box, .widget-sidebar, .box-comments {
+        background-color: #0E1117;
+    }
+    
+    .navbar-b.navbar-reduce {
+        background-color: #161B22;
+    }
+
+    body,
+    h1, h2, h3, h4, h5, h6,
+    a,
+    .skill-mf span,
+    .title-s, .subtitle-a,
+    .service-box, .service-box .service-ico, .service-box .s-description,
+    .card-blog .card-title,
+    .card-blog .post-date, .work-content .w-more,
+    .blog-wrapper .post-meta ul span {
+        color: #E6EDF3;
+    }
+
+    .blog-wrapper .post-meta {
+        & .post-author, & time {
+            color: $color1;
+        }
+    }
+
+    .about-img img, .box-shadow-full, .service-box, .card, .work-box, .post-box, .widget-sidebar, .box-comments {
+        border: 1px solid #30363D;
+    }
+
+    .box-shadow-full, .service-box {
+        border-radius: 6px;
+    }
+
+    @import "theme";
+}
