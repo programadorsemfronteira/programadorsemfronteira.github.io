@@ -1,0 +1,141 @@
+---
+layout: default
+---
+
+<!--/ Intro Skew Star /-->
+<div id="home" class="intro route bg-image" style="background-image: url(/assets/img/intro-bg.jpg)">
+  <div class="overlay-itro"></div>
+  <div class="intro-content display-table">
+    <div class="table-cell">
+      <div class="container">
+        <!--<p class="display-6 color-d">Hello, world!</p>-->
+        <h1 class="intro-title mb-4">{{ site.header | escape }}</h1>
+        <p class="intro-subtitle"><span class="text-slider-items">Jeferson Amorim,Web Developer,Frontend Developer,Backend Developer,Full Stack Developer,Viajante</span><strong class="text-slider"></strong></p>
+        <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+      </div>
+    </div>
+  </div>
+</div>
+<!--/ Intro Skew End /-->
+
+{%- include home/about.html -%}
+
+  <!--/ Section Services Star /-->
+  <section id="experiences" class="services-mf route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Experiências
+            </h3>
+            <p class="subtitle-a">
+              A ação e o efeito de experimentar, conhecer. Seguem algumas das minhas...
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-monitor"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Frontend</h2>
+              <p class="s-description text-center">
+                Clicar, arrastar, navegar, interagir.
+                Tudo isso acontece aqui.
+                Foi onde tudo começou para mim e se 
+                você precisa de um mentor, pode contar comigo.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="ion-code-working"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Backend</h2>
+              <p class="s-description text-center">
+                Como developer, sempre tentei entender as partes
+                envolvidas em uma aplicação. 
+                Muito acontece por trás do pano e eu queria
+                estar por dentro de tudo.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="fa fa-gears"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">DevOps</h2>
+              <p class="s-description text-center">
+                Antes do termo ser difundido eu já atuava em formas de facilitar
+                o processo de publicação e criação de todo o ambiente do software.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="fa fa-thing fa-layer-group"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Fullstack</h2>
+              <p class="s-description text-center">
+                É onde gosto de atuar. Navegar entre camadas da aplicação
+                me permite uma integração total entregando a melhor experiência possível.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="fa fa-universal-access"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Acessibilidade</h2>
+              <p class="s-description text-center">
+                Inclusão é ordem, é a lei, mas todos temos
+                necessidades especiais. Imagina alguém desistir de usar a sua
+                aplicação porque não cabe na tela dela?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="service-box">
+            <div class="service-ico">
+              <span class="ico-circle"><i class="fa-solid fa-compass-drafting"></i></span>
+            </div>
+            <div class="service-content">
+              <h2 class="s-title">Arquitetura</h2>
+              <p class="s-description text-center">
+                Criar um software vai muito além do código.
+                Muitas partes são necessárias e as interações
+                entre elas requerem cuidados que precisam de atenção.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Section Services End /-->
+
+  {%- include home/trip-summary.html -%}
+
+  {%- include home/video.html -%}
+
+  {%- include home/quote.html -%}
+
+  {%- include home/blog.html -%}

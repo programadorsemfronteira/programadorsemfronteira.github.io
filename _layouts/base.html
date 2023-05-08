@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html class="dark" lang="{{ page.lang | default: site.lang | default: "en" }}">
+  
+{%- include head.html -%}
+
+  <body id="page-top">
+
+    {{ content }}
+
+    <!-- JavaScript Libraries -->
+    <script src="/assets/lib/jquery/jquery.min.js"></script>
+    <script src="/assets/lib/jquery/jquery-migrate.min.js"></script>
+    <script src="/assets/lib/popper/popper.min.js"></script>
+    <script src="/assets/lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/assets/lib/easing/easing.min.js"></script>
+    <script src="/assets/lib/counterup/jquery.waypoints.min.js"></script>
+    <script src="/assets/lib/counterup/jquery.counterup.js"></script>
+    <script src="/assets/lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="/assets/lib/lightbox/js/lightbox.js"></script>
+    <script src="/assets/lib/typed/typed.min.js"></script>
+    <script src="https://kit.fontawesome.com/a41b2a6fb7.js" crossorigin="anonymous"></script>
+    
+    <!-- Template Main Javascript File -->
+    {%- if page.name == '404.html' -%}
+        <script src="/assets/js/error.js"></script>
+    {%- else -%}
+        <script src="/assets/js/main.js"></script>
+    {%- endif -%}
+  </body>
+</html>

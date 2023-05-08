@@ -1,0 +1,19 @@
+---
+layout: base
+---
+
+{%- include header.html -%}
+
+{{ content }}
+
+<section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(/assets/img/place-holder/overlay-bg.jpg)">
+  <div class="overlay-mf"></div>
+    {% if page.footer %}
+      {% include {{ page.footer }} %}
+    {% else %}
+      {%- include footer.html -%}
+    {% endif %}
+</section>
+
+<a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<div id="preloader"></div>

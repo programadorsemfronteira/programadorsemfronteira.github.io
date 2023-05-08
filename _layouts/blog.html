@@ -1,0 +1,82 @@
+---
+layout: default
+---
+<div class="intro intro-single route bg-image" style="background-image: url(/assets/img/place-holder/overlay-bg.jpg)">
+  <div class="overlay-mf"></div>
+  <div class="intro-content display-table">
+    <div class="table-cell">
+      <div class="container">
+        <h2 class="intro-title mb-4">{{ site.header | escape }}</h2>
+        <ol class="breadcrumb d-flex justify-content-center">
+          <li class="breadcrumb-item">
+            <a href="{{ site.url }}">Home</a>
+          </li>
+          <li class="breadcrumb-item blog-tag">
+            <a href="{{ page.tag | tag_url }}">{{ page.tag }}</a>
+          </li>
+          <li class="breadcrumb-item active">{{ page.title }}</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--/ Section Blog-Single Star /-->
+<section class="blog-wrapper sect-pt4" id="blog">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        {{ content }}
+      </div>
+      <div class="col-md-4">
+        <div class="widget-sidebar">
+          <h5 class="sidebar-title">Últimos posts</h5>
+          <div class="sidebar-content">
+            <ul class="list-sidebar">
+              {% for post in site.posts %}
+                {% assign counter = forloop.index %}
+                {% if counter <= 5 %}
+                  <li>
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                  </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+        <div class="widget-sidebar">
+          <h5 class="sidebar-title">{{ page.tag }}</h5>
+          <div class="sidebar-content">
+            <ul class="list-sidebar">
+              {% for tag in site.tags %}
+                {% if tag[0] == page.tag %}
+                  {% for post in tag[1] %}
+                    {% assign counter = forloop.index %}
+                    {% if counter <= 5 %}
+                      <li>
+                        <a href="{{ post.url }}">{{ post.title }}</a>
+                      </li>
+                    {% endif %}
+                  {% endfor %}
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+        <div class="widget-sidebar widget-tags">
+          <h5 class="sidebar-title">Tags</h5>
+          <div class="sidebar-content">
+            <ul>
+              {% for tag in site.tags %}
+                <li>
+                  <a href="{{ tag[0] | tag_url }}">{{ tag[0] }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--/ Section Blog-Single End /-->
