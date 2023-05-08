@@ -1,0 +1,28 @@
+<!--/ Section Testimonials Star /-->
+<div class="quotes paralax-mf bg-image" style="background-image: url(/assets/img/place-holder/overlay-bg.jpg)">
+    <div class="overlay-mf"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div id="quote-mf" class="owl-carousel owl-theme">
+            {% for quote in site.data.quotes %}
+                <div class="quote-box">
+                    <div class="author">
+                        <img width="150" height="150" src="/assets/img/{{ quote.avatar }}" alt="{{ quote.name }}" class="rounded-circle b-shadow-a">
+                        <span class="author">
+                            <a target="_blank" href="https://www.instagram.com/{{ quote.instagram }}" title="{{ quote.name }}">@{{ quote.instagram }}</a>
+                        </span>
+                    </div>
+                    <div class="content-test">
+                        <p class="description lead">
+                            {{ quote.text }}
+                        </p>
+                        <span class="comit"><i class="fa fa-quote-right"></i></span>
+                    </div>
+                </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

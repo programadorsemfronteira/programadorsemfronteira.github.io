@@ -1,0 +1,62 @@
+<!--/ Section Blog Star /-->
+{%- if site.posts.size > 0 -%}
+<section id="blog" class="blog-mf sect-pt4 route">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="title-box text-center">
+          <h3 class="title-a">
+            Blog
+          </h3>
+          <p class="subtitle-a">
+            Aprender, evoluir, contribuir, viajar... Repetir!
+          </p>
+          <div class="line-mf"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      {%- for post in site.posts -%}
+        {% assign counter = forloop.index %}
+        {% if counter <= 3 %}
+          <div class="col-md-4">
+            <div class="card card-blog">
+              <div class="card-img">
+                <a href="{{ post.url | relative_url }}">
+                  {%- if post.img -%}<img src="/assets/img/{{ post.img }}" alt="" class="img-fluid">{%- endif -%}
+                </a>
+              </div>
+              <div class="card-body">
+                <div class="card-category-box">
+                  {%- if post.tag -%}
+                    <div class="card-category">
+                      <h6 class="category">{{ post.tag | escape }}</h6>
+                    </div>
+                  {%- endif -%}
+                </div>
+                <h3 class="card-title"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+                <p class="card-description">
+                  {{ post.excerpt }}
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="post-author">
+                  <a href="#">
+                    <img src="/assets/img/avatar.jpg" alt="" class="avatar rounded-circle">
+                    <span class="author">Jeferson Amorim</span>
+                  </a>
+                </div>
+                {%- if post.readingTime -%}
+                  <div class="post-date">
+                    <span class="ion-ios-clock-outline"></span> {{ post.readingTime | escape }}
+                  </div>
+                {%- endif -%}
+              </div>
+            </div>
+          </div>
+        {% endif %}
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+{%- endif -%}

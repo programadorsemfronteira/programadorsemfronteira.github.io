@@ -1,0 +1,11 @@
+<div class="socials">
+  <ul>
+    {%- if site.facebook_username -%}<li><a href="https://www.facebook.com/{{ site.facebook_username | cgi_escape | escape }}"><span class="ico-circle"><i class="ion-social-facebook"></i></span></a></li>{%- endif -%}
+    {%- if site.instagram_username -%}<li><a href="https://instagram.com/{{ site.instagram_username | cgi_escape | escape }}"><span class="ico-circle"><i class="ion-social-instagram"></i></span></a></li>{%- endif -%}
+    {%- if site.twitter_username -%}<li><a href="https://www.twitter.com/{{ site.twitter_username | cgi_escape | escape }}"><span class="ico-circle"><i class="ion-social-twitter"></i></span></a></li>{%- endif -%}
+    {%- if site.linkedin_username -%}<li><a href="http://www.linkedin.com/in/{{ site.linkedin_username | cgi_escape | escape }}"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>{%- endif -%}
+    {%- if site.github_username -%}<li><a href="https://github.com/{{ site.github_username | cgi_escape | escape }}"><span class="ico-circle"><i class="ion-social-github"></i></span></a></li>{%- endif -%}
+    {%- if site.youtube_channel -%}<li><a href="https://www.youtube.com/channel/{{ site.youtube_channel }}"><span class="ico-circle"><i class="ion-social-youtube"></i></span></a></li>{%- endif -%}
+    {%- if site.npm_username -%}<li><a href="https://www.npmjs.com/~{{ site.npm_username | cgi_escape | escape }}"><span class="ico-circle"><img class="npm-icon" src="/assets/img/npm.svg" /></span></a></li>{%- endif -%}
+  </ul>
+</div>

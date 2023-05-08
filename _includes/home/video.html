@@ -1,0 +1,121 @@
+  <!--/ Section Portfolio Star /-->
+  <section id="videos" class="portfolio-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Vídeos
+            </h3>
+            <p class="subtitle-a">
+              Aqui você pode acompanhar as novidades e as atualições direto do Youtube.
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        {% for video in site.data.videos %}
+            <div class="col-md-4">
+                <div class="work-box">
+                    <a href="{{ video.media }}" data-lightbox="gallery-mf">
+                        <!--<a href="/assets/img/place-holder/{{ video.thumb }}" data-lightbox="gallery-mf">-->
+                        <div class="work-img">
+                            <img src="/assets/img/place-holder/{{ video.thumb }}" alt="" class="img-fluid">
+                        </div>
+                        <div class="work-content">
+                            <div class="row">
+                            <div class="col-sm-8">
+                                <h2 class="w-title">{{ video.title }}</h2>
+                                <div class="w-more">
+                                <span class="w-ctegory">{{ video.category }}</span> / <span class="w-date">{{ video.date }}</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-4">
+                                <div class="w-like">
+                                <span class="ion-ios-plus-outline"></span>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        {% endfor %}
+        <!--<div class="col-md-4">
+          <div class="work-box">
+            <a href="/assets/img/place-holder/work-4.jpg" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="/assets/img/place-holder/work-4.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Bindo Laro Cado</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="/assets/img/place-holder/work-5.jpg" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="/assets/img/place-holder/work-5.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Studio Lena Mado</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2018</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="/assets/img/place-holder/work-6.jpg" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="/assets/img/place-holder/work-6.jpg" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Studio Big Bang</h2>
+                    <div class="w-more">
+                      <span class="w-ctegory">Web Design</span> / <span class="w-date">18 Sep. 2017</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>-->
+        
+      </div>
+    </div>
+  </section>
+  <!--/ Section Portfolio End /-->

@@ -1,0 +1,54 @@
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="contact-mf">
+        <div id="contact" class="box-shadow-full">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="title-box-2">
+                <h5 class="title-left">
+                  Onde Estou Agora
+                </h5>
+              </div>
+              <div class="col-md-12 mb-4 where-content" style="background-image: url(/assets/img/{{ site.where_am_i.image }})"></div>
+              <div class="widget-tags col-md-12 pt-1">
+                <ul>
+                  {% for tag in site.where_am_i.tags %}
+                    <li>
+                      <a href="{{ tag | tag_url }}">{{ tag }}</a>
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="title-box-2 pt-4 pt-md-0">
+                <h5 class="title-left">
+                  Diálogo Aberto
+                </h5>
+              </div>
+              <div class="more-info">
+                <p class="lead">
+                  Criar conteúdo é totalmente sem sentido se não for para alguém.
+                  Eu crio para você! Não me deixe falando sozinho.
+                  Me ajude na direção do que precisa estar aqui.
+                  Que falar comigo?
+                  Nas redes poderemos conversar!
+                </p>
+                <ul class="list-ico">
+                  <li><span class="ion-ios-location"></span> <a><span class="question">Conhece esse lugar?</span> <span class="reveled">{{ site.where_am_i.location }}</span></a></li>
+                  {%- if site.email -%}
+                    <li><span class="ion-email"></span> <a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+                  {%- endif -%}
+                </ul>
+              </div>
+              {%- include social.html -%}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{%- include footer.html -%}
