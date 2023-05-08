@@ -1,0 +1,301 @@
+- name: Brasil
+  states:
+    - name: São Paulo
+      cities:
+        - name: Cubatão
+        - name: Praia Grande
+          beaches:
+            - name: Forte
+            - name: Boqueirão
+            - name: Guilhermia
+            - name: Aviação
+            - name: Tupy
+            - name: Ocean
+        - name: Mongaguá
+          beaches:
+            - name: Agenor de Campos
+        - name: Itanhaém
+          beaches:
+            - name: Praia dos Sonhos
+        - name: Peruíbe
+          beaches:
+            - name: Praia de Peruíbe
+        - name: Itariri
+        - name: Miracatu
+        - name: Registro
+        - name: Iguape
+        - name: Ilha Comprida
+          beaches:
+            - name: Balneário São Januario
+        - name: Jacupiranga
+        - name: Santos
+          beaches:
+            - name: José Menino
+            - name: Gonzaga
+            - name: Embaré
+        - name: São Vicente
+          beaches:
+            - name: Gonzaguinha
+            - name: Biquinha
+        - name: Guarujá
+          beaches:
+            - name: Pitangueiras
+            - name: Perequê
+            - name: Enseada
+            - name: Pernambuco
+        - name: Bertioga
+          beaches:
+            - name: Praia da Riviera
+        - name: São Sebastião
+          beaches:
+            - name: Maresias
+            - name: Toc Toc Grande
+            - name: Toc Toc Pequeno
+            - name: Boracéia
+            - name: Canto do Moreira
+            - name: Praia de Santiago
+        - name: Ilha Bela
+          beaches:
+            - name: Pedra do Sino
+            - name: Praia Vermelha
+            - name: Castelhanos
+        - name: Ubatuba
+        - name: Caraguatatuba
+        - name: Cunha
+        - name: Campos dos Jordão
+        - name: Santo Antônio do Pinhal
+        - name: Taubaté
+        - name: Pindamonhagaba
+        - name: Aparecida
+        - name: São José dos Campos
+        - name: Guararema
+        - name: Mogi das Cruzes
+        - name: Suzano
+        - name: Itaquaquecetuba
+        - name: Ferraz de Vasconcelos
+        - name: Mauá
+        - name: Riberão Pires
+        - name: Guarulhos
+        - name: São Paulo
+        - name: São Caetano do Sul
+        - name: Santo André
+        - name: São Bernardo do Campo
+        - name: Diadema
+        - name: Osasco
+        - name: Mairiorã
+        - name: Taboão da Serra
+        - name: Embu das Artes
+        - name: Itapecerica da Serra
+        - name: Cotia
+        - name: Barueri
+        - name: Itu
+        - name: Jundiaí
+        - name: Vinhedo
+        - name: Valinhos
+        - name: Campinas
+        - name: Hortolândia
+        - name: Piracicaba
+        - name: São Roque
+        - name: Ibiuna
+        - name: Sorocaba
+        - name: Araraquara
+        - name: Catanduva
+        - name: Araçatuba
+        - name: Auriflama
+        - name: Adamantina
+        - name: São José do Rio Preto
+        - name: Pirassununga
+        - name: Serra Negra
+        - name: Amparo
+        - name: Lindóia
+        - name: Águas de Lindóia
+        - name: Holambra
+        - name: Jaguariúna
+        - name: Santo Antônio de Posse
+
+    - name: Rio de Janeiro
+      cities:
+        - name: Paraty
+          beaches:
+            - name: Praia do Forte
+            - name: Jabaquara
+            - name: Saco da Velha
+            - name: Trindade
+            - name: Praia do Sono
+            - name: São Gonçalo
+            - name: São Gonçalinho
+        - name: Angra dos Reis
+          beaches:
+            - name: Praia da Feiticeira
+            - name: Praia Preta
+            - name: Lopes Mendes
+            - name: Aroeira
+            - name: Praia de Dois Rios
+            - name: Lagoa Azul
+            - name: Praia Vermelha
+            - name: Lagoa Verde
+            - name: Praia do Dentista
+        - name: Volta Redonda
+        - name: Penedo
+        - name: Itatiaia
+        - name: Visconde de Mauá
+        - name: Barra Mansa
+        - name: Duque de Caxias
+        - name: Cabo Frio
+          beaches:
+            - name: Praia do Forte
+        - name: Arraial do Cabo
+          beaches:
+            - name: Praia do Forno
+        - name: Armação dos Búzios
+          beaches:
+            - name: Praia Brava
+            - name: Praia do Forno
+            - name: Praia da Tartaruga
+            - name: Praia da Armação
+            - name: João Fernandinho
+            - name: Praia da Ferradura
+            - name: Praia do Manguinhos
+
+    - name: Minas Gerais
+      cities:
+        - name: Uberaba
+        - name: Belo Horizonte
+        - name: Maringá
+        - name: Dores de Campos
+        - name: Tiradentes
+        - name: São João del Rei
+        - name: Tres Corações
+        - name: Pouso Alegre
+        - name: Monte Sião
+        - name: Monte Verde
+        - name: Poços de Caldas
+
+    - name: Goiás
+      cities:
+        - name: Aparecida de Goiânia
+        - name: Goiânia
+        - name: Alexânia
+
+    - name: Alagoas
+      cities:
+        - name: Maceió
+          beaches:
+            - name: Pajuçara
+            - name: Ponta Verde
+            - name: Ipioca
+        - name: Porto de Pedras
+          beaches:
+            - name: Praia do Coqueiro
+        - name: Maragogi
+          beaches:
+            - name: Maragogi
+
+    - name: Pernambuco
+      cities:
+        - name: Recife
+        - name: Caruarú
+        - name: Toritama
+        - name: Santa Cruz do Capibaribe
+
+    - name: Maranhão
+      cities:
+        - name: São Luiz
+          beaches:
+            - name: Litorânea
+        - name: Santo Amaro
+          beaches:
+            - name: Lençóis Marenhenses
+        - name: Matinha
+
+    - name: Paraná
+      cities:
+        - name: Curitiba
+        - name: São José dos Pinhais
+        - name: Maringá
+        - name: Londrina
+        - name: Loanda
+
+    - name: Santa Catarina
+      cities:
+        - name: Joinville
+        - name: Penha
+        - name: Blumenal
+        - name: Navegantes
+        - name: Itajaí
+        - name: Balneário Camboriu
+          beaches:
+            - name: Praia Central
+            - name: Laranjeiras
+        - name: Itapema
+        - name: Bombinhas
+          beaches:
+            - name: Bombinhas
+        - name: Governador Celso Ramos
+        - name: Florianópolis
+          beaches:
+            - name: Joaquina
+            - name: Praia de Jurere
+        - name: Palhoça
+        - name: Tubarão
+    
+    - name: Rio Grande do Sul
+      cities:
+        - name: Gramado
+        - name: Canela
+
+- name: Estados Unidos da América
+  states:
+    - name: New York
+      cities:
+        - name: New York
+
+    - name: Florida
+      cities:
+        - name: Miami
+          beaches:
+            - name: Miami Beach
+        - name: Orlando
+
+    - name: Califórnia
+      cities:
+        - name: Los Angeles
+          beaches:
+            - name: Santa Mônica
+            - name: Venice
+        - name: Del Mar
+          beaches:
+          - name: Del Mar Cliffs
+        - name: San Diego
+          beaches:
+            - name: La Jolla
+            - name: Black
+
+- name: México
+  states:
+    - name: Quintana Roo
+      cities:
+        - name: Cancún
+          beaches:
+            - name: Playa Mujeres
+            - name: Playa Ballenas
+        - name: Tulum
+
+- name: Argentina
+  states:
+    - name: Buenos Aires
+      cities:
+        - name: Buenos Aires
+
+- name: Colombia
+  states:
+    - name: Cundinamarca
+      cities:
+        - name: Bogotá
+
+- name: Peru
+  states:
+    - name: Lima
+      cities:
+        - name: Lima
+
