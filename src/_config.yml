@@ -73,7 +73,6 @@ where_am_i:
     - trabalho remoto
 
 # Build settings
-#theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
