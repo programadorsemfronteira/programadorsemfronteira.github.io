@@ -175,11 +175,12 @@ a:hover {
 /*------/ Socials /------*/
 
 .socials {
-  padding: 1.5rem 0;
+  padding: 1rem 0;
 }
 
 .socials ul li {
   display: inline-block;
+  margin-top: 1em;
 }
 
 .socials .ico-circle {
@@ -1151,6 +1152,10 @@ footer .credits a {
   margin-bottom: 0.5rem;
 }
 
+.box-comments a {
+  text-decoration: underline;
+}
+
 @media (min-width: 577px) {
   .counter-box {
     margin-bottom: 1.8rem;
@@ -1158,6 +1163,7 @@ footer .credits a {
 }
 
 @media (min-width: 767px) {
+
   .about-mf .box-pl2 {
     margin-top: 3rem;
     padding-left: 0rem;
@@ -1241,7 +1247,14 @@ footer .credits a {
         font-size: 3rem;
       }
     }
-    
+  }
+
+  .socials {
+    padding: 1.5rem 0;
+  }
+
+  .socials ul li {
+    margin-top: unset;
   }
 }
 
