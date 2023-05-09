@@ -255,6 +255,13 @@
         - name: Miami
           beaches:
             - name: Miami Beach
+        - name: Key West
+          beaches:
+            - name: Key West
+        - name: Marathon
+        - name: Layton
+          beaches:
+            - name: Layton
         - name: Orlando
 
     - name: Califórnia
@@ -270,6 +277,14 @@
           beaches:
             - name: La Jolla
             - name: Black
+
+- name: Bahamas
+  states:
+    - name: Nova Providência
+      cities:
+        - name: Nassau
+          beaches:
+            - name: Paradise Island
 
 - name: México
   states:
