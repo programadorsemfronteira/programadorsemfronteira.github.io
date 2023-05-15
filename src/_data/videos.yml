@@ -1,17 +1,17 @@
-- title: Lorem impsum dolor
-  category: web design
-  thumb: work-1.jpg
-  date: 18 Sep. 2018
-  media: https://www.youtube.com/embed/KhmwPIgMbWs
+- title: Rotina do programador
+  category: Dia a dia
+  thumb: rotina_programador.jpg
+  date: 12 Mai. 2023
+  media: https://www.youtube.com/embed/QUz4QAKrgGw
 
-- title: Loreda Cuno Nere
-  category: web design
-  thumb: work-2.jpg
-  date: 18 Sep. 2018
-  media: https://www.youtube.com/embed/jRMEzrv7v_0
+- title: Lógica de programação
+  category: Fundamentos
+  thumb: logica_programacao.jpg
+  date: 13 Mai. 2023
+  media: https://www.youtube.com/embed/d_Rjhvjd3tg
 
-- title: Mavrito Lana Dere
-  category: web design
-  thumb: work-3.jpg
-  date: 18 Sep. 2018
-  media: https://www.youtube.com/embed/8VGD3bn5LIs
+- title: Programador remoto
+  category: Dia a dia
+  thumb: rotina_programador_remoto.jpg
+  date: 13 Mai. 2023
+  media: https://www.youtube.com/embed/Ubx0MgQ0SuU
