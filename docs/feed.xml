@@ -1,47 +1,168 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://programadorsemfronteira.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://programadorsemfronteira.github.io/" rel="alternate" type="text/html" /><updated>2023-05-09T20:01:49-03:00</updated><id>https://programadorsemfronteira.github.io/feed.xml</id><title type="html">Jeferson Amorim | Programador sem fronteira</title><subtitle>Como aprender a programar pode ser um desafio, Me siga que eu vou te ajudar nesse processo do zero. Programar mudou a minha vida e tenho certeza que pode mudar a sua. Procurando uma oportunidade? Ela pode estar aqu!</subtitle><author><name>programadorsemfronteira</name></author><entry><title type="html">See more ideas about Travel</title><link href="https://programadorsemfronteira.github.io/2023/04/30/ideas-about-travel.html" rel="alternate" type="text/html" title="See more ideas about Travel" /><published>2023-04-30T19:35:21-03:00</published><updated>2023-04-30T19:35:21-03:00</updated><id>https://programadorsemfronteira.github.io/2023/04/30/ideas-about-travel</id><content type="html" xml:base="https://programadorsemfronteira.github.io/2023/04/30/ideas-about-travel.html"><![CDATA[<p>Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://programadorsemfronteira.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://programadorsemfronteira.github.io/" rel="alternate" type="text/html" /><updated>2023-05-15T11:04:58-03:00</updated><id>https://programadorsemfronteira.github.io/feed.xml</id><title type="html">Jeferson Amorim | Programador sem fronteira</title><subtitle>Como aprender a programar pode ser um desafio, Me siga que eu vou te ajudar nesse processo do zero. Programar mudou a minha vida e tenho certeza que pode mudar a sua. Procurando uma oportunidade? Ela pode estar aqu!</subtitle><author><name>programadorsemfronteira</name></author><entry><title type="html">Mas como é a rotina de um programador remoto?</title><link href="https://programadorsemfronteira.github.io/2023/05/13/como-e-a-rotina-de-um-programador-trabalhando-remoto.html" rel="alternate" type="text/html" title="Mas como é a rotina de um programador remoto?" /><published>2023-05-13T08:00:00-03:00</published><updated>2023-05-13T08:00:00-03:00</updated><id>https://programadorsemfronteira.github.io/2023/05/13/como-e-a-rotina-de-um-programador-trabalhando-remoto</id><content type="html" xml:base="https://programadorsemfronteira.github.io/2023/05/13/como-e-a-rotina-de-um-programador-trabalhando-remoto.html"><![CDATA[<p>Programar, nesse caso, quer dizer que a maior parte do tempo você estará sentado, em frente a uma tela, digitando, muitas vezes código. Como fico em 
 <!--more-->
-Jekyll requires blog post files to be named according to the following format:</p>
+minha casa, tive que montar uma estrutura para mim com uma boa cadeira e uma mesa na altura certa. Ao menos hoje é assim. Quando eu comecei a procurar essas vagas, eu fazia os testes e tudo o que era necessário, na mesa da cozinha. Só investi em um espaço apropriado quando tudo deu certo.
+Hoje eu trabalho de casa, mas antes disso, eu demorava perto de 2 horas para chegar no escritório. Isso quer dizer que, todos os dias, eu perdia 4 horas só para conseguir chegar na empresa!</p>
 
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+<p>Vai parecer estranho o que vou dizer agora, mas para a minha qualidade de vida, foi uma das melhores coisas que me aconteceu. Eu ficava inconformado pelas horas de ônibus e, durante muito tempo, eu fiz o que a maioria de nós faria… Fiquei reclamando sobre isso! Demorou, mas percebi que minha atitude só deixava tudo pior. Ou a gente faz parte da solução, ou somos o próprio problema! Queria que aquilo mudasse e comecei a procurar vagas 100% remotas. E foi assim que comecei a trabalhar de casa.</p>
 
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<p>Não preciso me preocupar com o transito, porque já estou no lugar onde vou trabalhar. Então tenho mais tempo para mim e minha família. Minha esposa também trabalha de casa, então tomamos sempre café da manhã e fazemos todas as outras refeiçōes juntos, o que nos aproxima e fortalece o nosso relacionamento. Alias, ter casado foi o que me fez tomar a decisão de parar de ir para um escritório. Perder 4 horas por dia em deslocamento, mas o tempo de trabalho e as eventuais horas que eu precisava ficar até mais tarde, faziam que eu passasse a maior parte do tempo fora, o que não me fazia sentido algum, afinal eu tomei a decisão de dividir a minha vida com alguém, foi isso que eu escolhi, e não dividir a vida com um escritório…</p>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name>programadorsemfronteira</name></author><category term="fullstack" /><summary type="html"><![CDATA[Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.]]></summary></entry><entry><title type="html">See more ideas about Travel</title><link href="https://programadorsemfronteira.github.io/2023/04/27/ideas-about-travel.html" rel="alternate" type="text/html" title="See more ideas about Travel" /><published>2023-04-27T19:35:21-03:00</published><updated>2023-04-27T19:35:21-03:00</updated><id>https://programadorsemfronteira.github.io/2023/04/27/ideas-about-travel</id><content type="html" xml:base="https://programadorsemfronteira.github.io/2023/04/27/ideas-about-travel.html"><![CDATA[<p>Proin testing eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.
-<!--more-->
-Jekyll requires blog post files to be named according to the following format:</p>
-
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
-
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name>programadorsemfronteira</name></author><category term="backend" /><summary type="html"><![CDATA[Proin testing eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.]]></summary></entry><entry><title type="html">See more ideas about Travel</title><link href="https://programadorsemfronteira.github.io/2023/04/23/ideas-about-travel.html" rel="alternate" type="text/html" title="See more ideas about Travel" /><published>2023-04-23T19:35:21-03:00</published><updated>2023-04-23T19:35:21-03:00</updated><id>https://programadorsemfronteira.github.io/2023/04/23/ideas-about-travel</id><content type="html" xml:base="https://programadorsemfronteira.github.io/2023/04/23/ideas-about-travel.html"><![CDATA[<p>Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.
-<!--more-->
-Quisque velitnisi, pretium ut lacinia in, elementum id enim. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Nulla quis lorem ut libero malesuada feugiat.</p>
-
-<p>Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Cras ultricies ligula sed magna dictum porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin molestie malesuada.</p>
-
-<p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec rutrum congue leo eget malesuada.</p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis lorem ut libero malesuada feugiat. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vivamus suscipit tortor eget felis porttitor volutpat. Vivamus suscipit tortor eget felis porttitor volutpat. Quisque velit nisi, pretium ut lacinia in, elementum id enim.</p>
+<p>Precisamos trabalhar para viver, é claro, mas o que será que nos resta se vivermos para o trabalho?</p>
 
 <blockquote>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+  <p>Esse conteúdo também está disponível no Youtube:
+<a href="https://youtu.be/Ubx0MgQ0SuU"><img src="/assets/img/rotina_programador_remoto_thumb.jpg" alt="Mas como é a rotina de um programador remoto?" /></a></p>
 </blockquote>
 
-<p>Nulla porttitor accumsan tincidunt. Cras ultricies ligula sed magna dictum porta. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Cras ultricies ligula sed magna dictum porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sollicitudin molestie malesuada.</p>]]></content><author><name>programadorsemfronteira</name></author><category term="frontend" /><summary type="html"><![CDATA[Proin eget tortor risus. Pellentesque in ipsum id orci porta dapibus. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.]]></summary></entry></feed>
+<p>Não começo muito cedo, a empresa está em um fuso horário diferente. Tenho tempo de cuidar de mim antes do expediente começar. Vou para academia antes do trabalho, como muita gente faz.</p>
+
+<p>O trabalho remoto está muito conectado à cultura da empresa, então como será a sua rotina, vai depender para quem você está trabalhando. Hoje eu preciso estar disponível no horário comercial, de um país diferente, mas não necessariamente é esse o horário que eu trabalho. É passado para mim o que precisa ser feito e o prazo que tenho para entregar. E eu sou o responsável por gerenciar o meu tempo. Quando trabalhamos em um escritório também somos responsáveis por isso, mas remotamente pode ser mais desafiador. E você vai entender por quê…</p>
+
+<p>Voltando para a rotina… Como já tomei café e geralmente eu já treinei, tomo um banho e vou para frente do computador. Como a maioria do meu time ainda não começou a trabalhar por causa de diferença de horário, e o momento que eu mais consigo produzir. Prefiro fazer código já que não tenho nenhuma interrupção e consigo estar focado.</p>
+
+<p>No dia de um programador, seja trabalhando remoto ou em um escritório, sempre terá reuniões. A quantidade de reuniões diárias e diretamente proporcional ao cargo que você ocupa na empresa. Quanto mais elevado o seu cargo, mas reuniões você terá. Geralmente, tirando algumas alterações, as empresas de TI seguem o mesmo processo. E a primeira reunião será o planejamento do dia, onde divido o andamento do que estou fazendo, o que irei fazer e se preciso de alguma ajuda de alguém.</p>
+
+<blockquote>
+  <p>Quer saber como é a rotina de um programador em um escritório?
+<a href="/2023/05/12/como-e-a-rotina-de-um-programador.html">Confira esse artigo e descubra como é a rotina de um programador trabalhando em um escritório</a></p>
+</blockquote>
+
+<p>A colaboração com a equipe é um pouco diferente em uma empresa 100% remota. Geralmente o time é formado por pessoas com uma mínima experiencia, o que faz que a ajuda entre membros do time seja pontual e simples.
+Volto da reunião e continuo o meu trabalho, agora já falta pouco para o horário do almoço. Reparem que já completei metade do meu dia, as a empresa mal começou…</p>
+
+<p>Paro, almoço e faço meu primeiro descanso. Aqui começa o que posso dizer que é a dificuldade do trabalho remoto. Estou em minha casa. Se a noite de sono foi ruim, eu tiro um cochilo, caso contrário, eu assisto alguma coisa na TV para me distrair. Sempre achei que um programador fosse louco por café, mas que nada… É impossível ficar com sua mente trabalhando a toda por um longo período, e precisamos de pausa. No escritório, a desculpa que temos, é pegar um café…</p>
+
+<p>Mas na minha casa, posso fazer qualquer outra coisa, as vezes só parar e ficar olhando a vista pela sacada, não tem ninguém para me julgar. Mas por outro lado é super fácil você se perder, porque só o seu compromisso e responsabilidade vai fazer você voltar para a sua estação. E isso é difícil, exige disciplina e dedicação. Posso trabalhar do meu sofá, da minha varanda, tem amigos que as vezes trabalham ao lado da piscina. Mas não se iluda, é claro que isso deixa muito confortável, mas continua sendo trabalho. Nunca esqueça disso!</p>
+
+<p>Volto para a minha máquina e trabalho mais. Muito possivelmente terei mais reuniões. Já praticamente completei minha carga de trabalho, mas meu time tem ao menos metade do dia pela frente. A partir desse ponto, começo apenas a administrar o meu tempo. O que faz eu as vezes me dar mal. Como já cumpri a minha jornada, mas combinei de estar disponível no horário que a empresa funciona, posso ser chamado a qualquer momento.</p>
+
+<p>E posso até ficar preso em algum problema. Posso acabar trabalhando mais de 10 horas em um único dia. Ah… Mas isso é demais, alguns diriam. Cara, trabalho para uma organização que me proporciona licenças ilimitadas e uma galera legal demais, que já mudou horários de reuniões porque um de nossos colegas precisava buscar os filhos na escola. Só posso agradecer e retribuir sempre que consigo.</p>
+
+<p>Mas me diz ai, qual a relação que você tem com o seu trabalho. Você é agradecido só porque está trabalhando ou você se sente valorizado e percebe que vocês tem uma parceria? Comente aqui se acha isso possível, maluquice minha, diga aqui nos comentários!</p>
+
+<p>Olha só que situação inusitada já aconteceu comigo… Existe uma atividade que é responsabilidade dos programadores mais experientes da empresa que acontece em um fim de semana, que é disponibilizar todas as atualizações que fizemos no mês para os nosso clientes. Como somos vários programadores, temos uma escala e no fim, cada um de nós executa essa tarefa apenas uma vez por ano. E a minha vez, acabou caindo no dia do meu aniversário e, por vacilo meu, não percebi isso com antecedência, eu podia ter só trocado com algum colega. Mas não fiz isso. No dia do procedimento, meu chefe se ofereceu para fazer por mim, assim como o chefe do meu chefe, como o chefe do chefe do meu chefe…</p>
+
+<p>Ainda levei uma leve bronca por deixado isso acontecer. Existe muito cuidado com nossa qualidade de vida, o que me faz grato demais. E por isso que sempre que precisam de mim, eu estou disponível.</p>
+
+<p>Eu trabalho remoto, mas a empresa tem um escritório, que é fantástico, diga-se de passagem. O lugar é moderno e descolado. Temos um bar disponível com uma chopeira com 3 diferentes tipos de chope disponíveis. A escolha das bebidas disponíveis é privilégio da pessoa que se destacou no trimestre. É comum encontrar pessoas trabalhando no bar.</p>
+
+<p>O fim do dia está chegando, verifico se não deixei nem uma pendência, programo meu próximo dia. Fecho o note, estou em casa. E assim se conclui o dia de um programador trabalhando remoto.</p>]]></content><author><name>programadorsemfronteira</name></author><category term="Dia a dia" /><summary type="html"><![CDATA[Programar, nesse caso, quer dizer que a maior parte do tempo você estará sentado, em frente a uma tela, digitando, muitas vezes código. Como fico em]]></summary></entry><entry><title type="html">O que é lógica de programação afinal?</title><link href="https://programadorsemfronteira.github.io/2023/05/13/o-que-e-logica-de-programacao-afinal.html" rel="alternate" type="text/html" title="O que é lógica de programação afinal?" /><published>2023-05-13T07:00:00-03:00</published><updated>2023-05-13T07:00:00-03:00</updated><id>https://programadorsemfronteira.github.io/2023/05/13/o-que-e-logica-de-programacao-afinal</id><content type="html" xml:base="https://programadorsemfronteira.github.io/2023/05/13/o-que-e-logica-de-programacao-afinal.html"><![CDATA[<p>Um programa de computador, de forma bem simplista, é uma lista de instruções que serão processadas ordenadamente. Antes que você faça qualquer
+<!--more-->
+curso, conhecer esses conceitos irá facilitar o seu entendimento porque, pode parecer complicado, mas garanto que você já faz isso no seu dia a dia e, de alguma forma, isso já faz parte de sua rotina.</p>
+
+<p>Imagine a quantidade de tarefas que você executa em sua manhã. Já percebeu que você tem um roteiro em sua cabeça para fazer as coisas mais corriqueiras? Você não pensa nisso, mas ele existe e está lá. Para escovar os dentes, você provavelmente primeiro abre o tubo de creme dental, depois pega a escova de dentes, coloca uma porção do creme na escova, fecha a tubo, coloca ele de volta em algum lugar, molha a escova com o creme levemente e começa e escovação.</p>
+
+<p>Não estou dizendo que é exatamente isso que você faz, quando você começar a sua carreira, irá perceber que existem várias formas certas de se resolver um problema, mas garanto que algumas coisas não mudam, como por exemplo, precisa abrir o tubo antes de retirar um pouco de creme de dentro dele… E, em termos simples, é o que um programador faz.</p>
+
+<p>A lógica de programação é uma habilidade essencial para quem quer programar um computador ou criar um aplicativo, um site ou um jogo. É a forma como o programador organiza e estrutura as suas ideias permitindo que o computador entenda os comandos que precisam ser executadas.</p>
+
+<p>Um programa é um roteiro ensinando o computador a realizar uma determinada tarefa. O programador pega essa tarefa e divide em partes menores, colocando em ordem fazendo que programa faça sentido.</p>
+
+<p>Para fazer isso, é necessário conhecer as regras e comandos que o computador entende, porque ele tem sua linguagem própria. Os comandos podem conter condições, repetições e variáveis. O programador precisa conhecer esses comandos e o que cada um deles faz.</p>
+
+<blockquote>
+  <p>Esse conteúdo também está disponível no Youtube:
+<a href="https://youtu.be/d_Rjhvjd3tg"><img src="/assets/img/logica_programacao_thumb.jpg" alt="Afinal, o que é lógica de programação?" /></a></p>
+</blockquote>
+
+<p>O conceito e a ideia são muito simples, mas envolve coisas que nem sempre são. Ou ao menos, em primeiro momento, não parecem ser.</p>
+
+<p>Você terá dúvidas, muitas vezes ouvirá termos complicados, mas não se desespere. A melhor forma de aprender as coisas é fazendo. Sempre que tiver dificuldades, teste, faça código, experimente, isso vai te ajudar a clarear as suas ideias, faça na prática!</p>
+
+<p>Vou ter dar um exemplo claro: Você vai perceber que muitas vezes você vai precisar lidar com valores desconhecidos, como por exemplo, se você tiver somando dois números. Nem sempre quais são os números que serão somados ou onde esse valor vai ser armazenado. Ao lidar com essas situações você perceberá o que são variáveis. E que essas variáveis as vezes armazenam números, as vezes uma mensagem de texto, ou algum outro tipo de recurso. Nesse momento você já estará tendo um entendimento básico tipo de dados. Esses dois conceitos, as vezes para aprender na teoria, dá um nó em nossa cabeça.</p>
+
+<p>Me primeiro contato com todos esse conceitos foi totalmente teórico. Eu em uma sala de aula, com um professor passando várias teorias, e eu pouco entendendo. De repente, fala que as vezes tem pedaços do código que você não sabe o que são, ou seja, o professor assume, erroneamente no meu caso, que essa hora, tem partes do código que eu já sabia quais eram, e diz que tudo bem, isso pode ser armazenado em variáveis? Começo a entender menos, mas ele prossegue, dizendo que cada variável, que eu ainda não sei o que é, armazena um tipo de dado diferente?! Pronto, essa hora eu já não sabia mais nem o que diferente quer dizer, quanto mais tipo, ou dado ou variável. Mas aqui eu aprendi uma licença importante sobre programação:</p>
+
+<blockquote>
+  <p>Você não precisa entender o que está fazendo para começar. Honestamente, quando você está aprendendo, muita coisa que você faz, você não entende o que é.</p>
+</blockquote>
+
+<p>As vezes porque é complexo demais, e você só precisa aceitar por hora que as coisas são como elas são, as vezes porque é apenas um conceito onde a teoria não faz tanta diferença. Mas você praticando, esses conceitos vão ficar claras em algum momento. Os pontos começam a se conectar e tudo vai sentido. Ou ao menos, quase tudo…</p>
+
+<p>Toda vez que se deparar com um novo conhecimento, faça código e veja funcionando! Não vejo uma forma melhor de você entender para que servem condições dentro de um código. Posso tentar te explicar que, muitas vezes no seu programa, partes são executadas e partes não. E o que decide quais partes serão executadas, são situações que aconteceram previamente em tempo de execução…</p>
+
+<p>Enfim, se você tiver escrevendo seus próprios códigos, você vai precisar usar comandos condicionais ou estruturas que são executadas várias vezes dentro do seu programa, e nesse momento você vai entender o que são estruturas de controle.</p>
+
+<p>Vou sempre insistir para que você escreva e teste tudo o que está tentando aprender em programação. Dessa forma você criará a suas próprias experiencias potencializando todo o conhecimento adquirido. Você não vai aprender da noite para o dia, não se desespere. O aprendizado é constante e diário. Você só precisa ser melhor do que você foi ontem! Se questione sempre durante a criação dos trechos de programa.</p>
+
+<p>Se pergunte se não tem uma forma melhor de fazer o que você já está fazendo. Aqui vai uma dica de ouro. Quer ser um bom programador? Nunca copie e cole trechos do seu código. Se você está repetindo pedaços de código, você está deixando de aprender! Vou falar muito sobre como evitar isso e porque isso é ruim, mas por hora apenas acredite.</p>
+
+<p>Mas o que eu faço se eu precisar de um mesmo pedaço de programa que eu criei e que já funciona muito bem? Você deve estar se perguntando. Você deve criar uma forma de reutilizá-lo! Uma função é uma das formas de se fazer isso. Funções são uma forma de se encapsular um pedaço de código que pode ser chamado de qualquer outra parte de programa.</p>
+
+<p>Imagine que você escreveu um código para verificar se uma pessoa teria acesso ou não em um brinquedo de um parque de diversões.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// giant-whell.js</span>
+<span class="kd">const</span> <span class="nx">minHeight</span> <span class="o">=</span> <span class="mi">150</span><span class="p">;</span>
+
+<span class="kd">const</span> <span class="nx">canPlay</span> <span class="o">=</span> <span class="p">({</span> <span class="nx">height</span><span class="p">,</span> <span class="nx">age</span><span class="p">,</span> <span class="nx">isAlone</span> <span class="p">})</span> <span class="o">=&gt;</span>
+    <span class="nx">height</span> <span class="o">&gt;=</span> <span class="nx">minHeight</span> <span class="o">&amp;&amp;</span> <span class="p">(</span><span class="nx">age</span> <span class="o">&gt;=</span> <span class="mi">18</span> <span class="o">||</span> <span class="o">!</span><span class="nx">isAlone</span><span class="p">);</span></code></pre></figure>
+
+<p>Você verifica se a pessoa tem a altura mínima, se tem idade e suficiente e caso não tenha, se está acompanhado de algum responsável.
+Depois disso, você percebe que vai precisar disso em vários brinquedos diferentes do mesmo parque.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// roller-coaster.js</span>
+<span class="kd">const</span> <span class="nx">minHeight</span> <span class="o">=</span> <span class="mi">160</span><span class="p">;</span>
+
+<span class="kd">const</span> <span class="nx">canPlay</span> <span class="o">=</span> <span class="p">({</span> <span class="nx">height</span><span class="p">,</span> <span class="nx">age</span><span class="p">,</span> <span class="nx">isAlone</span> <span class="p">})</span> <span class="o">=&gt;</span>
+    <span class="nx">height</span> <span class="o">&gt;=</span> <span class="nx">minHeight</span> <span class="o">&amp;&amp;</span> <span class="p">(</span><span class="nx">age</span> <span class="o">&gt;=</span> <span class="mi">18</span> <span class="o">||</span> <span class="o">!</span><span class="nx">isAlone</span><span class="p">);</span></code></pre></figure>
+
+<p>Uma função permite que você use a mesma verificação em todos os lugares em que ela é necessária.</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// has-access.js</span>
+<span class="kd">const</span> <span class="nx">hasAccess</span> <span class="o">=</span> <span class="p">({</span> <span class="nx">height</span><span class="p">,</span> <span class="nx">age</span><span class="p">,</span> <span class="nx">isAlone</span> <span class="p">},</span> <span class="nx">minHeight</span><span class="p">)</span> <span class="o">=&gt;</span>
+    <span class="nx">height</span> <span class="o">&gt;=</span> <span class="nx">minHeight</span> <span class="o">&amp;&amp;</span> <span class="p">(</span><span class="nx">age</span> <span class="o">&gt;=</span> <span class="mi">18</span> <span class="o">||</span> <span class="o">!</span><span class="nx">isAlone</span><span class="p">);</span>
+
+<span class="c1">// giant-whell.js</span>
+<span class="kd">const</span> <span class="nx">minHeight</span> <span class="o">=</span> <span class="mi">150</span><span class="p">;</span>
+
+<span class="kd">const</span> <span class="nx">canPlay</span> <span class="o">=</span> <span class="kd">const</span> <span class="nx">canPlay</span> <span class="o">=</span> <span class="nx">player</span> <span class="o">=&gt;</span> <span class="nf">hasAccess</span><span class="p">(</span><span class="nx">player</span><span class="p">,</span> <span class="nx">minHeight</span><span class="p">);</span>
+
+<span class="c1">// roller-coaster.js</span>
+<span class="kd">const</span> <span class="nx">minHeight</span> <span class="o">=</span> <span class="mi">160</span><span class="p">;</span>
+
+<span class="kd">const</span> <span class="nx">canPlay</span> <span class="o">=</span> <span class="kd">const</span> <span class="nx">canPlay</span> <span class="o">=</span> <span class="nx">player</span> <span class="o">=&gt;</span> <span class="nf">hasAccess</span><span class="p">(</span><span class="nx">player</span><span class="p">,</span> <span class="nx">minHeight</span><span class="p">);</span></code></pre></figure>
+
+<p><span class="note">
+Todos os códigos estão disponíveis no <a href="https://github.com/programadorsemfronteira">Github</a>.<br />
+Acesse a <a href="https://github.com/programadorsemfronteira/functions_use_sample/">branch principal</a> para ver a versão final ou
+<a href="https://github.com/programadorsemfronteira/functions_use_sample/commit/b24115b66f291250dc13b1ebdf0a89f131902f1b">esse commit</a> para ver a inicial.
+</span></p>
+
+<p>Não importa que programa você está fazendo, a lógica de programação é o conceito principal que você irá precisar. Você vai precisar de lógica para verificar se um produto ainda existe no estoque antes de permitir que um usuário o compre em uma lógica virtual, ou para saber que jogador ganhou a partida do game que você programou.</p>
+
+<p>Tudo isso só é possível por causa da lógica, mas não se preocupe, esses conceitos não precisam estar decorados em sua cabeça. Eles irão fluir naturalmente, porque no fim, a gente só está replicando no lado digital coisas que já existem no mundo real.</p>
+
+<p>Esses são os conceitos básicos mas cruciais usados em qualquer programa de computador. Mas não se preocupe em decorar nada disso. Simplesmente programe! Pode demorar muito tempo para você realmente entender os conceitos, mas sinceramente, isso não vai atrapalhar em nada em você colocá-los em prática. Aprenda fazendo e até a próxima!</p>]]></content><author><name>programadorsemfronteira</name></author><category term="Fundamentos" /><summary type="html"><![CDATA[Um programa de computador, de forma bem simplista, é uma lista de instruções que serão processadas ordenadamente. Antes que você faça qualquer]]></summary></entry><entry><title type="html">Mas como é a rotina de um programador?</title><link href="https://programadorsemfronteira.github.io/2023/05/12/como-e-a-rotina-de-um-programador.html" rel="alternate" type="text/html" title="Mas como é a rotina de um programador?" /><published>2023-05-12T17:00:00-03:00</published><updated>2023-05-12T17:00:00-03:00</updated><id>https://programadorsemfronteira.github.io/2023/05/12/como-e-a-rotina-de-um-programador</id><content type="html" xml:base="https://programadorsemfronteira.github.io/2023/05/12/como-e-a-rotina-de-um-programador.html"><![CDATA[<p>Programar, no geral é uma rotina que acontece em um escritório, então, como qualquer trabalhador, depois que você acordar e faz suas coisas
+<!--more-->
+habituais, você precisa chegar até a sua mesa. Quero dizer, estação de trabalho.</p>
+
+<p>Hoje eu trabalho de casa, mas antes disso, eu demorava perto de 2 horas para chegar no escritório. Como talvez a ideia de trabalhar de casa seja meio estranha para você, aqui vou contar a dinâmica do trabalho em uma empresa, que é o mais comum. <a href="/2023/05/13/como-e-a-rotina-de-um-programador-trabalhando-remoto.html">Mas pode conferir aqui como é a rotina de um programador trabalhando remoto</a>.</p>
+
+<blockquote>
+  <p>Esse conteúdo também está disponível no Youtube:
+<a href="https://youtu.be/QUz4QAKrgGw"><img src="/assets/img/rotina_programador_thumb.jpg" alt="Mas como é a rotina de um programador?" /></a></p>
+</blockquote>
+
+<p>Falando da empresa, o lugar era maneiro, era uma empresa de games, eu adorava o ambiente. As salas eram temáticas, tínhamos lugar para descansar, video-games, enfim…. Alias, muitas das empresas de tecnologia são dessa forma.</p>
+
+<p>Uma vez na estação de trabalho, eu pegava um café enquanto eu mastigava alguma coisa, checava os emails e as comunicações internas para saber se algo precisava de minha atenção.</p>
+
+<p>Conversava com o resto da equipe, principalmente com os novatos, para saber as dificuldades que estavam enfrentando e como eu poderia ajudar.</p>
+
+<p>No dia comum de um programador, sempre terá reuniões. A quantidade de reuniões diárias e diretamente proporcional ao cargo que você ocupa na empresa. Quanto mais elevado o seu cargo, mas reuniões você terá. Geralmente, tirando algumas alterações, as empresas de TI seguem o mesmo processo. E a primeira reunião será o planejamento do dia, onde eu dividia como está o andamento do que estava fazendo, o que iria fazer e se precisava de alguma ajuda de alguém.</p>
+
+<p>Finalmente está na hora de fazer algum código, afinal é para isso que um programador é pago. Bom… Nesse primeiro horário geralmente eu não fazia código exatamente, mas projetava as soluções para os problemas que eu precisava resolver.</p>
+
+<p>Pausa para o almoço. Geralmente com vários colegas ou com amigos mais chegados. É um bom momento para socializar e relaxar.</p>
+
+<p>Voltando do almoço, mais código, precisava justificar o que estavam me pagando. Depois de algum tempo eu precisava de um intervalo. O órgão que mais consome energia no seu corpo é o cérebro, e programando, você vai se sentir cansado. Hora do café! Geralmente terá uma maquina disponível para você com vários tipos de bebidas diferentes, com era o meu caso.</p>
+
+<p>Sempre tinha mais alguém tentando tirar um café e rolava mais uma socialização. Isso é normal, era só não me perder na conversa e ficar por lá. Eu queria continuar tendo um lugar para trabalhar no outro dia.</p>
+
+<p>Mais código, mais pausa. As vezes só para alongar, ficar o dia todo sentado e digitando exige isso.</p>
+
+<p>Parece que se faz código demais, mais existem várias tarefas ligadas a programação que vão além do código. E várias interrupções acontecem durante o dia. Seja um colega precisando de ajuda, alguém requisitando uma mudança ou precisando saber do status corrente do que está sendo construído.</p>
+
+<p>Está na hora de mais uma vez verificar com os novatos como estão evoluindo e planejar o dia seguinte.</p>
+
+<p>Hora de ir para casa, mais 2 horas de ônibus e assim se conclui o dia de um programador.</p>]]></content><author><name>programadorsemfronteira</name></author><category term="Dia a dia" /><summary type="html"><![CDATA[Programar, no geral é uma rotina que acontece em um escritório, então, como qualquer trabalhador, depois que você acordar e faz suas coisas]]></summary></entry></feed>
