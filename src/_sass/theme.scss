@@ -199,3 +199,10 @@ a:hover {
   .owl-theme .owl-dots .owl-dot:hover span {
     background-color: $color2;
   }
+
+  .post-box {
+    .note {
+      border-color: $color1;
+      background-image: linear-gradient(rgba($color1, 0.1), rgba($color2, 0.1));
+    }
+  }

@@ -853,10 +853,19 @@ a:hover {
 .card-blog .card-title {
   font-size: 1.3rem;
   margin-top: .6rem;
+  min-height: 3.125rem;
 }
 
 .card-blog .card-description {
   color: #4e4e4e;
+}
+
+.card-description p:first-child {
+
+  &:after {
+    content: '...';
+  }
+
 }
 
 .card-blog .post-author {
@@ -918,6 +927,29 @@ a:hover {
 
 .post-box-list {
   height: 100%;
+}
+
+.post-box {
+  blockquote img {
+    max-width: 50%;
+    display: block;
+    border: 2px solid white;
+    margin-top: .5rem;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+  .note {
+    margin: 2rem 0;
+    padding: 1.5rem;
+    font-size: 0.88rem;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 6px;
+    display: block;
+  }
 }
 
 /*------/ Comments /------*/
@@ -1063,30 +1095,6 @@ footer .credits a {
   padding: 15px;
   font-weight: 600;
   margin-bottom: 15px;
-}
-
-#errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#sendmessage.show,
-#errormessage.show,
-.show {
-  display: block;
-}
-
-.validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
 }
 
 /*======================================
@@ -1275,3 +1283,5 @@ footer .credits a {
     bottom: 15px;
   }
 }
+
+@import "syntax-highlight";
