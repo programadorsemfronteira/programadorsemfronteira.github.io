@@ -5,7 +5,7 @@ date: 2023-05-12 17:00:00 -0300
 tag: Dia a dia
 tags: fullstack backend frontend
 img: rotina_programador_office.jpg
-readingTime: "4 min"
+readingTime: "8 min"
 media: https://youtu.be/QUz4QAKrgGw
 ---
 Programar, no geral é uma rotina que acontece em um escritório, então, como qualquer trabalhador, depois que você acordar e faz suas coisas
