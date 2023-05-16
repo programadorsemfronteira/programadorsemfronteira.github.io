@@ -33,6 +33,16 @@ layout: blog
   </header>
   <div class="article-content" itemprop="articleBody">
     {{ content }}
+    {%- if page.others_tags -%}
+      <ul>
+      {%- assign others_tags = page.others_tags | parse_others_tags -%}
+      {%- if page.others_tags -%}
+        {%- for tag in others_tags -%}
+          <li><a href="{{ tag | tag_url }}">{{ tag | tagname_sanitize }}</a></li>
+        {%- endfor -%}
+      {%- endif -%}  
+      </ul>
+    {%- endif -%}
   </div>
 </article>
 <div class="box-comments">
