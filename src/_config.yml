@@ -52,19 +52,19 @@ tags_config:
     title: Tudo sobre frontend que já foi revelado aqui
     description: >- # this means to ignore newlines until "baseurl:"
       Aprender a programar pode ser um desafio. Me siga que eu vou te ajudar
-      nesse processo. Programar mudou a minha vida e tenho certeza que pode
+      nesse processo. Programar mudou a minha vida e tenho certeza que pode mudar a sua!
 
   - name: backend
     title: Tudo sobre backend que já foi revelado aqui
     description: >- # this means to ignore newlines until "baseurl:"
       Aprender a programar pode ser um desafio. Me siga que eu vou te ajudar
-      nesse processo. Programar mudou a minha vida e tenho certeza que pode
+      nesse processo. Programar mudou a minha vida e tenho certeza que pode mudar a sua!
 
   - name: fullstack
-    title: Tudo sobre backend que já foi revelado aqui
+    title: Tudo sobre fullstack que já foi revelado aqui
     description: >- # this means to ignore newlines until "baseurl:"
       Aprender a programar pode ser um desafio. Me siga que eu vou te ajudar
-      nesse processo. Programar mudou a minha vida e tenho certeza que pode
+      nesse processo. Programar mudou a minha vida e tenho certeza que pode mudar a sua!
 
 where_am_i:
   image: headquarters.jpg
@@ -76,6 +76,7 @@ where_am_i:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
