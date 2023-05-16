@@ -42,7 +42,11 @@ module Jekyll
     end
 
     def tagname_sanitize(tag)
-      "##{tag.downcase.gsub(/\s/, "")}"
+      "##{tag.downcase.gsub(/\s/, "-")}"
+    end
+
+    def parse_others_tags(others_tags)
+      others_tags.split('|')
     end
   end
 end
