@@ -3,7 +3,7 @@ layout: post
 title: "Mas como é a rotina de um programador?"
 date: 2023-05-12 17:00:00 -0300
 tag: Dia a dia
-tags: fullstack backend frontend
+others_tags: fullstack|backend|frontend
 img: rotina_programador_office.jpg
 readingTime: "8 min"
 media: https://youtu.be/QUz4QAKrgGw

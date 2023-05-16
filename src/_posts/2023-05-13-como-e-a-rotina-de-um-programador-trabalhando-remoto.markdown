@@ -4,6 +4,7 @@ title: "Mas como é a rotina de um programador remoto?"
 date: 2023-05-13 08:00:00 -0300
 tag: Dia a dia
 img: rotina_programador_remoto_header.jpg
+others_tags: fullstack|backend|frontend|trabalho remoto
 readingTime: "10 min"
 media: https://youtu.be/Ubx0MgQ0SuU
 ---
