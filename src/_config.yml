@@ -49,22 +49,17 @@ defaults:
 
 tags_config:
   - name: frontend
-    title: Tudo sobre frontend que já foi revelado aqui
-    description: >- # this means to ignore newlines until "baseurl:"
-      Aprender a programar pode ser um desafio. Me siga que eu vou te ajudar
-      nesse processo. Programar mudou a minha vida e tenho certeza que pode mudar a sua!
+    title: Tudo sobre Frontend que já foi revelado aqui
 
   - name: backend
-    title: Tudo sobre backend que já foi revelado aqui
-    description: >- # this means to ignore newlines until "baseurl:"
-      Aprender a programar pode ser um desafio. Me siga que eu vou te ajudar
-      nesse processo. Programar mudou a minha vida e tenho certeza que pode mudar a sua!
+    title: Tudo sobre Backend que já foi revelado aqui
 
   - name: fullstack
-    title: Tudo sobre fullstack que já foi revelado aqui
+    title: Tudo sobre Fullstack que já foi revelado aqui
     description: >- # this means to ignore newlines until "baseurl:"
-      Aprender a programar pode ser um desafio. Me siga que eu vou te ajudar
-      nesse processo. Programar mudou a minha vida e tenho certeza que pode mudar a sua!
+      Atuar em diversas áreas diferentes pode ser um desafio. Um Fullstack precisa dominar
+      frontend, backend, banco de dados e vários outros conjuntos de recursos. É fácil, não,
+      mas também não é tão difícil como parece.
 
 where_am_i:
   image: headquarters.jpg
