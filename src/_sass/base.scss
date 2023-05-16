@@ -921,10 +921,6 @@ a:hover {
   font-style: italic;
 }
 
-.blog-wrapper .post-meta .post-tag {
-  text-transform: capitalize;
-}
-
 .post-box-list {
   height: 100%;
 }
@@ -1033,6 +1029,10 @@ a:hover {
 .widget-tags ul li a {
   color: #fff;
   text-transform: capitalize;
+}
+
+.sidebar-content ul li a {
+  text-transform: lowercase;
 }
 
 /*======================================
@@ -1240,7 +1240,17 @@ footer .credits a {
         font-size: 2rem;
       }
     }
-    
+  }
+
+  .article-content {
+    ul {
+      padding: 0;
+
+      li {
+        margin-right: 0.5rem;
+        display: inline;
+      }
+    }
   }
 }
 

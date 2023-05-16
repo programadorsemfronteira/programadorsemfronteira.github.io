@@ -19,7 +19,7 @@ layout: blog
       {%- if page.tag -%}
         <li>
           <span class="ion-pricetag"></span>
-          <a href="{{ page.tag | tag_url }}" class="post-tag">{{ page.tag | escape }}</a>
+          <a href="{{ page.tag | tag_url }}" class="post-tag">{{ page.tag | tagname_sanitize }}</a>
         </li>
       {%- endif -%}
       <li>

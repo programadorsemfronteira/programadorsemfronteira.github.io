@@ -48,9 +48,10 @@ layout: default
           <h5 class="sidebar-title">{{ page.tag }}</h5>
           <div class="sidebar-content">
             <ul class="list-sidebar">
-              {% for tag in site.tags %}
-                {% if tag[0] == page.tag %}
-                  {% for post in tag[1] %}
+              {% assign tags = site | tags_from_site %}
+              {% for tag in tags %}
+                {% if tag['name'] == page.tag %}
+                  {% for post in tag['posts'] %}
                     {% assign counter = forloop.index %}
                     {% if counter <= 5 %}
                       <li>
@@ -67,9 +68,10 @@ layout: default
           <h5 class="sidebar-title">Tags</h5>
           <div class="sidebar-content">
             <ul>
-              {% for tag in site.tags %}
+              {% assign tags = site | tags_from_site %}
+              {% for tag in tags %}
                 <li>
-                  <a href="{{ tag[0] | tag_url }}">{{ tag[0] }}</a>
+                  <a href="{{ tag['name'] | tag_url }}">{{ tag['name'] | tagname_sanitize }}</a>
                 </li>
               {% endfor %}
             </ul>
