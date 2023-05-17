@@ -23,8 +23,8 @@ const themesHandle = () => {
 
 	const removeCurrent = () => $('html').removeClass(getCurrent());
 
-	const isNextThemeEvent = ({ key, ctrlKey, shiftKey}) => key.toLowerCase() === '>' && ctrlKey && shiftKey;
-	const isPreviousThemeEvent = ({ key, ctrlKey, shiftKey}) => key.toLowerCase() === '<' && ctrlKey && shiftKey;
+	const isNextThemeEvent = ({ key, ctrlKey, shiftKey}) => ['>', '.'].includes(key.toLowerCase()) && ctrlKey && shiftKey;
+	const isPreviousThemeEvent = ({ key, ctrlKey, shiftKey}) => ['<', ','].includes(key.toLowerCase()) && ctrlKey && shiftKey;
 	const isDarkThemeEvent = ({ key, ctrlKey, shiftKey}) => key.toLowerCase() === 'd' && ctrlKey && shiftKey;
 
 	const next = () => removeCurrent() && setCurrent(getNext());
