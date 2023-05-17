@@ -11,9 +11,11 @@ layout: default
           <li class="breadcrumb-item">
             <a href="{{ site.url }}">Home</a>
           </li>
+          {% if page.tag != page.title %}
           <li class="breadcrumb-item blog-tag">
             <a href="{{ page.tag | tag_url }}">{{ page.tag }}</a>
           </li>
+          {% endif %}
           <li class="breadcrumb-item active">{{ page.title }}</li>
         </ol>
       </div>
