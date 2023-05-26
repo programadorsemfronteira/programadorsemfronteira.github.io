@@ -1,3 +1,9 @@
+- title: Crie seu primeiro js
+  category: Fundamentos
+  thumb: hello_world.jpg
+  date: 26 Mai. 2023
+  media: https://www.youtube.com/embed/pLm4phXiXXo
+
 - title: Rotina do programador
   category: Dia a dia
   thumb: rotina_programador.jpg
@@ -9,9 +15,3 @@
   thumb: logica_programacao.jpg
   date: 13 Mai. 2023
   media: https://www.youtube.com/embed/d_Rjhvjd3tg
-
-- title: Programador remoto
-  category: Dia a dia
-  thumb: rotina_programador_remoto.jpg
-  date: 13 Mai. 2023
-  media: https://www.youtube.com/embed/Ubx0MgQ0SuU
