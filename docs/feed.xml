@@ -1,4 +1,113 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://programadorsemfronteira.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://programadorsemfronteira.github.io/" rel="alternate" type="text/html" /><updated>2023-05-22T12:23:03-03:00</updated><id>https://programadorsemfronteira.github.io/feed.xml</id><title type="html">Jeferson Amorim | Programador sem fronteira</title><subtitle>Como aprender a programar pode ser um desafio, Me siga que eu vou te ajudar nesse processo do zero. Programar mudou a minha vida e tenho certeza que pode mudar a sua. Procurando uma oportunidade? Ela pode estar aqu!</subtitle><author><name>programadorsemfronteira</name></author><entry><title type="html">Mas como é a rotina de um programador remoto?</title><link href="https://programadorsemfronteira.github.io/2023/05/13/como-e-a-rotina-de-um-programador-trabalhando-remoto.html" rel="alternate" type="text/html" title="Mas como é a rotina de um programador remoto?" /><published>2023-05-13T08:00:00-03:00</published><updated>2023-05-13T08:00:00-03:00</updated><id>https://programadorsemfronteira.github.io/2023/05/13/como-e-a-rotina-de-um-programador-trabalhando-remoto</id><content type="html" xml:base="https://programadorsemfronteira.github.io/2023/05/13/como-e-a-rotina-de-um-programador-trabalhando-remoto.html"><![CDATA[<p>Programar, nesse caso, quer dizer que a maior parte do tempo você estará sentado, em frente a uma tela, digitando, muitas vezes código. Como fico em 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://programadorsemfronteira.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://programadorsemfronteira.github.io/" rel="alternate" type="text/html" /><updated>2023-05-26T10:29:13-03:00</updated><id>https://programadorsemfronteira.github.io/feed.xml</id><title type="html">Jeferson Amorim | Programador sem fronteira</title><subtitle>Como aprender a programar pode ser um desafio, Me siga que eu vou te ajudar nesse processo do zero. Programar mudou a minha vida e tenho certeza que pode mudar a sua. Procurando uma oportunidade? Ela pode estar aqu!</subtitle><author><name>programadorsemfronteira</name></author><entry><title type="html">Você quer fazer o seu primeiro programa em javascript?</title><link href="https://programadorsemfronteira.github.io/2023/05/26/voce-quer-fazer-seu-primeiro-programa-em-javascript.html" rel="alternate" type="text/html" title="Você quer fazer o seu primeiro programa em javascript?" /><published>2023-05-26T07:00:00-03:00</published><updated>2023-05-26T07:00:00-03:00</updated><id>https://programadorsemfronteira.github.io/2023/05/26/voce-quer-fazer-seu-primeiro-programa-em-javascript</id><content type="html" xml:base="https://programadorsemfronteira.github.io/2023/05/26/voce-quer-fazer-seu-primeiro-programa-em-javascript.html"><![CDATA[<p>Você quer começar a programar mas não faz ideia de como fazer seu primeiro programa em javascript? Aqui, vou tem mostrar como se faz isso. 
+<!--more-->
+Existem algumas formas de se rodar um javascript mas aqui eu vou te mostrar um jeito muito simples que é o início de tudo.</p>
+
+<p>Existe uma lenda antiga que fala sobre uma maldição que assombra qualquer programador que tenta aprender uma linguagem e não faz um “Hello, World!” como o primeiro código. Acredita-se que ele nunca conseguirá entender totalmente o que está fazendo e será para sempre um profissional ruim…
+Eu não acredito em maldições, mas que elas pegam, elas pegam!</p>
+
+<p>Você sabe o que é o <code class="language-plaintext highlighter-rouge">Hello, World!</code>?<br />
+<code class="language-plaintext highlighter-rouge">Hello, World!</code> desde muito tempo, tem sido a forma de mostrar a programadores como fazer seu primeiro código rodar em uma certa linguagem. Hoje ele é encontrado, não apenas em exemplos de linguagens, mas também demonstrando várias outras plataformas ou recursos ligados ao mundo da tecnologia.</p>
+
+<p>Talvez, você executando o seu primeiro programe ache que o <code class="language-plaintext highlighter-rouge">Hello, World!</code> é simples demais, e talvez você até esteja certo, mas se você olhar para trás e pensar no momento que os antigos programadores viviam, você entenderia o motivo desse simples código ser necessário.</p>
+
+<p>Configurar um ambiente de desenvolvimento e deixar tudo pronto pra se começar a programar já foi, e em alguns casos, ainda é, uma tarefa muito complicada, onde muita coisa poderia dar errado.<br />
+Era muito difícil encontrar onde estava o problema que fazia o seu código não funcionar. Imagine uma pessoa começando, como ela iria fazer?</p>
+
+<p>Então, a ideia em se criar esse código extremamente simples, era tentar eliminar, ou ao menos minimizar a chance do problema ser um erro no código, restando ao programador verificar se realmente instalou e configurou tudo o que era necessário. Porque uma vez que o código é quase ridículo, e problema deve estar em alguma outra coisa.</p>
+
+<p>Agora que já te expliquei a importância do <code class="language-plaintext highlighter-rouge">Hello, World!</code> e de onde ele saiu, vamos começar!</p>
+
+<p>Eu não vou explicar cada detalhe do que estamos fazendo aqui porque cada passo gera assunto demais e minha idéia não é chatear ou desanimar você, e sim introduzir esses conhecimentos, sem te assustar e de forma gradual.</p>
+
+<p>Então, mesmo que você queira apenas ter o gostinho de saber como é ser um programador e fazer o seu primeiro código, você será capaz de seguir esses passos.</p>
+
+<p>Vamos criar uma pasta para colocar tudo o que estamos criando dentro.</p>
+
+<blockquote>
+  <p>Para criar uma nova pasta, você pode clicar com o botão direito do mouse na área de trabalho e escolher a opção “Nova pasta”.</p>
+</blockquote>
+
+<p>O nome da pasta não é importante, mas é conveniente usar um nome que te permita lembrar depois o motivo dessa pasta ter sido criada.<br />
+O nome que eu usei foi <code class="language-plaintext highlighter-rouge">meu-primeiro-js</code>.</p>
+
+<p>Dentro da pasta, iremos criar uma arquivo de texto. Esse é um arquivo especial, texto puro, como criar esse arquivo, vai depender do Sistema Operacional que você está usando.</p>
+
+<blockquote>
+  <p>Talvez clicar com o botão direito do mouse, dentro da nossa pasta te mostre uma opção de novo arquivo te texto.</p>
+</blockquote>
+
+<p>Vamos chamar nosso novo arquivo <code class="language-plaintext highlighter-rouge">index.html</code>. O nome do arquivo não é importante nesse momento, apenas a extensão, que é o que vem depois do ponto, nesse caso <code class="language-plaintext highlighter-rouge">.html</code>, mas recomendo que você deixe o nome como eu recomendei para evitar confusões.</p>
+
+<p>Você pode usar qualquer programa que seja capaz de salvar conteúdo em texto puro para editar o arquivo. <em>(Eu usei o <a href="https://www.vim.org">Vim</a> colocando todas essas peças juntas, mas o que uso no dia-a-dia é o <a href="https://www.google.com/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=2ahUKEwjXseb2gJP_AhWvALkGHQIRD3wQFnoECAwQAQ&amp;url=https%3A%2F%2Fcode.visualstudio.com%2F&amp;usg=AOvVaw15O90sm1ios8AUpw56hCml">VS Code</a>)</em>.</p>
+
+<p>Não estou dizendo que essa é a melhor forma de se fazer isso, mas pode ter certeza que isso é suficiente para o momento.</p>
+
+<p>Html é considerado um padrão oficial da Internet, usado para dizer para o navegador quais são os elementos que sua página contém. Não se preocupe com isso agora, apenas crie o arquivo e coloque a estrutura básica:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;head&gt;</span>
+        <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"UTF-8"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;title&gt;&lt;/title&gt;</span>
+    <span class="nt">&lt;/head&gt;</span>
+    <span class="nt">&lt;body&gt;</span>
+
+    <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span></code></pre></figure>
+
+<blockquote>
+  <p>Eu recomendo que você digite o conteúdo, assim você já vai fixando o que está apreendendo. Mas você pode apenas copiar o colar. Como você vai fazer vai depender do seu comprometimento com o seu aprendizado.</p>
+</blockquote>
+
+<p>Nosso HTML vai conter apenas a estrutura mínima para carregar o nosso programa.</p>
+
+<p>Vamos criar agora no nosso javascript, afinal, é disso que estamos falando!</p>
+
+<p>Na <strong>mesma pasta</strong> onde o html foi criado, e da mesma forma que você criou o primeiro arquivo, crie um segundo e chame de <code class="language-plaintext highlighter-rouge">script.js</code>. Mais uma vez, apenas a extensão, que é <code class="language-plaintext highlighter-rouge">.js</code>, é o que importa aqui.</p>
+
+<blockquote>
+  <p>Prefira usar o nome que eu sugeri para evitar problemas.</p>
+</blockquote>
+
+<p>Vamos colocar aqui um comando mostrando o <code class="language-plaintext highlighter-rouge">Hello, World!</code> quando a página for carregada, então digite, dentro do seu arquivo:</p>
+
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="c1">// script.js</span>
+<span class="nf">alert</span><span class="p">(</span><span class="dl">'</span><span class="s1">Hello, World!</span><span class="dl">'</span><span class="p">);</span></code></pre></figure>
+
+<p>Digitou? Pode salvar e fechar o arquivo. Estamos bem perto de ver tudo funcionando.</p>
+
+<blockquote>
+  <p>Esse conteúdo também está disponível no Youtube:
+<a href="https://youtu.be/pLm4phXiXXo"><img src="/assets/img/hello_world_thumb.jpg" alt="Hello, World! Crie o seu programa em javascript!" /></a></p>
+</blockquote>
+
+<p>Precisamos apenas voltar no <code class="language-plaintext highlighter-rouge">HTML</code> e dizer, para o navegador ou qualquer outro programa usado para carregar o <code class="language-plaintext highlighter-rouge">HTML</code>, que quando ele for carregado, o nosso script deve ser executado também. Muito simples, apenas a adição de uma nova linha deixando nosso html assim:</p>
+
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="nt">&lt;html</span> <span class="na">lang=</span><span class="s">"en"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;head&gt;</span>
+        <span class="nt">&lt;meta</span> <span class="na">charset=</span><span class="s">"UTF-8"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;title&gt;&lt;/title&gt;</span>
+    <span class="nt">&lt;/head&gt;</span>
+    <span class="nt">&lt;body&gt;</span>
+        <span class="nt">&lt;script </span><span class="na">src=</span><span class="s">"./script.js"</span><span class="nt">&gt;&lt;/script&gt;</span>
+    <span class="nt">&lt;/body&gt;</span>
+<span class="nt">&lt;/html&gt;</span></code></pre></figure>
+
+<p><span class="note">
+Todos os códigos estão disponíveis no <a href="https://github.com/programadorsemfronteira">Github</a>. Acesse a <a href="https://github.com/programadorsemfronteira/hello_world_js">branch principal do repositorio hello_world_js</a>.
+</span></p>
+
+<p>Se tiver problemas, use os comentários no vídeo para me dizer se enfrentou algum problema e como foi a experiencia de programar pela primeira vez!<br />
+Esse é o ponto de início para algo que vamos construir juntos!</p>
+
+<p>Na maioria dos computadores, basta clicar 2x no index.html vai ser suficiente para ver tudo acontecendo!</p>
+
+<p>Se tudo deu certo, você verá a mensagem <code class="language-plaintext highlighter-rouge">Hello, World!</code> aparecer na tela. Caso não tenha funcionado, revise todos os passos e faça novamente.</p>
+
+<p>Parabéns, você criou e executou seu primeiro programa em javascript e acabou de dar um passo importante em sua nova carreira!</p>
+
+<p>Espero que tenha gostado, que esteja aprendendo e até a próxima!</p>]]></content><author><name>programadorsemfronteira</name></author><category term="Fundamentos" /><summary type="html"><![CDATA[Você quer começar a programar mas não faz ideia de como fazer seu primeiro programa em javascript? Aqui, vou tem mostrar como se faz isso.]]></summary></entry><entry><title type="html">Mas como é a rotina de um programador remoto?</title><link href="https://programadorsemfronteira.github.io/2023/05/13/como-e-a-rotina-de-um-programador-trabalhando-remoto.html" rel="alternate" type="text/html" title="Mas como é a rotina de um programador remoto?" /><published>2023-05-13T08:00:00-03:00</published><updated>2023-05-13T08:00:00-03:00</updated><id>https://programadorsemfronteira.github.io/2023/05/13/como-e-a-rotina-de-um-programador-trabalhando-remoto</id><content type="html" xml:base="https://programadorsemfronteira.github.io/2023/05/13/como-e-a-rotina-de-um-programador-trabalhando-remoto.html"><![CDATA[<p>Programar, nesse caso, quer dizer que a maior parte do tempo você estará sentado, em frente a uma tela, digitando, muitas vezes código. Como fico em 
 <!--more-->
 minha casa, tive que montar uma estrutura para mim com uma boa cadeira e uma mesa na altura certa. Ao menos hoje é assim. Quando eu comecei a procurar essas vagas, eu fazia os testes e tudo o que era necessário, na mesa da cozinha. Só investi em um espaço apropriado quando tudo deu certo.
 Hoje eu trabalho de casa, mas antes disso, eu demorava perto de 2 horas para chegar no escritório. Isso quer dizer que, todos os dias, eu perdia 4 horas só para conseguir chegar na empresa!</p>
