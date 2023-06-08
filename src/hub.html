@@ -1,0 +1,42 @@
+---
+permalink: /hub.html
+layout: base
+---
+<main class="hub">
+  <section class="head">
+    <img width="96" height="96" src="/assets/img/avatar.jpg" alt="programador sem fronteira" class="rounded-circle b-shadow-a">
+    <div>
+      {%- if site.instagram_username -%}
+        <a target="_blank" href="https://instagram.com/{{ site.instagram_username | cgi_escape | escape }}" title="{{ site.instagram_username }}">@{{ site.instagram_username }}</a>
+      {%- endif -%}
+    </div>
+  </section>
+  <section class="links">
+    <ul>
+      <li>
+        <a target="_blank" href="{{ site.url }}" title="Programador sem Fronteira">Site</a>
+      </li>
+      <li>
+        <a target="_blank" href="{{ site.url }}/#blog" title="Blog do Programador sem Fronteira">Blog</a>
+      </li>
+      {%- if site.youtube_channel -%}
+        <li>
+          <a target="_blank" href="https://www.youtube.com/@{{ site.youtube_channel }}" title="Canal do Youtube do Programador sem Fronteira">Youtube</a>
+        </li>
+      {%- endif -%}
+      {%- if site.facebook_username -%}
+        <li>
+          <a target="_blank" href="https://www.facebook.com/{{ site.facebook_username | cgi_escape | escape }}" title="Facebook do Programador sem Fronteira">Facebook</a>
+        </li>
+      {%- endif -%}
+      {%- if site.linkedin_username -%}
+        <li>
+          <a target="_blank" href="http://www.linkedin.com/in/{{ site.linkedin_username | cgi_escape | escape }}" title="LinkedIn do Programador sem Fronteira">LinkedIn</a>
+        </li>
+      {%- endif -%}
+    </ul>
+  </section>
+  <section class="footer">
+    Programador Sem Fronteira
+  </section>
+</main>
