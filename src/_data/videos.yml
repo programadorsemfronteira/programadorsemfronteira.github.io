@@ -1,14 +1,14 @@
+- title: Como ter experiência?
+  category: Fundamentos
+  thumb: como_conseguir_experiencia.jpg
+  date: 5 Jun. 2023
+  media: https://www.youtube.com/embed/50mVvHLrdm8
+
 - title: Crie seu primeiro js
   category: Fundamentos
   thumb: hello_world.jpg
   date: 26 Mai. 2023
   media: https://www.youtube.com/embed/pLm4phXiXXo
-
-- title: Rotina do programador
-  category: Dia a dia
-  thumb: rotina_programador.jpg
-  date: 12 Mai. 2023
-  media: https://www.youtube.com/embed/QUz4QAKrgGw
 
 - title: Lógica de programação
   category: Fundamentos
