@@ -11,7 +11,7 @@ layout: default
           <li class="breadcrumb-item">
             <a href="{{ site.url }}">Home</a>
           </li>
-          {% if page.tag != page.title %}
+          {% if page.tag and page.tag != page.title %}
           <li class="breadcrumb-item blog-tag">
             <a href="{{ page.tag | tag_url }}">{{ page.tag }}</a>
           </li>
@@ -46,8 +46,9 @@ layout: default
             </ul>
           </div>
         </div>
+        {% if page.tag %}
         <div class="widget-sidebar">
-          <h5 class="sidebar-title">{{ page.tag }}</h5>
+          <h5 class="sidebar-title break-word">{{ page.tag }}</h5>
           <div class="sidebar-content">
             <ul class="list-sidebar">
               {% assign tags = site | tags_from_site %}
@@ -66,6 +67,7 @@ layout: default
             </ul>
           </div>
         </div>
+        {% endif %}
         <div class="widget-sidebar widget-tags">
           <h5 class="sidebar-title">Tags</h5>
           <div class="sidebar-content">
