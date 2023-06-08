@@ -49,10 +49,10 @@ Você vai criar o seu portfólio, uma vitrine mostrando para quem tem interesse 
 
 Durante os seus estudos, comece a fazer projetos que simulem situações que você encontrará no mundo real. Cadastros, autenticações, gerenciamento de usuários são coisas que você vai precisar em quase qualquer lugar que você for trabalhar. Mostre que você é capaz de lidar com isso!
 
-Não esqueça que você está estudando, então pesquise quais são as melhores práticas para cada uma dessas situações. Como lidar com a segurança dessa aplicação, quais são as normas de privacidade que você precisa seguir? Aplique todos os conceitos como se fosse para valer! Use o controle de versão da forma correta, crie testes, automatize tarefas se possível.
+Não esqueça que você está estudando, então pesquise quais são as melhores práticas para cada uma dessas situações. Como lidar com a [segurança dessa aplicação](https://owasp.org), quais são as normas de privacidade que você precisa seguir, [LGPD](https://www.gov.br/esporte/pt-br/acesso-a-informacao/lgpd), [GDPR](https://gdpr-info.eu)? Aplique todos os conceitos como se fosse para valer! Use o controle de versão da forma correta, crie testes, automatize tarefas se possível.
 
 >Esse conteúdo também está disponível no Youtube:
->[![Hello, World! Crie o seu programa em javascript!](/assets/img/como_conseguir_experiencia_thumb.jpg)](https://youtu.be/DLMKiMwLPVg)
+>[![Como ter experiência para o primeiro emprego se preciso do primeiro emprego para ter experiência?](/assets/img/como_conseguir_experiencia_thumb.jpg)](https://youtu.be/DLMKiMwLPVg)
 
 Deixe tudo documentando em arquivos readme, não esqueça que você está vendendo as suas habilidades.
 
@@ -60,7 +60,7 @@ Deixe tudo documentando em arquivos readme, não esqueça que você está venden
 
 Projetos acadêmicos são ótimas oportunidades para criar experiência, geralmente fazemos ele em equipe, que é como funciona o mercado do trabalho. Então escolha com cuidado o que será o seu projeto.
 
-Se você pretende trabalhar criando softwares, faça com que seu projeto seja a criação de um. Pense em cada detalhe e faça da melhor forma possível. Para descobrir quais ferramentas, banco de dados, frameworks você vai usar, faça uma pesquisa de mercado e descubra quais ferramentas estão sendo requisitadas pelo mercado. Não deixe de automatizar o processo de teste e de publicação, mostre que você domina todo o processo de desenvolvimento.
+Se você pretende trabalhar criando softwares, faça com que seu projeto seja a criação de um. Pense em cada detalhe e faça da melhor forma possível. Para descobrir quais ferramentas, banco de dados, frameworks você vai usar, [faça uma pesquisa de mercado e descubra quais ferramentas estão sendo requisitadas no momento](https://www.linkedin.com/jobs/search?keywords=desenvolvedor&location=Brasil&geoId=106057199&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0). Não deixe de automatizar o processo de teste e de publicação, mostre que você domina todo o processo de desenvolvimento.
 
 Quando você está estudando, você não precisa criar nenhum aplicativo que seja comercial. Apenas usar metodologias certas, padrões atuais e zelar pela qualidade vai ser o suficiente para você mostrar o seu valor em uma entrevista.
 
@@ -68,7 +68,7 @@ Quando você está estudando, você não precisa criar nenhum aplicativo que sej
 
 Se você fizer com que o seu projeto se torne um case real, sua experiencia profissional estará mais do que comprovada. Uma forma de se conseguir isso é procurar por ONGs, Sindicatos. Talvez alguém em sua família tenha um negócio que precisa ter algum processo automatizado.  Resolva o problemas deles e você terá algo que irá agregar muito em seu currículo.
 
->Trabalho voluntário também pode ser uma alternativa
+>[Trabalho voluntário também pode ser uma alternativa](https://www.linkedin.com/jobs/search?keywords=&location=Estados%20Unidos&locationId=&geoId=103644278&f_TPR=&f_JT=V&position=1&pageNum=0)
 
 Falando em ONGs, várias procuram por trabalhadores voluntários. É uma ótima forma de se conseguir experiencia. Você pode conseguir inclusive uma experiencia internacional dessa forma. Além de melhorar a suas habilidades você terá a chance de conhecer pessoas que já estão no mercado. Não tem como negar o poder do networking quanto estamos tentando concorrer para alguma posição. Ter alguém dentro de uma empresa que ateste o seu caráter pode te abrir portas, afinal, habilidades nós podemos testar, mas como descobrir quem você de fato é? 
 
@@ -88,8 +88,9 @@ No fim, você vai perceber que você só tem a ganhar fazendo isso!
 
 Não quer começar o seu próprio projeto, tudo bem! Tem vários projetos prontos onde você pode contribuir!
 A comunidade [open source](https://opensource.com) é gigante e os softwares criados por ela são geralmente feitos na base da colaboração.
+Projetos como o [brain.js](https://brain.js.org/) procura por [colaboradores](https://github.com/BrainJS/brain.js/blob/master/.github/CONTRIBUTING.md) assim como o [Axios](https://axios-http.com) onde você pode [contribuir aqui](https://github.com/axios/axios/blob/main/CONTRIBUTING.md).
 
-Open Source significa código aberto, fazendo referência ao código-fonte de uma aplicação. Você pode procurar por eles no GitHub, no NPM ou na Internet em geral. Imagine você dizer para o seu entrevistador que você contribui com um dos softwares que ele gosta e usa no dia-a-dia? Será que ele vai reparar em você?
+Open Source significa código aberto, fazendo referência ao código-fonte de uma aplicação. Você pode procurar por eles no [GitHub](https://github.com), no [NPM](https://www.npmjs.com) ou na Internet em geral. Imagine você dizer para o seu entrevistador que você contribui com um dos softwares que ele gosta e usa no dia-a-dia? Será que ele vai reparar em você?
 
 E ai, qual dica você acha que mais vai te ajudar, e deixar você cada vez mais experiente?
 

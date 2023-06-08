@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://programadorsemfronteira.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://programadorsemfronteira.github.io/" rel="alternate" type="text/html" /><updated>2023-06-08T16:47:32-03:00</updated><id>https://programadorsemfronteira.github.io/feed.xml</id><title type="html">Jeferson Amorim | Programador sem fronteira</title><subtitle>Como aprender a programar pode ser um desafio, Me siga que eu vou te ajudar nesse processo do zero. Programar mudou a minha vida e tenho certeza que pode mudar a sua. Procurando uma oportunidade? Ela pode estar aqu!</subtitle><author><name>programadorsemfronteira</name></author><entry><title type="html">Como consigo experiência se eu não consigo trabalhar?</title><link href="https://programadorsemfronteira.github.io/2023/06/05/como-conseguir-experiencia-se-eu-nao-consigo-trabalhar.html" rel="alternate" type="text/html" title="Como consigo experiência se eu não consigo trabalhar?" /><published>2023-06-05T07:00:00-03:00</published><updated>2023-06-05T07:00:00-03:00</updated><id>https://programadorsemfronteira.github.io/2023/06/05/como-conseguir-experiencia-se-eu-nao-consigo-trabalhar</id><content type="html" xml:base="https://programadorsemfronteira.github.io/2023/06/05/como-conseguir-experiencia-se-eu-nao-consigo-trabalhar.html"><![CDATA[<p>Está tentando sua primeira vaga no mercado, mas não consegue porque não tem nenhuma experiencia e fica se perguntando como terá 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://programadorsemfronteira.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://programadorsemfronteira.github.io/" rel="alternate" type="text/html" /><updated>2023-06-08T18:28:44-03:00</updated><id>https://programadorsemfronteira.github.io/feed.xml</id><title type="html">Jeferson Amorim | Programador sem fronteira</title><subtitle>Como aprender a programar pode ser um desafio, Me siga que eu vou te ajudar nesse processo do zero. Programar mudou a minha vida e tenho certeza que pode mudar a sua. Procurando uma oportunidade? Ela pode estar aqu!</subtitle><author><name>programadorsemfronteira</name></author><entry><title type="html">Como consigo experiência se eu não consigo trabalhar?</title><link href="https://programadorsemfronteira.github.io/2023/06/05/como-conseguir-experiencia-se-eu-nao-consigo-trabalhar.html" rel="alternate" type="text/html" title="Como consigo experiência se eu não consigo trabalhar?" /><published>2023-06-05T07:00:00-03:00</published><updated>2023-06-05T07:00:00-03:00</updated><id>https://programadorsemfronteira.github.io/2023/06/05/como-conseguir-experiencia-se-eu-nao-consigo-trabalhar</id><content type="html" xml:base="https://programadorsemfronteira.github.io/2023/06/05/como-conseguir-experiencia-se-eu-nao-consigo-trabalhar.html"><![CDATA[<p>Está tentando sua primeira vaga no mercado, mas não consegue porque não tem nenhuma experiencia e fica se perguntando como terá 
 <!--more-->
 experiencia já que não consegue uma vaga no mercado?</p>
 
@@ -44,11 +44,11 @@ Mas, olhando para trás, eu realmente estava errado. Eu sempre estudei muito, ma
 
 <p>Durante os seus estudos, comece a fazer projetos que simulem situações que você encontrará no mundo real. Cadastros, autenticações, gerenciamento de usuários são coisas que você vai precisar em quase qualquer lugar que você for trabalhar. Mostre que você é capaz de lidar com isso!</p>
 
-<p>Não esqueça que você está estudando, então pesquise quais são as melhores práticas para cada uma dessas situações. Como lidar com a segurança dessa aplicação, quais são as normas de privacidade que você precisa seguir? Aplique todos os conceitos como se fosse para valer! Use o controle de versão da forma correta, crie testes, automatize tarefas se possível.</p>
+<p>Não esqueça que você está estudando, então pesquise quais são as melhores práticas para cada uma dessas situações. Como lidar com a <a href="https://owasp.org">segurança dessa aplicação</a>, quais são as normas de privacidade que você precisa seguir, <a href="https://www.gov.br/esporte/pt-br/acesso-a-informacao/lgpd">LGPD</a>, <a href="https://gdpr-info.eu">GDPR</a>? Aplique todos os conceitos como se fosse para valer! Use o controle de versão da forma correta, crie testes, automatize tarefas se possível.</p>
 
 <blockquote>
   <p>Esse conteúdo também está disponível no Youtube:
-<a href="https://youtu.be/DLMKiMwLPVg"><img src="/assets/img/como_conseguir_experiencia_thumb.jpg" alt="Hello, World! Crie o seu programa em javascript!" /></a></p>
+<a href="https://youtu.be/DLMKiMwLPVg"><img src="/assets/img/como_conseguir_experiencia_thumb.jpg" alt="Como ter experiência para o primeiro emprego se preciso do primeiro emprego para ter experiência?" /></a></p>
 </blockquote>
 
 <p>Deixe tudo documentando em arquivos readme, não esqueça que você está vendendo as suas habilidades.</p>
@@ -57,7 +57,7 @@ Mas, olhando para trás, eu realmente estava errado. Eu sempre estudei muito, ma
 
 <p>Projetos acadêmicos são ótimas oportunidades para criar experiência, geralmente fazemos ele em equipe, que é como funciona o mercado do trabalho. Então escolha com cuidado o que será o seu projeto.</p>
 
-<p>Se você pretende trabalhar criando softwares, faça com que seu projeto seja a criação de um. Pense em cada detalhe e faça da melhor forma possível. Para descobrir quais ferramentas, banco de dados, frameworks você vai usar, faça uma pesquisa de mercado e descubra quais ferramentas estão sendo requisitadas pelo mercado. Não deixe de automatizar o processo de teste e de publicação, mostre que você domina todo o processo de desenvolvimento.</p>
+<p>Se você pretende trabalhar criando softwares, faça com que seu projeto seja a criação de um. Pense em cada detalhe e faça da melhor forma possível. Para descobrir quais ferramentas, banco de dados, frameworks você vai usar, <a href="https://www.linkedin.com/jobs/search?keywords=desenvolvedor&amp;location=Brasil&amp;geoId=106057199&amp;trk=public_jobs_jobs-search-bar_search-submit&amp;position=1&amp;pageNum=0">faça uma pesquisa de mercado e descubra quais ferramentas estão sendo requisitadas no momento</a>. Não deixe de automatizar o processo de teste e de publicação, mostre que você domina todo o processo de desenvolvimento.</p>
 
 <p>Quando você está estudando, você não precisa criar nenhum aplicativo que seja comercial. Apenas usar metodologias certas, padrões atuais e zelar pela qualidade vai ser o suficiente para você mostrar o seu valor em uma entrevista.</p>
 
@@ -66,7 +66,7 @@ Mas, olhando para trás, eu realmente estava errado. Eu sempre estudei muito, ma
 <p>Se você fizer com que o seu projeto se torne um case real, sua experiencia profissional estará mais do que comprovada. Uma forma de se conseguir isso é procurar por ONGs, Sindicatos. Talvez alguém em sua família tenha um negócio que precisa ter algum processo automatizado.  Resolva o problemas deles e você terá algo que irá agregar muito em seu currículo.</p>
 
 <blockquote>
-  <p>Trabalho voluntário também pode ser uma alternativa</p>
+  <p><a href="https://www.linkedin.com/jobs/search?keywords=&amp;location=Estados%20Unidos&amp;locationId=&amp;geoId=103644278&amp;f_TPR=&amp;f_JT=V&amp;position=1&amp;pageNum=0">Trabalho voluntário também pode ser uma alternativa</a></p>
 </blockquote>
 
 <p>Falando em ONGs, várias procuram por trabalhadores voluntários. É uma ótima forma de se conseguir experiencia. Você pode conseguir inclusive uma experiencia internacional dessa forma. Além de melhorar a suas habilidades você terá a chance de conhecer pessoas que já estão no mercado. Não tem como negar o poder do networking quanto estamos tentando concorrer para alguma posição. Ter alguém dentro de uma empresa que ateste o seu caráter pode te abrir portas, afinal, habilidades nós podemos testar, mas como descobrir quem você de fato é?</p>
@@ -88,9 +88,10 @@ Mas, olhando para trás, eu realmente estava errado. Eu sempre estudei muito, ma
 <h2 id="contribua-com-projetos-open-source">Contribua com projetos open source</h2>
 
 <p>Não quer começar o seu próprio projeto, tudo bem! Tem vários projetos prontos onde você pode contribuir!
-A comunidade <a href="https://opensource.com">open source</a> é gigante e os softwares criados por ela são geralmente feitos na base da colaboração.</p>
+A comunidade <a href="https://opensource.com">open source</a> é gigante e os softwares criados por ela são geralmente feitos na base da colaboração.
+Projetos como o <a href="https://brain.js.org/">brain.js</a> procura por <a href="https://github.com/BrainJS/brain.js/blob/master/.github/CONTRIBUTING.md">colaboradores</a> assim como o <a href="https://axios-http.com">Axios</a> onde você pode <a href="https://github.com/axios/axios/blob/main/CONTRIBUTING.md">contribuir aqui</a>.</p>
 
-<p>Open Source significa código aberto, fazendo referência ao código-fonte de uma aplicação. Você pode procurar por eles no GitHub, no NPM ou na Internet em geral. Imagine você dizer para o seu entrevistador que você contribui com um dos softwares que ele gosta e usa no dia-a-dia? Será que ele vai reparar em você?</p>
+<p>Open Source significa código aberto, fazendo referência ao código-fonte de uma aplicação. Você pode procurar por eles no <a href="https://github.com">GitHub</a>, no <a href="https://www.npmjs.com">NPM</a> ou na Internet em geral. Imagine você dizer para o seu entrevistador que você contribui com um dos softwares que ele gosta e usa no dia-a-dia? Será que ele vai reparar em você?</p>
 
 <p>E ai, qual dica você acha que mais vai te ajudar, e deixar você cada vez mais experiente?</p>
 
