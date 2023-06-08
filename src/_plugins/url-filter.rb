@@ -1,5 +1,5 @@
 def tag_sanitize(tag)
-  tag.downcase.gsub(/\s/, "-")
+  tag && tag.downcase.gsub(/\s/, "-")
 end
 
 module Jekyll
