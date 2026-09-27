@@ -1,4 +1,4 @@
-# Codex handoff — portfolio redesign
+# Codex handoff  -  portfolio redesign
 
 Created: 2026-09-17
 
@@ -61,7 +61,7 @@ or repeat the review unless the portfolio needs newly changed information.
 
 | Period | Role | Evidence |
 | --- | --- | --- |
-| Jan 2026–present | Senior Software Engineer, G2i | Builds RL environments for a frontier AI lab; owns full-stack work, performance, production incidents, verification, delivery quality, and agent-directed workstreams. |
+| Jan 2026–present | Senior Software Engineer, G2i | Builds RL environments for a frontier AI lab; delivers full-stack work with AI-agent code creation, then personally verifies security, accuracy, quality, and the final result. |
 | May 2023–Jan 2026 | Senior Full-Stack Developer & AI Engineer, JDJ | SaaS/AI product delivery; AWS, ECS Fargate, CDK, DynamoDB, RDS, SQS, Cognito, TypeScript migration, autoscaling, and mentoring. |
 | Jul 2019–Apr 2023 | Senior Full Stack Developer / Senior Software Engineer, Ceros | API architecture, NestJS, React migration, accessibility, testing, Docker/Jenkins, Terraform, and Cloudflare migration. |
 | Feb 2016–Jun 2019 | Front End Developer / Software Architect, Crossover | Modernization, CI/CD, Docker, cloud infrastructure, architecture, and an AI tutoring application. |
@@ -191,13 +191,13 @@ modern design that looks more sophisticated than a generic developer portfolio.
 
 ### References
 
-- AJ Barnett: https://www.ajbarnett.tech/work — case-study structure the user
+- AJ Barnett: https://www.ajbarnett.tech/work  -  case-study structure the user
   explicitly liked.
-- Brittany Chiang: https://brittanychiang.com/ — content-first persistent
+- Brittany Chiang: https://brittanychiang.com/  -  content-first persistent
   navigation and visible experience/projects; borrow information behavior, not
   the familiar visual style.
-- Bitralab: https://bitralab.com/ — recruiter-oriented evidence and outcomes.
-- Lidia Ochoa: https://uxbylidiaochoa.com/portfolio-site/ — accessibility-first
+- Bitralab: https://bitralab.com/  -  recruiter-oriented evidence and outcomes.
+- Lidia Ochoa: https://uxbylidiaochoa.com/portfolio-site/  -  accessibility-first
   navigation/component-system thinking.
 
 ## Generated visual mockup

@@ -1,0 +1,510 @@
+# Evidence for the extended Work case-study cards. Keep claims traceable to
+# Jeferson's LinkedIn profile or to the portfolio research notes.
+G2i:
+  heading: { en: "Building AI training environments", pt-br: "Ambientes para<br>treinar IA", es: "Entornos para<br>entrenar IA" }
+  period: { en: "JAN 2026-PRESENT", pt-br: "JAN 2026-HOJE", es: "ENE 2026-HOY" }
+  role: "Senior Software Engineer / AI Engineer"
+  challenge: "Deliver dependable training environments for a frontier AI lab while working across unfamiliar codebases and customer-facing workstreams."
+  approach:
+    - "Turn issue reports into complete changes across frontend, backend, APIs, and databases, then carry them through review and delivery."
+    - "Use repeatable benchmarks, indexing, query improvements, and regression tests to solve application and database bottlenecks."
+    - "Delegate code creation to AI agents in focused workstreams, then personally review and validate the result for security, accuracy, quality, and release readiness."
+  impact: "Personally owned the final quality gate for incidents, fixes, features, and customer delivery using code review, exploratory checks, automated tests, end-to-end validation, and CI."
+  lesson: "AI-assisted implementation accelerates delivery when the engineer remains accountable for the context, verification, and final result."
+  metrics:
+    - { value: "E2E", label: "FULL-STACK OWNERSHIP" }
+    - { value: "CI", label: "VERIFICATION PATH" }
+    - { value: "RL", label: "TRAINING ENVIRONMENTS" }
+  translations:
+    pt-br:
+      labels: { challenge: "DESAFIO", role: "FUNÇÃO", approach: "ABORDAGEM", impact: "IMPACTO", lesson: "LIÇÃO" }
+      role: "Engenheiro de Software Sênior / Engenheiro de IA"
+      challenge: "Entregar ambientes de treinamento confiáveis para um laboratório de IA de fronteira, trabalhando em bases de código desconhecidas e em frentes voltadas ao cliente."
+      approach:
+        - "Transformar relatos de problemas em mudanças completas no frontend, backend, APIs e bancos de dados, conduzindo-as pela revisão até a entrega."
+        - "Usar benchmarks reproduzíveis, indexação, melhorias em consultas e testes de regressão para resolver gargalos de desempenho da aplicação e do banco de dados."
+        - "Delegar a criação de código a agentes de IA em frentes bem definidas e revisar e validar pessoalmente o resultado quanto à segurança, precisão, qualidade e prontidão para lançamento."
+      impact: "Fui responsável pela verificação final da qualidade de incidentes, correções, funcionalidades e entregas ao cliente, usando revisão de código, testes exploratórios, testes automatizados, validação ponta a ponta e CI."
+      lesson: "A implementação assistida por IA acelera a entrega quando o engenheiro continua responsável pelo contexto, pela verificação e pelo resultado final."
+      metrics:
+        - { value: "E2E", label: "RESPONSABILIDADE FULL-STACK" }
+        - { value: "CI", label: "FLUXO DE VERIFICAÇÃO" }
+        - { value: "RL", label: "AMBIENTES DE TREINAMENTO" }
+    es:
+      labels: { challenge: "DESAFÍO", role: "FUNCIÓN", approach: "ENFOQUE", impact: "IMPACTO", lesson: "LECCIÓN" }
+      role: "Ingeniero de Software Sénior / Ingeniero de IA"
+      challenge: "Entregar entornos de entrenamiento confiables para un laboratorio de IA de frontera, trabajando con bases de código desconocidas y en proyectos orientados al cliente."
+      approach:
+        - "Convertir informes de problemas en cambios completos en frontend, backend, API y bases de datos, y llevarlos desde la revisión hasta la entrega."
+        - "Usar pruebas de rendimiento repetibles, índices, mejoras de consultas y pruebas de regresión para resolver cuellos de botella de la aplicación y la base de datos."
+        - "Delegar la creación de código a agentes de IA en tareas bien definidas y revisar y validar personalmente el resultado en seguridad, precisión, calidad y preparación para el lanzamiento."
+      impact: "Fui responsable de la verificación final de calidad de incidentes, correcciones, funcionalidades y entregas al cliente, mediante revisión de código, pruebas exploratorias y automatizadas, validación de extremo a extremo e integración continua."
+      lesson: "La implementación asistida por IA acelera la entrega cuando el ingeniero sigue siendo responsable del contexto, la verificación y el resultado final."
+      metrics:
+        - { value: "E2E", label: "RESPONSABILIDAD FULL-STACK" }
+        - { value: "CI", label: "FLUJO DE VERIFICACIÓN" }
+        - { value: "RL", label: "ENTORNOS DE ENTRENAMIENTO" }
+
+Aiah:
+  heading: { en: "Engineering with AI<br>LLM customer care", pt-br: "Engenharia com IA<br>Suporte com LLM", es: "Ingeniería con IA<br>Soporte con LLM" }
+  period: { en: "2023-2026", pt-br: "2023-2026", es: "2023-2026" }
+  role: "Senior Full-Stack Developer / AI Engineer"
+  challenge: "Integrate Meta's WhatsApp API into customer service while preventing invented products, services, and contact numbers. The system also needed high availability and failure recovery across AWS, WhatsApp, and LLM provider outages."
+  approach:
+    - "Integrated Meta's WhatsApp API with the customer-service workflow, connecting messages to LLM responses, tool calls, and human handoff."
+    - "Built validation and response guardrails to keep product, service, and contact information tied to real business data instead of fabricated model output."
+    - "Used GraphQL, asynchronous message processing, RAG with pgvector, and AWS infrastructure to support the product and its recovery paths."
+    - "Owned application architecture and production delivery, designing recovery behavior for AWS and external API interruptions so conversations could resume safely."
+  impact: "Delivered WhatsApp-connected AI customer service with guarded replies, validated workflows, and human handoff. During an AWS outage, no messages were lost; after AWS recovered, the system resumed and answered every message."
+  lesson: "Customer-facing AI needs both factual guardrails and failure recovery: a fluent reply is not enough if the information is invented or a message is lost."
+  metrics:
+    - { value: "LLM", label: "TOOL-DRIVEN WORKFLOWS" }
+    - { value: "RAG", label: "RETRIEVAL LAYER" }
+    - { value: "0", label: "MESSAGES LOST IN AWS OUTAGE" }
+  translations:
+    pt-br:
+      labels: { challenge: "DESAFIO", role: "FUNÇÃO", approach: "ABORDAGEM", impact: "IMPACTO", lesson: "LIÇÃO" }
+      role: "Desenvolvedor Full-Stack Sênior / Engenheiro de IA"
+      challenge: "Integrar a API do WhatsApp da Meta ao atendimento sem inventar produtos, serviços ou números de contato. O sistema também precisava de alta disponibilidade e recuperação de falhas na AWS, no WhatsApp e nos provedores de LLM."
+      approach:
+        - "Integrei a API do WhatsApp da Meta ao fluxo de atendimento, conectando mensagens a respostas do LLM, chamadas de ferramentas e transferência para atendimento humano."
+        - "Criei validações e proteções para manter informações sobre produtos, serviços e contatos vinculadas aos dados reais do negócio, evitando conteúdo inventado pelo modelo."
+        - "Usei GraphQL, processamento assíncrono de mensagens, RAG com pgvector e infraestrutura AWS para sustentar o produto e seus fluxos de recuperação."
+        - "Assumi a arquitetura da aplicação e a entrega em produção, projetando a recuperação de interrupções da AWS e de APIs externas para que as conversas pudessem continuar com segurança."
+      impact: "Entreguei atendimento com IA integrado ao WhatsApp, com respostas protegidas, fluxos validados e transferência para uma pessoa. Durante uma indisponibilidade da AWS, nenhuma mensagem foi perdida; após a recuperação, o sistema voltou a responder a todas elas."
+      lesson: "Uma IA voltada ao cliente precisa de proteções contra informações inventadas e de recuperação de falhas: uma resposta fluente não basta se uma mensagem se perde."
+      metrics:
+        - { value: "LLM", label: "FLUXOS ORIENTADOS POR FERRAMENTAS" }
+        - { value: "RAG", label: "CAMADA DE RECUPERAÇÃO" }
+        - { value: "0", label: "MENSAGENS PERDIDAS NA FALHA DA AWS" }
+    es:
+      labels: { challenge: "DESAFÍO", role: "FUNCIÓN", approach: "ENFOQUE", impact: "IMPACTO", lesson: "LECCIÓN" }
+      role: "Desarrollador Full-Stack Sénior / Ingeniero de IA"
+      challenge: "Integrar la API de WhatsApp de Meta en la atención al cliente sin inventar productos, servicios ni números de contacto. El sistema también necesitaba alta disponibilidad y recuperación ante fallos de AWS, WhatsApp y los proveedores de LLM."
+      approach:
+        - "Integré la API de WhatsApp de Meta en el flujo de atención, conectando mensajes con respuestas del LLM, llamadas a herramientas y transferencia a una persona."
+        - "Creé validaciones y salvaguardas para mantener la información sobre productos, servicios y contactos vinculada a datos reales del negocio, evitando contenido inventado por el modelo."
+        - "Usé GraphQL, procesamiento asíncrono de mensajes, RAG con pgvector e infraestructura de AWS para sostener el producto y sus rutas de recuperación."
+        - "Asumí la arquitectura de la aplicación y la entrega en producción, diseñando la recuperación ante interrupciones de AWS y de API externas para que las conversaciones pudieran continuar de forma segura."
+      impact: "Entregué atención con IA integrada con WhatsApp, con respuestas protegidas, flujos validados y transferencia a una persona. Durante una caída de AWS no se perdió ningún mensaje; tras la recuperación, el sistema volvió a responderlos todos."
+      lesson: "Una IA orientada al cliente necesita protección frente a datos inventados y recuperación ante fallos: una respuesta fluida no basta si se pierde un mensaje."
+      metrics:
+        - { value: "LLM", label: "FLUJOS ORIENTADOS POR HERRAMIENTAS" }
+        - { value: "RAG", label: "CAPA DE RECUPERACIÓN" }
+        - { value: "0", label: "MENSAJES PERDIDOS EN LA CAÍDA DE AWS" }
+
+Wolf Pro Link:
+  heading: { en: "Modernizing an<br>athlete network", pt-br: "Modernizando uma<br>rede de atletas", es: "Modernizando una<br>red de atletas" }
+  period: { en: "2024-2026", pt-br: "2024-2026", es: "2024-2026" }
+  role: "Senior Full-Stack Developer & AI Engineer"
+  challenge: "Prepare an athlete-focused social network for cloud compute and reliable growth, while preserving availability, cost control, and the pace of product delivery."
+  approach:
+    - "Migrated JavaScript to TypeScript and prepared the application and GraphQL API to run on containerized cloud compute."
+    - "Built the AWS environment with Docker workloads on ECS Fargate, autoscaling, Nginx and CloudFront caching, and CloudWatch monitoring."
+    - "Provisioned infrastructure as code with AWS CDK, created the CI/CD pipeline with GitHub Actions, and migrated AWS accounts without downtime."
+  impact: "Reduced runtime errors by 60% and supported 3× more concurrent users without increasing AWS cost, creating more capacity for athletes and professionals to connect reliably."
+  lesson: "A platform built around opportunity needs reliable, affordable scale as much as new features."
+  metrics:
+    - { value: "60%", label: "FEWER RUNTIME ERRORS" }
+    - { value: "3×", label: "CONCURRENT USERS" }
+    - { value: "0", label: "DOWNTIME IN MIGRATION" }
+  translations:
+    pt-br:
+      labels: { challenge: "DESAFIO", role: "FUNÇÃO", approach: "ABORDAGEM", impact: "IMPACTO", lesson: "LIÇÃO" }
+      role: "Desenvolvedor Full-Stack Sênior / Engenheiro de IA"
+      challenge: "Preparar uma rede social para atletas para computação em nuvem e crescimento confiável, preservando disponibilidade, controle de custos e ritmo de entrega do produto."
+      approach:
+        - "Migrei JavaScript para TypeScript e preparei a aplicação e a API GraphQL para executar em contêineres na nuvem."
+        - "Construí o ambiente AWS com contêineres Docker no ECS Fargate, escalonamento automático, cache com Nginx e CloudFront e monitoramento com CloudWatch."
+        - "Provisionei a infraestrutura como código com AWS CDK, criei o pipeline de CI/CD com GitHub Actions e migrei contas da AWS sem indisponibilidade."
+      impact: "Reduzi os erros em execução em 60% e sustentei 3× mais usuários simultâneos sem aumentar o custo da AWS, criando capacidade para mais atletas e profissionais se conectarem com confiabilidade."
+      lesson: "Uma plataforma construída em torno de oportunidades precisa de escala confiável e acessível tanto quanto de novas funcionalidades."
+      metrics:
+        - { value: "60%", label: "MENOS ERROS EM EXECUÇÃO" }
+        - { value: "3×", label: "USUÁRIOS SIMULTÂNEOS" }
+        - { value: "0", label: "INDISPONIBILIDADE NA MIGRAÇÃO" }
+    es:
+      labels: { challenge: "DESAFÍO", role: "FUNCIÓN", approach: "ENFOQUE", impact: "IMPACTO", lesson: "LECCIÓN" }
+      role: "Desarrollador Full-Stack Sénior / Ingeniero de IA"
+      challenge: "Preparar una red social para atletas para la computación en la nube y un crecimiento fiable, manteniendo la disponibilidad, el control de costos y el ritmo de entrega del producto."
+      approach:
+        - "Migré JavaScript a TypeScript y preparé la aplicación y la API GraphQL para ejecutarse en contenedores en la nube."
+        - "Construí el entorno de AWS con contenedores Docker en ECS Fargate, escalado automático, caché con Nginx y CloudFront y monitoreo con CloudWatch."
+        - "Aprovisioné la infraestructura como código con AWS CDK, creé el pipeline de CI/CD con GitHub Actions y migré cuentas de AWS sin tiempo de inactividad."
+      impact: "Reduje los errores en tiempo de ejecución un 60% y soporté 3× más usuarios simultáneos sin aumentar el costo de AWS, creando capacidad para que más atletas y profesionales se conecten de forma fiable."
+      lesson: "Una plataforma centrada en las oportunidades necesita una escala fiable y asequible tanto como nuevas funcionalidades."
+      metrics:
+        - { value: "60%", label: "MENOS ERRORES EN EJECUCIÓN" }
+        - { value: "3×", label: "USUARIOS SIMULTÁNEOS" }
+        - { value: "0", label: "INACTIVIDAD EN LA MIGRACIÓN" }
+
+Freedom:
+  heading: { en: "Evidence-first<br>paper trading", pt-br: "Trading simulado<br>com evidências", es: "Trading simulado<br>con evidencia" }
+  period: { en: "2020-PRESENT", pt-br: "2020-HOJE", es: "2020-HOY" }
+  role: "Senior Full-Stack Developer"
+  challenge: "Turn B3 market data and trading research into reproducible paper decisions without look-ahead leakage, invented fills, or unsupported performance claims."
+  approach:
+    - "Built canonical market-data ingestion and immutable snapshots with point-in-time identity, correction history, and reproducible feature inputs."
+    - "Implemented a deterministic B3 momentum strategy with completed-D1 setup confirmation and backtests that separate signal quality from trade outcomes."
+    - "Connected approved decisions to paper-only risk controls, a persistent simulated broker, reconciliation, and idempotent replay after interruptions."
+    - "Kept experimental ML behind qualification gates; the current unqualified models and sealed holdout cannot drive the paper strategy."
+  impact: "Delivered an operator-runnable paper-trading path whose decisions, simulated fills, and outcomes can be traced and replayed, without claiming proven profitability or real-money execution."
+  lesson: "In financial systems, reproducibility, failure recovery, and an honest 'not qualified' result are product features, not obstacles to shipping."
+  metrics:
+    - { value: "PAPER", label: "SIMULATED EXECUTION" }
+    - { value: "REPLAY", label: "DURABLE DECISIONS" }
+    - { value: "SEALED", label: "ML RESEARCH BOUNDARY" }
+  translations:
+    pt-br:
+      labels: { challenge: "DESAFIO", role: "FUNÇÃO", approach: "ABORDAGEM", impact: "IMPACTO", lesson: "LIÇÃO" }
+      role: "Desenvolvedor Full-Stack Sênior"
+      challenge: "Transformar dados do mercado B3 e pesquisa de estratégias em decisões simuladas reproduzíveis, sem vazamento de informação futura, execuções inventadas ou promessas de desempenho sem evidência."
+      approach:
+        - "Construí a ingestão canônica de dados de mercado e snapshots imutáveis com identidade temporal, histórico de correções e entradas reproduzíveis para indicadores."
+        - "Implementei uma estratégia determinística de momentum para a B3, com confirmação por setups após o fechamento diário e backtests que separam a qualidade do sinal do resultado das operações."
+        - "Conectei decisões aprovadas a controles de risco exclusivos para simulação, corretora simulada persistente, reconciliação e reprocessamento idempotente após interrupções."
+        - "Mantive o ML experimental atrás de critérios de qualificação; os modelos ainda não qualificados e o conjunto de teste protegido não podem orientar a estratégia simulada."
+      impact: "Entreguei um fluxo executável de trading simulado, com decisões, execuções simuladas e resultados rastreáveis e reproduzíveis, sem alegar lucratividade comprovada ou operação com dinheiro real."
+      lesson: "Em sistemas financeiros, reprodutibilidade, recuperação de falhas e um resultado honesto de 'não qualificado' são funcionalidades do produto, não obstáculos à entrega."
+      metrics:
+        - { value: "PAPER", label: "EXECUÇÃO SIMULADA" }
+        - { value: "REPLAY", label: "DECISÕES PERSISTIDAS" }
+        - { value: "SELADO", label: "LIMITE DA PESQUISA EM ML" }
+    es:
+      labels: { challenge: "DESAFÍO", role: "FUNCIÓN", approach: "ENFOQUE", impact: "IMPACTO", lesson: "LECCIÓN" }
+      role: "Desarrollador Full-Stack Sénior"
+      challenge: "Convertir datos del mercado B3 e investigación de estrategias en decisiones simuladas reproducibles, sin filtración de información futura, ejecuciones inventadas ni promesas de rendimiento sin evidencia."
+      approach:
+        - "Construí la ingesta canónica de datos de mercado y snapshots inmutables con identidad temporal, historial de correcciones y entradas reproducibles para indicadores."
+        - "Implementé una estrategia determinista de momentum para B3, con confirmación por setups tras el cierre diario y backtests que separan la calidad de la señal del resultado de las operaciones."
+        - "Conecté decisiones aprobadas con controles de riesgo exclusivos para simulación, bróker simulado persistente, conciliación y reprocesamiento idempotente tras interrupciones."
+        - "Mantuve el ML experimental detrás de criterios de calificación; los modelos aún no calificados y el conjunto de prueba protegido no pueden dirigir la estrategia simulada."
+      impact: "Entregué un flujo operable de trading simulado, con decisiones, ejecuciones simuladas y resultados trazables y reproducibles, sin afirmar rentabilidad demostrada ni operar con dinero real."
+      lesson: "En sistemas financieros, la reproducibilidad, la recuperación ante fallos y un resultado honesto de 'no calificado' son funciones del producto, no obstáculos para entregarlo."
+      metrics:
+        - { value: "PAPER", label: "EJECUCIÓN SIMULADA" }
+        - { value: "REPLAY", label: "DECISIONES PERSISTIDAS" }
+        - { value: "SELLADO", label: "LÍMITE DE INVESTIGACIÓN ML" }
+
+Redestina:
+  heading: { en: "Container transfer<br>coordination", pt-br: "Redirecionamento<br>de contêineres", es: "Redirección de<br>contenedores" }
+  period: { en: "2023-2026", pt-br: "2023-2026", es: "2023-2026" }
+  role: "Senior Full-Stack Developer"
+  challenge: "Coordinate container transfers between port terminals when arrivals, documentation, and stakeholder notifications must follow a reliable sequence with secure certificate-based access."
+  approach:
+    - "Monitored container arrivals in an external system and initiated the transfer workflow when action was needed."
+    - "Coordinated checks, documentation, and notifications in the required order while safeguarding certificate-based access."
+    - "Used DynamoDB Streams and SQS to drive downstream work and reprocess failed tasks."
+    - "Supported delivery through code review, engineering guidance, and junior-developer mentoring."
+  impact: "Improved container handoff reliability through ordered steps and retryable tasks, while strengthening team delivery through code reviews and mentoring junior developers."
+  lesson: "In logistics, reliability is a workflow property: secure access, ordered steps, and failure recovery matter as much as the happy path."
+  metrics:
+    - { value: "AUTO", label: "ARRIVAL MONITORING" }
+    - { value: "ORDER", label: "COORDINATED HANDOFFS" }
+    - { value: "RETRY", label: "FAILED TASK RECOVERY" }
+  translations:
+    pt-br:
+      labels: { challenge: "DESAFIO", role: "FUNÇÃO", approach: "ABORDAGEM", impact: "IMPACTO", lesson: "LIÇÃO" }
+      role: "Desenvolvedor Full-Stack Sênior"
+      challenge: "Coordenar transferências de contêineres entre terminais portuários, garantindo que chegadas, documentação e notificações sigam a ordem correta com acesso seguro por certificado."
+      approach:
+        - "Monitorei a chegada de contêineres em um sistema externo e iniciei o fluxo de transferência quando era preciso agir."
+        - "Coordenei verificações, documentação e notificações na ordem necessária, protegendo o acesso por certificado."
+        - "Usei DynamoDB Streams e SQS para acionar as próximas etapas e reprocessar tarefas com falha."
+        - "Apoiei a entrega com revisão de código, orientação técnica e mentoria de desenvolvedores iniciantes."
+      impact: "Tornei as transferências mais confiáveis com etapas ordenadas e reprocessamento de falhas, enquanto fortalecia a entrega do time com revisões de código e mentoria de desenvolvedores juniores."
+      lesson: "Em logística, confiabilidade depende do fluxo inteiro: acesso seguro, etapas na ordem certa e recuperação de falhas são tão importantes quanto o caminho ideal."
+      metrics:
+        - { value: "AUTO", label: "MONITORAMENTO DE CHEGADAS" }
+        - { value: "ORDEM", label: "ETAPAS COORDENADAS" }
+        - { value: "FILAS", label: "REPROCESSAMENTO DE FALHAS" }
+    es:
+      labels: { challenge: "DESAFÍO", role: "FUNCIÓN", approach: "ENFOQUE", impact: "IMPACTO", lesson: "LECCIÓN" }
+      role: "Desarrollador Full-Stack Sénior"
+      challenge: "Coordinar traslados de contenedores entre terminales portuarias, asegurando que llegadas, documentación y avisos sigan la secuencia correcta con acceso seguro mediante certificado."
+      approach:
+        - "Supervisé la llegada de contenedores en un sistema externo e inicié el flujo de traslado cuando era necesario actuar."
+        - "Coordiné verificaciones, documentación y avisos en el orden requerido, protegiendo el acceso mediante certificado."
+        - "Usé DynamoDB Streams y SQS para activar los pasos siguientes y reprocesar tareas fallidas."
+        - "Apoyé la entrega con revisión de código, orientación técnica y mentoría a desarrolladores principiantes."
+      impact: "Hice más fiables los traslados con pasos ordenados y reprocesamiento de fallos, mientras fortalecía las entregas del equipo mediante revisiones de código y mentoría a desarrolladores júnior."
+      lesson: "En logística, la fiabilidad depende de todo el flujo: acceso seguro, pasos ordenados y recuperación ante fallos importan tanto como el camino ideal."
+      metrics:
+        - { value: "AUTO", label: "MONITOREO DE LLEGADAS" }
+        - { value: "ORDEN", label: "PASOS COORDINADOS" }
+        - { value: "COLAS", label: "REPROCESAMIENTO DE FALLOS" }
+
+Rocketicons:
+  heading: { en: "Building an icon<br>toolkit", pt-br: "Criando um kit<br>de ícones", es: "Creando un kit<br>de iconos" }
+  period: { en: "2025-PRESENT", pt-br: "2025-HOJE", es: "2025-HOY" }
+  role: "Co-creator & Maintainer"
+  challenge: "Make large icon collections practical for web and native apps without forcing entire libraries into application bundles, while keeping the public catalog affordable to operate."
+  approach:
+    - "Together, we built a CLI that initializes TypeScript projects and writes selected icon components into local source for review and version control."
+    - "We developed shared rendering utilities and Tailwind-compatible styling for React and React Native."
+    - "When Vercel and later AWS Amplify became too expensive for the project, we moved the localized explorer and versioned catalog to a static site on Cloudflare Pages."
+  impact: "Developers can keep only the icons they choose in their own codebase, with a consistent component API across web and native projects; the public catalog is delivered as a static site."
+  lesson: "For open source, architecture includes hosting economics: simplifying delivery can keep a useful project sustainable."
+  metrics:
+    - { value: "LOCAL", label: "SELECTED ICON SOURCE" }
+    - { value: "WEB/RN", label: "SHARED COMPONENT API" }
+    - { value: "STATIC", label: "CLOUDFLARE PAGES" }
+  translations:
+    pt-br:
+      labels: { challenge: "DESAFIO", role: "FUNÇÃO", approach: "ABORDAGEM", impact: "IMPACTO", lesson: "LIÇÃO" }
+      role: "Cocriador e mantenedor"
+      challenge: "Tornar grandes coleções de ícones práticas para aplicações web e nativas, sem levar bibliotecas inteiras para o bundle, e manter o catálogo público viável financeiramente."
+      approach:
+        - "Juntos, criamos uma CLI que configura projetos TypeScript e grava os componentes de ícones escolhidos no código local, onde podem ser revisados e versionados."
+        - "Desenvolvemos utilitários de renderização e estilos compatíveis com Tailwind para React e React Native."
+        - "Quando Vercel e depois AWS Amplify ficaram caros demais para o projeto, levamos o explorador localizado e o catálogo versionado para um site estático no Cloudflare Pages."
+      impact: "Desenvolvedores mantêm apenas os ícones escolhidos no próprio código, com uma API de componentes consistente para projetos web e nativos; o catálogo público é entregue como site estático."
+      lesson: "Em projetos de código aberto, a arquitetura inclui o custo de hospedagem: simplificar a entrega pode manter o projeto sustentável."
+      metrics:
+        - { value: "LOCAL", label: "CÓDIGO DOS ÍCONES ESCOLHIDOS" }
+        - { value: "WEB/RN", label: "API DE COMPONENTES COMPARTILHADA" }
+        - { value: "ESTÁTICO", label: "CLOUDFLARE PAGES" }
+    es:
+      labels: { challenge: "DESAFÍO", role: "FUNCIÓN", approach: "ENFOQUE", impact: "IMPACTO", lesson: "LECCIÓN" }
+      role: "Cocreador y mantenedor"
+      challenge: "Hacer prácticas las grandes colecciones de iconos para aplicaciones web y nativas, sin llevar bibliotecas completas al bundle, y mantener viable el costo del catálogo público."
+      approach:
+        - "Juntos, creamos una CLI que configura proyectos TypeScript y escribe los componentes de iconos elegidos en el código local para revisarlos y versionarlos."
+        - "Desarrollamos utilidades de renderizado y estilos compatibles con Tailwind para React y React Native."
+        - "Cuando Vercel y después AWS Amplify resultaron demasiado costosos para el proyecto, llevamos el explorador localizado y el catálogo versionado a un sitio estático en Cloudflare Pages."
+      impact: "Los desarrolladores conservan solo los iconos elegidos en su propio código, con una API de componentes coherente para proyectos web y nativos; el catálogo público se entrega como sitio estático."
+      lesson: "En código abierto, la arquitectura incluye el costo de alojamiento: simplificar la entrega puede mantener sostenible el proyecto."
+      metrics:
+        - { value: "LOCAL", label: "CÓDIGO DE ICONOS ELEGIDOS" }
+        - { value: "WEB/RN", label: "API DE COMPONENTES COMPARTIDA" }
+        - { value: "ESTÁTICO", label: "CLOUDFLARE PAGES" }
+
+Apolo Live:
+  heading: { en: "Connecting musicians<br>to opportunities", pt-br: "Músicos e<br>oportunidades", es: "Músicos y<br>oportunidades" }
+  period: { en: "MAY 2023-NOV 2023", pt-br: "MAI 2023-NOV 2023", es: "MAY 2023-NOV 2023" }
+  role: "Full-Stack Developer"
+  challenge: "Help musicians find gigs, connect, and showcase their work on slower connections and modest devices, while making public content discoverable and the web/mobile experience maintainable."
+  approach:
+    - "Owned full-stack web development using Google Cloud Platform (GCP), researched the audience's connectivity and device constraints, and used the findings to guide a responsive interface without a dedicated UI/UX specialist."
+    - "Improved loading and perceived responsiveness with lazy loading, BlurHash image placeholders, and loading skeletons."
+    - "Implemented server-side rendering for search-visible public content while retaining interactive application behavior and supporting the advertising model."
+    - "Initiated a migration from Flutter to React Native to share code across web and mobile and address functionality drifting between platforms."
+  impact: "Delivered a musician platform shaped by real audience constraints, with faster-feeling loading, search-visible public content, and a path toward more consistent cross-platform delivery."
+  lesson: "Audience research should shape engineering decisions: performance, discoverability, usability, and maintenance capacity are connected product concerns."
+  metrics:
+    - { value: "SSR", label: "SEARCH-VISIBLE CONTENT" }
+    - { value: "UX", label: "SLOW-CONNECTION DESIGN" }
+    - { value: "RN", label: "MOBILE MODERNIZATION" }
+  translations:
+    pt-br:
+      labels: { challenge: "DESAFIO", role: "FUNÇÃO", approach: "ABORDAGEM", impact: "IMPACTO", lesson: "LIÇÃO" }
+      role: "Desenvolvedor Full-Stack"
+      challenge: "Ajudar músicos a encontrar apresentações, criar conexões e mostrar seu trabalho mesmo com conexões lentas e dispositivos modestos, mantendo o conteúdo encontrável e a experiência web/mobile sustentável."
+      approach:
+        - "Fui responsável pelo desenvolvimento web full-stack com Google Cloud Platform (GCP), pesquisei as limitações de conexão e de dispositivos do público e usei os resultados para orientar uma interface responsiva, sem apoio de um profissional dedicado de UI/UX."
+        - "Melhorei o carregamento e a percepção de velocidade com lazy loading, placeholders de imagem com BlurHash e esqueletos de carregamento."
+        - "Implementei renderização no servidor para que o conteúdo público fosse encontrado em buscadores, mantendo a interatividade e apoiando o modelo de publicidade."
+        - "Iniciei a migração de Flutter para React Native para compartilhar código entre web e mobile e reduzir divergências de funcionalidades entre plataformas."
+      impact: "Entreguei uma plataforma para músicos orientada pelas condições reais do público, com carregamento mais ágil na percepção, conteúdo público encontrável e um caminho para maior consistência entre plataformas."
+      lesson: "A pesquisa com o público deve orientar a engenharia: desempenho, descoberta, usabilidade e capacidade de manutenção são partes do mesmo produto."
+      metrics:
+        - { value: "SSR", label: "CONTEÚDO ENCONTRÁVEL" }
+        - { value: "UX", label: "CONEXÕES LENTAS" }
+        - { value: "RN", label: "MODERNIZAÇÃO MOBILE" }
+    es:
+      labels: { challenge: "DESAFÍO", role: "FUNCIÓN", approach: "ENFOQUE", impact: "IMPACTO", lesson: "LECCIÓN" }
+      role: "Desarrollador Full-Stack"
+      challenge: "Ayudar a músicos a encontrar actuaciones, conectar y mostrar su trabajo incluso con conexiones lentas y dispositivos modestos, manteniendo el contenido visible en buscadores y la experiencia web/móvil sostenible."
+      approach:
+        - "Me encargué del desarrollo web full-stack con Google Cloud Platform (GCP), investigué las limitaciones de conexión y dispositivos de la audiencia y usé los hallazgos para orientar una interfaz adaptable, sin un especialista de UI/UX dedicado."
+        - "Mejoré la carga y la percepción de velocidad con lazy loading, marcadores de imagen con BlurHash y esqueletos de carga."
+        - "Implementé renderizado en el servidor para que los buscadores encontraran el contenido público, sin perder interactividad y apoyando el modelo publicitario."
+        - "Inicié la migración de Flutter a React Native para compartir código entre web y móvil y reducir las diferencias de funcionalidad entre plataformas."
+      impact: "Entregué una plataforma para músicos basada en las condiciones reales de la audiencia, con una carga percibida más ágil, contenido público visible en buscadores y una vía hacia mayor coherencia entre plataformas."
+      lesson: "La investigación de la audiencia debe guiar la ingeniería: rendimiento, descubrimiento, usabilidad y capacidad de mantenimiento son partes del mismo producto."
+      metrics:
+        - { value: "SSR", label: "CONTENIDO EN BUSCADORES" }
+        - { value: "UX", label: "CONEXIONES LENTAS" }
+        - { value: "RN", label: "MODERNIZACIÓN MÓVIL" }
+
+Ceros:
+  heading: { en: "Modernizing a<br>creative platform", pt-br: "Modernizando uma<br>plataforma criativa", es: "Modernizando una<br>plataforma creativa" }
+  period: { en: "JUL 2019-APR 2023", pt-br: "JUL 2019-ABR 2023", es: "JUL 2019-ABR 2023" }
+  role: "Senior Full Stack Developer / Senior Software Engineer"
+  challenge: "Modernize an enterprise creative SaaS platform while improving accessibility, platform reliability, and the maintainability of a large existing system."
+  approach:
+    - "Co-owned analysis and trade-offs for a message-driven NestJS API architecture; made API documentation enforceable with TypeScript decorators and ESLint."
+    - "Migrated legacy Backbone.js components to React and improved keyboard and screen-reader access across customer-created interactive content."
+    - "Standardized Docker development environments, optimized Jenkins and container builds, and supported the Fastly-to-Cloudflare migration with Terraform."
+    - "Expanded unit, integration, and end-to-end testing, researched scalable collaboration, and mentored engineers through platform changes."
+  impact: "Strengthened the platform's foundations with clearer API contracts, more accessible interfaces, broader test coverage, and more repeatable development and delivery workflows."
+  lesson: "Enterprise modernization works when architecture, accessibility, delivery tooling, and team practice evolve together."
+  metrics:
+    - { value: "API", label: "ARCHITECTURE OWNERSHIP" }
+    - { value: "A11Y", label: "PRODUCT QUALITY" }
+    - { value: "E2E", label: "REGRESSION COVERAGE" }
+  translations:
+    pt-br:
+      labels: { challenge: "DESAFIO", role: "FUNÇÃO", approach: "ABORDAGEM", impact: "IMPACTO", lesson: "LIÇÃO" }
+      role: "Desenvolvedor Full-Stack Sênior / Engenheiro de Software Sênior"
+      challenge: "Modernizar uma plataforma SaaS de criação, melhorando a acessibilidade, a confiabilidade e a manutenção de um sistema grande e já existente."
+      approach:
+        - "Participei da análise e das decisões de arquitetura para APIs NestJS orientadas a mensagens; tornei a documentação das APIs verificável com decorators TypeScript e ESLint."
+        - "Migrei componentes legados de Backbone.js para React e melhorei a navegação por teclado e o acesso por leitores de tela em conteúdos interativos criados por clientes."
+        - "Padronizei ambientes de desenvolvimento com Docker, otimizei builds com Jenkins e contêineres e apoiei a migração de Fastly para Cloudflare com Terraform."
+        - "Ampliei testes unitários, de integração e ponta a ponta, pesquisei colaboração em escala e orientei engenheiros durante as mudanças na plataforma."
+      impact: "Fortaleci a base da plataforma com contratos de API mais claros, interfaces mais acessíveis, maior cobertura de testes e fluxos de desenvolvimento e entrega mais reproduzíveis."
+      lesson: "A modernização de uma plataforma se sustenta quando arquitetura, acessibilidade, ferramentas de entrega e práticas da equipe evoluem juntas."
+      metrics:
+        - { value: "API", label: "ARQUITETURA" }
+        - { value: "A11Y", label: "ACESSIBILIDADE" }
+        - { value: "E2E", label: "COBERTURA DE REGRESSÃO" }
+    es:
+      labels: { challenge: "DESAFÍO", role: "FUNCIÓN", approach: "ENFOQUE", impact: "IMPACTO", lesson: "LECCIÓN" }
+      role: "Desarrollador Full-Stack Sénior / Ingeniero de Software Sénior"
+      challenge: "Modernizar una plataforma SaaS creativa, mejorando la accesibilidad, la fiabilidad y el mantenimiento de un sistema grande ya existente."
+      approach:
+        - "Participé en el análisis y las decisiones de arquitectura para API NestJS basadas en mensajes; hice verificable la documentación de las API con decoradores de TypeScript y ESLint."
+        - "Migré componentes heredados de Backbone.js a React y mejoré la navegación por teclado y el acceso con lectores de pantalla en contenidos interactivos creados por clientes."
+        - "Estandaricé entornos de desarrollo con Docker, optimicé builds con Jenkins y contenedores y apoyé la migración de Fastly a Cloudflare con Terraform."
+        - "Amplié las pruebas unitarias, de integración y de extremo a extremo, investigué la colaboración a escala y orienté a ingenieros durante los cambios de la plataforma."
+      impact: "Fortalecí los cimientos de la plataforma con contratos de API más claros, interfaces más accesibles, mayor cobertura de pruebas y procesos de desarrollo y entrega más reproducibles."
+      lesson: "La modernización de una plataforma perdura cuando arquitectura, accesibilidad, herramientas de entrega y prácticas del equipo evolucionan juntas."
+      metrics:
+        - { value: "API", label: "ARQUITECTURA" }
+        - { value: "A11Y", label: "ACCESIBILIDAD" }
+        - { value: "E2E", label: "COBERTURA DE REGRESIÓN" }
+
+Crossover:
+  heading: { en: "Modernizing enterprise<br>applications", pt-br: "Modernização<br>de sistemas", es: "Modernización<br>de software" }
+  period: { en: "FEB 2016-JUN 2019", pt-br: "FEV 2016-JUN 2019", es: "FEB 2016-JUN 2019" }
+  role: "Front End Developer / Software Architect"
+  challenge: "Keep enterprise applications moving while replacing aging technology foundations and making delivery and infrastructure more repeatable."
+  approach:
+    - "Led an Adobe Flex-to-AngularJS migration for a legacy HR platform and integrated IBM Watson into an educational application."
+    - "Implemented CI/CD workflows and Docker-based environments for applications and databases."
+    - "Validated IIS and Microsoft SQL Server workloads in Windows containers, creating evidence for a lower-cost shared Azure infrastructure approach."
+  impact: "Modernized foundations and delivery practice across internal and client-facing systems while improving maintainability and infrastructure utilization."
+  lesson: "A proof of concept is most useful when it turns a disputed infrastructure direction into an informed decision."
+  metrics:
+    - { value: "CI/CD", label: "REPEATABLE DELIVERY" }
+    - { value: "AI", label: "TUTORING INTEGRATION" }
+    - { value: "DX", label: "CONTAINERIZED ENVIRONMENTS" }
+  translations:
+    pt-br:
+      labels: { challenge: "DESAFIO", role: "FUNÇÃO", approach: "ABORDAGEM", impact: "IMPACTO", lesson: "LIÇÃO" }
+      role: "Desenvolvedor Front-End / Arquiteto de Software"
+      challenge: "Manter aplicações corporativas em operação enquanto substituía tecnologias antigas e tornava a entrega e a infraestrutura mais reproduzíveis."
+      approach:
+        - "Liderei a migração de Adobe Flex para AngularJS em uma plataforma legada de RH e integrei IBM Watson a uma aplicação educacional."
+        - "Implementei fluxos de CI/CD e ambientes com Docker para aplicações e bancos de dados."
+        - "Validei cargas de IIS e Microsoft SQL Server em contêineres Windows, produzindo evidências para uma abordagem de infraestrutura Azure compartilhada e de menor custo."
+      impact: "Modernizei a base tecnológica e a prática de entrega de sistemas internos e voltados a clientes, melhorando a manutenção e o aproveitamento da infraestrutura."
+      lesson: "Uma prova de conceito é mais útil quando transforma uma decisão de infraestrutura contestada em uma escolha baseada em evidências."
+      metrics:
+        - { value: "CI/CD", label: "ENTREGA REPRODUZÍVEL" }
+        - { value: "IA", label: "INTEGRAÇÃO EDUCACIONAL" }
+        - { value: "DX", label: "AMBIENTES EM CONTÊINERES" }
+    es:
+      labels: { challenge: "DESAFÍO", role: "FUNCIÓN", approach: "ENFOQUE", impact: "IMPACTO", lesson: "LECCIÓN" }
+      role: "Desarrollador Front-End / Arquitecto de Software"
+      challenge: "Mantener en funcionamiento aplicaciones empresariales mientras sustituía tecnologías antiguas y hacía más reproducibles la entrega y la infraestructura."
+      approach:
+        - "Lideré la migración de Adobe Flex a AngularJS en una plataforma heredada de RR. HH. e integré IBM Watson en una aplicación educativa."
+        - "Implementé flujos de CI/CD y entornos con Docker para aplicaciones y bases de datos."
+        - "Validé cargas de IIS y Microsoft SQL Server en contenedores Windows, aportando evidencia para una infraestructura compartida en Azure de menor costo."
+      impact: "Modernicé la base tecnológica y las prácticas de entrega de sistemas internos y orientados a clientes, mejorando el mantenimiento y el uso de la infraestructura."
+      lesson: "Una prueba de concepto es más útil cuando convierte una decisión de infraestructura discutida en una elección basada en evidencias."
+      metrics:
+        - { value: "CI/CD", label: "ENTREGA REPRODUCIBLE" }
+        - { value: "IA", label: "INTEGRACIÓN EDUCATIVA" }
+        - { value: "DX", label: "ENTORNOS EN CONTENEDORES" }
+
+Level Up Games:
+  heading: { en: "Building game-publishing<br>platforms", pt-br: "Plataformas<br>de jogos", es: "Plataformas<br>de videojuegos" }
+  period: { en: "FEB 2008-FEB 2016", pt-br: "FEV 2008-FEV 2016", es: "FEB 2008-FEB 2016" }
+  role: "Lead Developer"
+  challenge: "At what was then Brazil's largest online-game publisher, keep a site on self-managed dedicated servers responsive under thousands of simultaneous requests while leading a six-person engineering team."
+  approach:
+    - "Delivered and modernized web, e-commerce, billing, payment, and large-file delivery systems using PHP, .NET, AngularJS, and Yii."
+    - "When I arrived, the web farm ran only Apache. I put Tux in front of it, then later moved to Varnish with Nginx to serve heavy traffic more efficiently; I also tuned the backend and added monitoring and incident-response integrations."
+    - "Introduced Jenkins CI and blue-green deployment practices; mentored engineers through reviews, training, SOLID principles, and testing."
+  impact: "Made self-managed servers more efficient under thousands of simultaneous requests while sustaining product delivery, reliable releases, and the growth of a six-person team."
+  lesson: "Leadership is holding the product, the operating system, and the growth of the team in view at the same time."
+  metrics:
+    - { value: "6", label: "ENGINEERS LED" }
+    - { value: "1000s", label: "SIMULTANEOUS REQUESTS" }
+    - { value: "CI", label: "REPEATABLE RELEASES" }
+  translations:
+    pt-br:
+      labels: { challenge: "DESAFIO", role: "FUNÇÃO", approach: "ABORDAGEM", impact: "IMPACTO", lesson: "LIÇÃO" }
+      role: "Líder de Desenvolvimento"
+      challenge: "Na então maior publicadora de jogos online do Brasil, manter responsivo um site em servidores dedicados administrados por nós, sob milhares de requisições simultâneas, enquanto liderava uma equipe de seis engenheiros."
+      approach:
+        - "Entreguei e modernizei sistemas web, comércio eletrônico, cobrança, pagamentos e distribuição de arquivos grandes com PHP, .NET, AngularJS e Yii."
+        - "Quando cheguei, a infraestrutura web usava apenas Apache. Coloquei Tux à frente dele e, mais tarde, migrei para Varnish com Nginx para atender ao tráfego com mais eficiência; também ajustei o backend e acrescentei monitoramento e integrações para resposta a incidentes."
+        - "Introduzi CI com Jenkins e deploys blue-green; orientei engenheiros com revisões, treinamentos, princípios SOLID e testes."
+      impact: "Tornei os servidores administrados por nós mais eficientes sob milhares de requisições simultâneas, mantendo as entregas do produto, os lançamentos confiáveis e o desenvolvimento da equipe de seis pessoas."
+      lesson: "Liderar é cuidar ao mesmo tempo do produto, da operação e do crescimento da equipe."
+      metrics:
+        - { value: "6", label: "ENGENHEIROS LIDERADOS" }
+        - { value: "1000s", label: "REQUISIÇÕES SIMULTÂNEAS" }
+        - { value: "CI", label: "ENTREGAS REPRODUZÍVEIS" }
+    es:
+      labels: { challenge: "DESAFÍO", role: "FUNCIÓN", approach: "ENFOQUE", impact: "IMPACTO", lesson: "LECCIÓN" }
+      role: "Líder de Desarrollo"
+      challenge: "En la entonces mayor editora de juegos online de Brasil, mantener ágil un sitio en servidores dedicados administrados por nosotros, bajo miles de solicitudes simultáneas, mientras lideraba un equipo de seis ingenieros."
+      approach:
+        - "Entregué y modernicé sistemas web, comercio electrónico, facturación, pagos y distribución de archivos grandes con PHP, .NET, AngularJS y Yii."
+        - "Cuando llegué, la infraestructura web usaba solo Apache. Puse Tux delante de él y, más adelante, migré a Varnish con Nginx para atender el tráfico con mayor eficiencia; también ajusté el backend y añadí monitoreo e integraciones para responder a incidentes."
+        - "Introduje CI con Jenkins y despliegues blue-green; orienté a ingenieros mediante revisiones, formación, principios SOLID y pruebas."
+      impact: "Hice más eficientes los servidores administrados por nosotros ante miles de solicitudes simultáneas, manteniendo las entregas del producto, los lanzamientos fiables y el desarrollo del equipo de seis personas."
+      lesson: "Liderar es atender al mismo tiempo el producto, la operación y el crecimiento del equipo."
+      metrics:
+        - { value: "6", label: "INGENIEROS LIDERADOS" }
+        - { value: "1000s", label: "SOLICITUDES SIMULTÁNEAS" }
+        - { value: "CI", label: "ENTREGAS REPRODUCIBLES" }
+
+Consoft:
+  heading: { en: "Infrastructure<br>and software", pt-br: "Infraestrutura<br>e software", es: "Infraestructura<br>y software" }
+  role: "Infrastructure Support / Web Development"
+  challenge: "Keep public-sector IT services running across mixed server and network environments while modernizing systems and building internal tools for operational needs."
+  approach:
+    - "Supported the Windows NT-to-Windows 2000 Server migration and administered Windows domains and Active Directory."
+    - "Implemented and maintained Linux DNS services, supported Solaris email systems, and troubleshot TCP/IP connectivity, network security, and user issues."
+    - "Built a PHP and MySQL application for tracking process status, linking software delivery to day-to-day business and infrastructure requirements."
+  impact: "Supported essential infrastructure and delivered an internal process-tracking tool while gaining practical experience across servers, networks, operating systems, and applications."
+  lesson: "Understanding deployment environments and failures across system boundaries became the foundation for my later work in software architecture, DevOps, infrastructure as code, and CI/CD."
+  metrics:
+    - { value: "AD", label: "WINDOWS DOMAINS" }
+    - { value: "DNS", label: "LINUX SERVICES" }
+    - { value: "PHP", label: "PROCESS TRACKING" }
+  translations:
+    pt-br:
+      labels: { challenge: "DESAFIO", role: "FUNÇÃO", approach: "ABORDAGEM", impact: "IMPACTO", lesson: "LIÇÃO" }
+      role: "Suporte de Infraestrutura / Desenvolvimento Web"
+      challenge: "Manter serviços de TI do setor público em operação em ambientes mistos de servidores e redes, modernizando sistemas e criando ferramentas internas para necessidades operacionais."
+      approach:
+        - "Apoiei a migração de Windows NT para Windows 2000 Server e administrei domínios Windows e Active Directory."
+        - "Implementei e mantive serviços de DNS em Linux, apoiei sistemas de e-mail em Solaris e diagnostiquei problemas de conectividade TCP/IP, segurança de rede e usuários."
+        - "Desenvolvi uma aplicação em PHP e MySQL para acompanhar o andamento de processos, conectando a entrega de software às necessidades do negócio e da infraestrutura."
+      impact: "Apoiei serviços essenciais de infraestrutura e entreguei uma ferramenta interna de acompanhamento de processos, adquirindo experiência prática com servidores, redes, sistemas operacionais e aplicações."
+      lesson: "Entender ambientes de implantação e falhas entre sistemas formou a base do meu trabalho posterior em arquitetura de software, DevOps, infraestrutura como código e CI/CD."
+      metrics:
+        - { value: "AD", label: "DOMÍNIOS WINDOWS" }
+        - { value: "DNS", label: "SERVIÇOS LINUX" }
+        - { value: "PHP", label: "ACOMPANHAMENTO DE PROCESSOS" }
+    es:
+      labels: { challenge: "DESAFÍO", role: "FUNCIÓN", approach: "ENFOQUE", impact: "IMPACTO", lesson: "LECCIÓN" }
+      role: "Soporte de Infraestructura / Desarrollo Web"
+      challenge: "Mantener en funcionamiento servicios de TI del sector público en entornos mixtos de servidores y redes, mientras modernizaba sistemas y creaba herramientas internas para necesidades operativas."
+      approach:
+        - "Apoyé la migración de Windows NT a Windows 2000 Server y administré dominios Windows y Active Directory."
+        - "Implementé y mantuve servicios DNS en Linux, apoyé sistemas de correo en Solaris y diagnostiqué problemas de conectividad TCP/IP, seguridad de red y usuarios."
+        - "Desarrollé una aplicación en PHP y MySQL para seguir el estado de procesos, conectando la entrega de software con las necesidades del negocio y de la infraestructura."
+      impact: "Apoyé servicios esenciales de infraestructura y entregué una herramienta interna de seguimiento de procesos, adquiriendo experiencia práctica con servidores, redes, sistemas operativos y aplicaciones."
+      lesson: "Comprender los entornos de despliegue y los fallos entre sistemas sentó las bases de mi trabajo posterior en arquitectura de software, DevOps, infraestructura como código y CI/CD."
+      metrics:
+        - { value: "AD", label: "DOMINIOS WINDOWS" }
+        - { value: "DNS", label: "SERVICIOS LINUX" }
+        - { value: "PHP", label: "SEGUIMIENTO DE PROCESOS" }

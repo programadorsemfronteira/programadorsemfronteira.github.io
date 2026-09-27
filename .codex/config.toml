@@ -1,0 +1,4 @@
+[mcp_servers.rocketicons]
+command = "npx"
+args = ["-y", "@rocketicons/mcp"]
+startup_timeout_sec = 60

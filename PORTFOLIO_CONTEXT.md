@@ -21,7 +21,7 @@ quality, and production readiness.
 
 Suggested hero copy:
 
-> I lead the design, delivery, and operation of reliable software—from product
+> I lead the design, delivery, and operation of reliable software - from product
 > architecture and AI-native development to cloud infrastructure and production
 > systems.
 
@@ -57,7 +57,7 @@ Use a concise timeline on the site. Full history belongs on LinkedIn.
 
 | Period | Role | Portfolio-relevant evidence |
 | --- | --- | --- |
-| Jan 2026–present | Senior Software Engineer, G2i | RL training environments for a frontier AI lab; high-pace full application delivery with coding agents, agent-directed workstreams, performance work, incident response, security/correctness verification, and delivery quality. |
+| Jan 2026–present | Senior Software Engineer, G2i | RL training environments for a frontier AI lab; full application delivery with AI-agent code creation, personal accountability for the final result, performance work, incident response, security/accuracy verification, and delivery quality. |
 | May 2023–Jan 2026 | Senior Full-Stack Developer & AI Engineer, JDJ | SaaS and AI products; AWS architecture, ECS Fargate, CDK, DynamoDB, RDS, SQS, Cognito, TypeScript modernization, migrations, autoscaling, mentoring. |
 | Jul 2019–Apr 2023 | Senior Full Stack Developer / Senior Software Engineer, Ceros | API architecture, NestJS, React migration, accessibility, testing, Docker/Jenkins, Terraform, Cloudflare migration, scalable collaboration. |
 | Feb 2016–Jun 2019 | Front End Developer / Software Architect, Crossover | Application modernization, CI/CD, Docker, cloud infrastructure, architecture, and AI-assisted tutoring. |
@@ -65,14 +65,14 @@ Use a concise timeline on the site. Full history belongs on LinkedIn.
 
 ## Case studies to build first
 
-### Aiah — AI customer service and workflow automation
+### Aiah  -  AI customer service and workflow automation
 
 The flagship end-to-end product case study. Show the journey from MVP to
 production, including LLM tool calling, workflow orchestration, validation and
 recovery, human handoff, RAG, pgvector search, GraphQL, asynchronous message
 processing, and AWS infrastructure.
 
-### Wolf Pro Link — platform modernization and cloud migration
+### Wolf Pro Link  -  platform modernization and cloud migration
 
 The strongest measurable modernization case study.
 
@@ -84,18 +84,18 @@ The strongest measurable modernization case study.
 - Deployed Docker workloads to ECS Fargate with autoscaling and CloudWatch
   metrics; maintained GraphQL APIs.
 
-### Ceros — enterprise platform modernization
+### Ceros  -  enterprise platform modernization
 
 An enterprise credibility case study. Emphasize API architecture and
 trade-offs, migration from Backbone to React, accessibility, testing standards,
 Docker/Jenkins improvements, Terraform, Cloudflare migration, and mentoring.
 
-### Rocketicons — open-source product
+### Rocketicons  -  open-source product
 
 Show product ownership, React/React Native tooling, architecture, open-source
 work, and the move to static hosting for sustainable operation.
 
-### G2i — current role
+### G2i  -  current role
 
 This is a featured career narrative, not a footnote. Keep it
 non-client-identifying while showing the modern senior-engineering advantage:
@@ -170,22 +170,22 @@ Writing: blog archive and individual articles
 
 ### Homepage section order
 
-1. **Hero** — senior positioning, availability, and direct calls to view work,
+1. **Hero**  -  senior positioning, availability, and direct calls to view work,
    LinkedIn, and GitHub.
-2. **AI-native engineering with accountable delivery** — current G2i experience
+2. **AI-native engineering with accountable delivery**  -  current G2i experience
    and the operating model: agents accelerate implementation; Jeferson owns the
    architecture, security, correctness, and release decision.
-3. **Selected outcomes** — short evidence cards, beginning with Wolf Pro Link's
+3. **Selected outcomes**  -  short evidence cards, beginning with Wolf Pro Link's
    measurable modernization results and the end-to-end delivery of Aiah.
-4. **Selected work** — Aiah, Wolf Pro Link, Ceros, Rocketicons; each card links
+4. **Selected work**  -  Aiah, Wolf Pro Link, Ceros, Rocketicons; each card links
    to a case study with role, problem, approach, stack, and outcome.
-5. **Career snapshot** — compact five-role timeline; link to LinkedIn for the
+5. **Career snapshot**  -  compact five-role timeline; link to LinkedIn for the
    complete history.
-6. **Capabilities** — focused grouped tags with concrete evidence, not
+6. **Capabilities**  -  focused grouped tags with concrete evidence, not
    percentage scores.
-7. **Writing and community** — latest posts plus links to YouTube, Instagram,
+7. **Writing and community**  -  latest posts plus links to YouTube, Instagram,
    and other public work. This is deliberately secondary.
-8. **Contact** — LinkedIn, GitHub, and email.
+8. **Contact**  -  LinkedIn, GitHub, and email.
 
 ### G2i narrative requirements
 
@@ -202,7 +202,7 @@ project or representative workflow without exposing client-sensitive details:
 Never describe the work as "vibe coding" or imply that agents replace
 engineering judgment.
 
-External profiles—LinkedIn, GitHub, Rocketicons, YouTube, and Instagram—belong
+External profiles - LinkedIn, GitHub, Rocketicons, YouTube, and Instagram - belong
 in the header contact action or footer, rather than competing with selected work
 on the homepage.
 
@@ -269,8 +269,8 @@ keyboard users, and screen-reader users.
   behavior, not the recognizable visual treatment.
 - Santosh Bitra / Bitralab: recruiter-oriented evidence, explicit outcomes, and
   technical depth without unnecessary interaction.
-- AJ Barnett: disciplined case-study structure—challenge, role, approach,
-  impact, lessons—that makes senior judgment visible.
+- AJ Barnett: disciplined case-study structure - challenge, role, approach,
+  impact, lessons - that makes senior judgment visible.
 - Lidia Ochoa: accessible sticky navigation and a component system designed from
   semantic structure and tokens rather than retrofitted accessibility.
 

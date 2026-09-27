@@ -1,0 +1,10 @@
+<section class="portfolio-close{% if include.class_name %} {{ include.class_name }}{% endif %}"{% if include.section_id %} id="{{ include.section_id }}"{% endif %}>
+  <p class="section-eyebrow">{{ include.eyebrow }}</p>
+  <h2>{{ include.title }}</h2>
+  <p class="portfolio-script">{{ include.emphasis }}</p>
+  <p>{{ include.description }}</p>
+  <p class="portfolio-actions">
+    <a class="button button-solid" href="{{ include.primary_href }}">{{ include.primary }} ↗</a>
+    <a class="button" href="{{ include.secondary_href }}">{{ include.secondary }} ↗</a>
+  </p>
+</section>

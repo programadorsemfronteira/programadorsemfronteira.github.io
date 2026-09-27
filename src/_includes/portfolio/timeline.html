@@ -1,0 +1,23 @@
+{% assign timeline = site.data.timeline[page.lang] %}
+<div class="portfolio-timeline">
+  <nav class="timeline-rail" aria-label="{{ timeline.navigation_label }}">
+    {% for chapter in timeline.chapters %}<a href="#journey-{{ forloop.index }}" data-timeline-link="journey-{{ forloop.index }}"><span>{{ chapter.nav_year }}</span></a>{% endfor %}
+  </nav>
+  <section class="timeline-hero">
+    <div class="timeline-hero-inner">
+      <div class="timeline-hero-copy"><p class="portfolio-kicker timeline-hero-kicker"><span class="timeline-hero-index">{{ timeline.eyebrow_number }}</span><span class="timeline-hero-separator" aria-hidden="true">·</span><span>{{ timeline.eyebrow_period }}</span></p><h1>{{ timeline.title | newline_to_br }}</h1><p class="portfolio-script">{{ timeline.emphasis }}</p><div class="portfolio-rule"></div><p>{{ timeline.description }}</p></div>
+      <div class="timeline-hero-artifact"><div class="timeline-hero-interactive-frame" data-interactive-hero><img src="{{ '/assets/img/journey-mountain-road.png' | relative_url }}" alt="{{ timeline.image_alt }}"><span class="timeline-image-chapter">{{ timeline.chapter_label }} 02</span><span class="timeline-hero-glare" data-hero-glare aria-hidden="true"></span></div><p>{{ timeline.image_legend }} <i>{{ timeline.established }}</i></p></div>
+    </div>
+  </section>
+  <section class="timeline-list" aria-label="{{ timeline.timeline_label }}">
+    {% for chapter in timeline.chapters %}
+    <article class="timeline-chapter {% cycle 'is-artifact-left', 'is-artifact-right' %}" id="journey-{{ forloop.index }}" data-timeline-chapter>
+      <div class="timeline-marker"><span>{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span></div>
+      <div class="timeline-artifact"><span>{{ timeline.chapter_label }} {{ forloop.index | prepend: '0' | slice: -2, 2 }}</span><strong>{{ chapter.period }}</strong><small>{{ chapter.eyebrow }}</small></div>
+      <div class="timeline-copy"><p class="section-eyebrow">{{ timeline.chapter_label }} {{ forloop.index | prepend: '0' | slice: -2, 2 }} · {{ chapter.period }}</p><h2>{{ chapter.title }}</h2><p class="timeline-role">{{ chapter.role }}</p><p class="timeline-problem"><b>{{ timeline.problem_label }}</b> {{ chapter.problem }}</p>{% if chapter.story %}<div class="timeline-story">{% for paragraph in chapter.story %}<p>{{ paragraph }}</p>{% endfor %}</div>{% endif %}<div class="timeline-insights"><section><h3>{{ timeline.learned_label }}</h3><p>{{ chapter.learned }}</p></section><section><h3>{{ timeline.mindset_label }}</h3><p>{{ chapter.mindset }}</p></section></div><p class="section-eyebrow">{{ timeline.technology_label }}</p><ul>{% for tech in chapter.tech %}<li>{{ tech }}</li>{% endfor %}</ul><p class="timeline-transition">→ {{ timeline.transition }}</p><a class="text-link" href="/{{ page.lang }}/work/?tags={{ chapter.tags }}">{{ timeline.work_link }} ↗</a></div>
+    </article>
+    {% endfor %}
+  </section>
+  {% assign work_path = '/' | append: page.lang | append: '/work/' %}
+  {% include portfolio/close.html class_name="timeline-close" eyebrow=timeline.close.eyebrow title=timeline.close.title emphasis=timeline.close.emphasis description=timeline.close.description primary=page.copy.connect primary_href="#contact" secondary=page.copy.work secondary_href=work_path %}
+</div>

@@ -1,0 +1,262 @@
+en:
+  hero:
+    chapter: "03 · ENGINEERING · HOW I WORK"
+    title: "I MAKE COMPLEXITY"
+    emphasis: "shippable."
+    description: "My job is not just to produce code. It is to turn uncertain product needs into systems a team can understand, verify, operate, and keep improving."
+    primary: "SEE THE EVIDENCE"
+    secondary: "START A CONVERSATION"
+    legend_primary: "SYSTEMS THINKING"
+    legend_secondary: "PRODUCTION PRACTICE"
+    image_alt: "Layered engineering blueprints on a drafting table connect product interfaces, APIs, data, cloud infrastructure, AI workflows, and verification along one amber path to production."
+  model:
+    eyebrow: "THE OPERATING MODEL"
+    title: "Context in."
+    emphasis: "Reliable software out."
+    description: "Product intent, constraints, existing systems, and operational risk pass through the same loop before they become software. The process is iterative; accountability stays continuous."
+    note: "Judgment is not a checkpoint at the end. It shapes every boundary, trade-off, and release decision."
+    figure_label: "FIG. 01 · THE DELIVERY SYSTEM"
+    figure_axis: "CONTEXT · JUDGMENT · PRODUCTION"
+    figure_caption: "Engineering judgment is the hinge: raw inputs become a release a team can understand, verify, and operate."
+    figure_alt: "An engineering workspace with architecture diagrams, a notebook, laptop, and measurement tools representing the path from product context to reliable production software."
+    steps:
+      - { number: "01", title: "Frame", description: "User, outcome, constraints, existing system, and smallest useful release." }
+      - { number: "02", title: "Build", description: "Thin vertical slices across interface, API, data, and infrastructure." }
+      - { number: "03", title: "Verify", description: "Review, tests, exploratory checks, benchmarks, and CI as evidence." }
+      - { number: "04", title: "Operate", description: "Production signals, incidents, recovery, and learning for the next decision." }
+  principles:
+    eyebrow: "ENGINEERING PRINCIPLES"
+    title: "Judgment before"
+    emphasis: "machinery."
+    description: "These are working rules earned across high-traffic platforms, enterprise SaaS, cloud migrations, AI products, and unfamiliar codebases under delivery pressure."
+    link: "EXPLORE THE WORK"
+    item_label: "PRINCIPLE"
+    featured_label: "FEATURED"
+    items:
+      - { number: "01", title: "Own the outcome end to end", tag: "fullstack", description: "A feature is not finished at the pull request. I follow the work across product intent, architecture, delivery, release, and production behavior." }
+      - { number: "02", title: "Constraints come before implementation", tag: "backend", description: "Security, data shape, failure modes, cost, and maintainability define the solution space. Naming them early prevents expensive certainty later." }
+      - { number: "03", title: "Reliability is part of the workflow", tag: "quality", description: "Tests, observability, recovery paths, and release validation are design inputs, not a hardening phase after the product is built." }
+      - { number: "04", title: "Make the system legible", tag: "leadership", description: "Clear boundaries, documented decisions, useful conventions, and focused reviews let the next engineer move without guessing." }
+      - { number: "05", title: "Measure before optimizing", tag: "performance", description: "Benchmarks, production signals, and regression tests separate real bottlenecks from compelling stories about them." }
+      - { number: "06", title: "AI accelerates; engineers remain accountable", tag: "ai", description: "Agents can widen implementation capacity. Architecture, verification, security, correctness, and the final release decision remain human responsibilities." }
+  ai:
+    eyebrow: "AI-ACCELERATED PRODUCT DELIVERY"
+    title: "AI agents accelerate delivery."
+    emphasis: "I own the outcome."
+    description: "I orchestrate coding agents as parallel engineering workstreams to move complete features, and sometimes full products, from ambiguity to production faster. I frame the problem, set the architecture and constraints, integrate and verify the work, and own the final quality and production outcome."
+    figure_label: "FIG. 02 · AGENT-ACCELERATED DELIVERY"
+    figure_summary: "FRAME · PARALLELIZE · INTEGRATE · SHIP"
+    image_alt: "Four AI-powered robotic workstations prepare components in parallel while an engineer assembles them into one finished product."
+    phases:
+      - { number: "01", title: "Frame", description: "turn ambiguity into outcomes and constraints" }
+      - { number: "02", title: "Parallelize", description: "run scoped AI-agent workstreams concurrently" }
+      - { number: "03", title: "Integrate", description: "review, test, challenge, and reconcile the work" }
+      - { number: "04", title: "Ship", description: "own the release and production outcome" }
+    delegated_title: "HOW AI AGENTS ACCELERATE"
+    delegated:
+      - "Codebase exploration and implementation options"
+      - "Focused vertical slices from explicit acceptance criteria"
+      - "Test scaffolding, migrations, and repeatable changes"
+      - "Documentation, review preparation, and regression analysis"
+    owned_title: "WHAT I OWN END TO END"
+    owned:
+      - "Product framing, architecture, and technical trade-offs"
+      - "Security, data correctness, accessibility, and failure modes"
+      - "Integration, evaluation, testing, and observability"
+      - "Performance, release readiness, and production outcomes"
+    note: "AI agents expand execution capacity. I own the decisions, quality, and outcome."
+    link: "VIEW AI-ACCELERATED WORK"
+  proof:
+    eyebrow: "THE PRACTICE IN PRODUCTION"
+    title: "The principles"
+    emphasis: "leave evidence."
+    description: "Different systems, same discipline: understand the real constraint, choose a deliberate boundary, verify the result, and carry it through production."
+    supporting: "The project changes; the operating standard does not. Each example connects an engineering decision to an outcome under real constraints."
+    note_label: "FIELD NOTE"
+    note_watermark: "EVIDENCE"
+    note_start: "“Shipping is the claim."
+    note_emphasis: "Production evidence"
+    note_end: "is the proof.”"
+    items:
+      - { project: "G2i", label: "AI TRAINING ENVIRONMENTS", result: "Scoped agent delegation with personal ownership of review, security, testing, performance, and final delivery.", tag: "ai" }
+      - { project: "Wolf Pro Link", label: "CLOUD MODERNIZATION", result: "60% fewer runtime errors and 3× concurrent users without increasing AWS cost.", tag: "aws" }
+      - { project: "Aiah", label: "RESILIENT AI CUSTOMER SERVICE", result: "Guarded LLM responses, human handoff, asynchronous workflows, and recovery across provider outages.", tag: "nodejs" }
+      - { project: "Ceros", label: "ENTERPRISE PLATFORM", result: "API and React modernization, accessibility, testing standards, infrastructure, and scalable collaboration.", tag: "accessibility" }
+    primary: "EXPLORE ALL WORK"
+  close:
+    eyebrow: "END OF CHAPTER THREE"
+    title: "Bring me the problem"
+    emphasis: "behind the ticket."
+    description: "If your team needs an engineer who can hold the product, system, and delivery path in the same frame, let’s talk."
+    primary: "START A CONVERSATION"
+    secondary: "WALK THE JOURNEY"
+
+pt-br:
+  hero:
+    chapter: "03 · ENGENHARIA · COMO TRABALHO"
+    title: "FAÇO O COMPLEXO"
+    emphasis: "chegar à produção."
+    description: "Meu trabalho não é apenas produzir código. É transformar necessidades incertas de produto em sistemas que um time consegue entender, verificar, operar e continuar melhorando."
+    primary: "VER AS EVIDÊNCIAS"
+    secondary: "INICIAR CONVERSA"
+    legend_primary: "PENSAMENTO SISTÊMICO"
+    legend_secondary: "PRÁTICA EM PRODUÇÃO"
+    image_alt: "Projetos de engenharia em camadas sobre uma mesa conectam interfaces, APIs, dados, nuvem, fluxos de IA e verificação por um único caminho âmbar até a produção."
+  model:
+    eyebrow: "O MODELO DE TRABALHO"
+    title: "Contexto entra."
+    emphasis: "Software confiável sai."
+    description: "Intenção de produto, restrições, sistemas existentes e risco operacional passam pelo mesmo ciclo antes de virarem software. O processo é iterativo; a responsabilidade é contínua."
+    note: "Critério não é uma checagem no final. Ele orienta cada limite, escolha e decisão de entrega."
+    figure_label: "FIG. 01 · O SISTEMA DE ENTREGA"
+    figure_axis: "CONTEXTO · CRITÉRIO · PRODUÇÃO"
+    figure_caption: "O critério de engenharia é o eixo: insumos brutos viram uma entrega que o time consegue entender, verificar e operar."
+    figure_alt: "Um espaço de trabalho de engenharia com diagramas de arquitetura, caderno, laptop e instrumentos de medição representando o caminho do contexto de produto até software confiável em produção."
+    steps:
+      - { number: "01", title: "Enquadrar", description: "Usuário, resultado, restrições, sistema existente e menor entrega útil." }
+      - { number: "02", title: "Construir", description: "Fatias verticais entre interface, API, dados e infraestrutura." }
+      - { number: "03", title: "Verificar", description: "Revisão, testes, validação exploratória, benchmarks e CI como evidência." }
+      - { number: "04", title: "Operar", description: "Sinais de produção, incidentes, recuperação e aprendizado para a próxima decisão." }
+  principles:
+    eyebrow: "PRINCÍPIOS DE ENGENHARIA"
+    title: "Critério antes da"
+    emphasis: "maquinaria."
+    description: "Regras de trabalho aprendidas em plataformas de alto tráfego, SaaS corporativo, migrações para nuvem, produtos de IA e bases desconhecidas sob pressão de entrega."
+    link: "EXPLORAR O TRABALHO"
+    item_label: "PRINCÍPIO"
+    featured_label: "DESTAQUE"
+    items:
+      - { number: "01", title: "Assumir o resultado de ponta a ponta", tag: "fullstack", description: "Uma funcionalidade não termina no pull request. Acompanho intenção, arquitetura, entrega, lançamento e comportamento em produção." }
+      - { number: "02", title: "Restrições vêm antes da implementação", tag: "backend", description: "Segurança, formato dos dados, falhas, custo e manutenção definem o espaço da solução. Nomeá-los cedo evita certezas caras depois." }
+      - { number: "03", title: "Confiabilidade faz parte do fluxo", tag: "quality", description: "Testes, observabilidade, recuperação e validação de lançamento são entradas do projeto, não uma fase de endurecimento no final." }
+      - { number: "04", title: "Tornar o sistema compreensível", tag: "leadership", description: "Limites claros, decisões registradas, convenções úteis e revisões focadas permitem que a próxima pessoa avance sem adivinhar." }
+      - { number: "05", title: "Medir antes de otimizar", tag: "performance", description: "Benchmarks, sinais de produção e testes de regressão separam gargalos reais de histórias convincentes sobre eles." }
+      - { number: "06", title: "IA acelera; engenheiros respondem", tag: "ai", description: "Agentes ampliam a capacidade de implementação. Arquitetura, verificação, segurança, precisão e a decisão final de entrega continuam humanas." }
+  ai:
+    eyebrow: "ENTREGA DE PRODUTO ACELERADA POR IA"
+    title: "Agentes de IA aceleram a entrega."
+    emphasis: "Eu assumo o resultado."
+    description: "Orquestro agentes de programação como frentes paralelas de engenharia para levar funcionalidades completas, e às vezes produtos inteiros, da ambiguidade à produção com mais velocidade. Enquadro o problema, defino arquitetura e restrições, integro e verifico o trabalho e assumo a qualidade final e o resultado em produção."
+    figure_label: "FIG. 02 · ENTREGA ACELERADA POR AGENTES"
+    figure_summary: "ENQUADRAR · PARALELIZAR · INTEGRAR · ENTREGAR"
+    image_alt: "Quatro estações robóticas com IA preparam componentes em paralelo enquanto uma pessoa engenheira os integra em um único produto final."
+    phases:
+      - { number: "01", title: "Enquadrar", description: "transformar ambiguidade em resultados e restrições" }
+      - { number: "02", title: "Paralelizar", description: "executar frentes delimitadas de agentes de IA simultaneamente" }
+      - { number: "03", title: "Integrar", description: "revisar, testar, questionar e conciliar o trabalho" }
+      - { number: "04", title: "Entregar", description: "assumir a entrega e o resultado em produção" }
+    delegated_title: "COMO AGENTES DE IA ACELERAM"
+    delegated: ["Exploração da base e opções de implementação", "Fatias verticais focadas a partir de critérios de aceite explícitos", "Estrutura de testes, migrações e mudanças repetíveis", "Documentação, preparação para revisão e análise de regressões"]
+    owned_title: "O QUE ASSUMO DE PONTA A PONTA"
+    owned: ["Definição do produto, arquitetura e decisões técnicas", "Segurança, precisão dos dados, acessibilidade e modos de falha", "Integração, avaliação, testes e observabilidade", "Performance, prontidão da entrega e resultados em produção"]
+    note: "Agentes de IA ampliam a capacidade de execução. Eu assumo as decisões, a qualidade e o resultado."
+    link: "VER TRABALHOS ACELERADOS POR IA"
+  proof:
+    eyebrow: "A PRÁTICA EM PRODUÇÃO"
+    title: "Os princípios"
+    emphasis: "deixam evidências."
+    description: "Sistemas diferentes, mesma disciplina: entender a restrição real, escolher um limite deliberado, verificar o resultado e conduzi-lo em produção."
+    supporting: "O projeto muda; o padrão de trabalho não. Cada exemplo conecta uma decisão de engenharia a um resultado sob restrições reais."
+    note_label: "NOTA DE CAMPO"
+    note_watermark: "EVIDÊNCIA"
+    note_start: "“A entrega é a afirmação."
+    note_emphasis: "A evidência em produção"
+    note_end: "é a prova.”"
+    items:
+      - { project: "G2i", label: "AMBIENTES DE TREINAMENTO DE IA", result: "Delegação com escopo e responsabilidade pessoal por revisão, segurança, testes, performance e entrega final.", tag: "ai" }
+      - { project: "Wolf Pro Link", label: "MODERNIZAÇÃO EM NUVEM", result: "60% menos erros em execução e 3× mais usuários simultâneos sem aumentar o custo AWS.", tag: "aws" }
+      - { project: "Aiah", label: "ATENDIMENTO RESILIENTE COM IA", result: "Respostas protegidas, transferência humana, fluxos assíncronos e recuperação de falhas de provedores.", tag: "nodejs" }
+      - { project: "Ceros", label: "PLATAFORMA CORPORATIVA", result: "Modernização de API e React, acessibilidade, padrões de teste, infraestrutura e colaboração escalável.", tag: "accessibility" }
+    primary: "EXPLORAR TODO O TRABALHO"
+  close:
+    eyebrow: "FIM DO CAPÍTULO TRÊS"
+    title: "Traga o problema"
+    emphasis: "por trás do ticket."
+    description: "Se seu time precisa de um engenheiro que mantenha produto, sistema e caminho de entrega no mesmo quadro, vamos conversar."
+    primary: "INICIAR CONVERSA"
+    secondary: "PERCORRER A JORNADA"
+
+es:
+  hero:
+    chapter: "03 · INGENIERÍA · CÓMO TRABAJO"
+    title: "CONVIERTO COMPLEJIDAD"
+    emphasis: "en entregas."
+    description: "Mi trabajo no es solo producir código. Es convertir necesidades inciertas de producto en sistemas que un equipo pueda entender, verificar, operar y seguir mejorando."
+    primary: "VER LA EVIDENCIA"
+    secondary: "INICIAR CONVERSACIÓN"
+    legend_primary: "PENSAMIENTO SISTÉMICO"
+    legend_secondary: "PRÁCTICA EN PRODUCCIÓN"
+    image_alt: "Planos de ingeniería superpuestos conectan interfaces, API, datos, nube, flujos de IA y verificación mediante una única ruta ámbar hasta producción."
+  model:
+    eyebrow: "EL MODELO DE TRABAJO"
+    title: "Entra contexto."
+    emphasis: "Sale software confiable."
+    description: "La intención de producto, las restricciones, los sistemas existentes y el riesgo operativo pasan por el mismo ciclo antes de convertirse en software. El proceso es iterativo; la responsabilidad es continua."
+    note: "El criterio no es una revisión al final. Orienta cada límite, decisión y entrega."
+    figure_label: "FIG. 01 · EL SISTEMA DE ENTREGA"
+    figure_axis: "CONTEXTO · CRITERIO · PRODUCCIÓN"
+    figure_caption: "El criterio de ingeniería es el eje: las entradas se convierten en una entrega que el equipo puede entender, verificar y operar."
+    figure_alt: "Un espacio de trabajo de ingeniería con diagramas de arquitectura, cuaderno, portátil e instrumentos de medición que representa el camino del contexto de producto al software confiable en producción."
+    steps:
+      - { number: "01", title: "Enmarcar", description: "Usuario, resultado, restricciones, sistema existente y menor entrega útil." }
+      - { number: "02", title: "Construir", description: "Cortes verticales entre interfaz, API, datos e infraestructura." }
+      - { number: "03", title: "Verificar", description: "Revisión, pruebas exploratorias y automatizadas, benchmarks y CI como evidencia." }
+      - { number: "04", title: "Operar", description: "Señales de producción, incidentes, recuperación y aprendizaje para la siguiente decisión." }
+  principles:
+    eyebrow: "PRINCIPIOS DE INGENIERÍA"
+    title: "Criterio antes que"
+    emphasis: "maquinaria."
+    description: "Reglas de trabajo ganadas en plataformas de alto tráfico, SaaS empresarial, migraciones a la nube, productos de IA y bases desconocidas bajo presión de entrega."
+    link: "EXPLORAR EL TRABAJO"
+    item_label: "PRINCIPIO"
+    featured_label: "DESTACADO"
+    items:
+      - { number: "01", title: "Responder por el resultado de extremo a extremo", tag: "fullstack", description: "Una funcionalidad no termina en el pull request. Sigo la intención, arquitectura, entrega, lanzamiento y comportamiento en producción." }
+      - { number: "02", title: "Las restricciones preceden la implementación", tag: "backend", description: "Seguridad, forma de los datos, fallos, costo y mantenimiento definen la solución. Nombrarlos temprano evita certezas caras después." }
+      - { number: "03", title: "La confiabilidad forma parte del flujo", tag: "quality", description: "Pruebas, observabilidad, recuperación y validación del lanzamiento son entradas del diseño, no una fase final de endurecimiento." }
+      - { number: "04", title: "Hacer comprensible el sistema", tag: "leadership", description: "Límites claros, decisiones registradas, convenciones útiles y revisiones enfocadas permiten que la siguiente persona avance sin adivinar." }
+      - { number: "05", title: "Medir antes de optimizar", tag: "performance", description: "Benchmarks, señales de producción y pruebas de regresión separan cuellos reales de historias convincentes sobre ellos." }
+      - { number: "06", title: "La IA acelera; los ingenieros responden", tag: "ai", description: "Los agentes amplían la capacidad de implementación. Arquitectura, verificación, seguridad, precisión y la decisión final siguen siendo humanas." }
+  ai:
+    eyebrow: "ENTREGA DE PRODUCTO ACELERADA POR IA"
+    title: "Los agentes de IA aceleran la entrega."
+    emphasis: "Yo asumo el resultado."
+    description: "Orquesto agentes de programación como frentes paralelos de ingeniería para llevar funcionalidades completas, y a veces productos enteros, desde la ambigüedad hasta producción con mayor velocidad. Enmarco el problema, defino arquitectura y restricciones, integro y verifico el trabajo y asumo la calidad final y el resultado en producción."
+    figure_label: "FIG. 02 · ENTREGA ACELERADA POR AGENTES"
+    figure_summary: "ENMARCAR · PARALELIZAR · INTEGRAR · ENTREGAR"
+    image_alt: "Cuatro estaciones robóticas con IA preparan componentes en paralelo mientras una persona ingeniera los integra en un único producto final."
+    phases:
+      - { number: "01", title: "Enmarcar", description: "convertir la ambigüedad en resultados y restricciones" }
+      - { number: "02", title: "Paralelizar", description: "ejecutar frentes delimitados de agentes de IA simultáneamente" }
+      - { number: "03", title: "Integrar", description: "revisar, probar, cuestionar y conciliar el trabajo" }
+      - { number: "04", title: "Entregar", description: "asumir el lanzamiento y el resultado en producción" }
+    delegated_title: "CÓMO ACELERAN LOS AGENTES DE IA"
+    delegated: ["Exploración de la base y opciones de implementación", "Cortes verticales enfocados desde criterios de aceptación explícitos", "Estructura de pruebas, migraciones y cambios repetibles", "Documentación, preparación para revisión y análisis de regresiones"]
+    owned_title: "LO QUE ASUMO DE PRINCIPIO A FIN"
+    owned: ["Definición de producto, arquitectura y decisiones técnicas", "Seguridad, precisión de datos, accesibilidad y modos de fallo", "Integración, evaluación, pruebas y observabilidad", "Rendimiento, preparación del lanzamiento y resultados en producción"]
+    note: "Los agentes de IA amplían la capacidad de ejecución. Yo asumo las decisiones, la calidad y el resultado."
+    link: "VER TRABAJO ACELERADO POR IA"
+  proof:
+    eyebrow: "LA PRÁCTICA EN PRODUCCIÓN"
+    title: "Los principios"
+    emphasis: "dejan evidencia."
+    description: "Sistemas diferentes, la misma disciplina: entender la restricción real, elegir un límite deliberado, verificar el resultado y llevarlo a producción."
+    supporting: "El proyecto cambia; el estándar de trabajo no. Cada ejemplo conecta una decisión de ingeniería con un resultado bajo restricciones reales."
+    note_label: "NOTA DE CAMPO"
+    note_watermark: "EVIDENCIA"
+    note_start: "“La entrega es la afirmación."
+    note_emphasis: "La evidencia en producción"
+    note_end: "es la prueba.”"
+    items:
+      - { project: "G2i", label: "ENTORNOS DE ENTRENAMIENTO DE IA", result: "Delegación con alcance y responsabilidad personal por revisión, seguridad, pruebas, rendimiento y entrega final.", tag: "ai" }
+      - { project: "Wolf Pro Link", label: "MODERNIZACIÓN EN LA NUBE", result: "60% menos errores de ejecución y 3× más usuarios simultáneos sin aumentar el costo de AWS.", tag: "aws" }
+      - { project: "Aiah", label: "ATENCIÓN RESILIENTE CON IA", result: "Respuestas protegidas, transferencia humana, flujos asíncronos y recuperación ante fallos de proveedores.", tag: "nodejs" }
+      - { project: "Ceros", label: "PLATAFORMA EMPRESARIAL", result: "Modernización de API y React, accesibilidad, estándares de prueba, infraestructura y colaboración escalable.", tag: "accessibility" }
+    primary: "EXPLORAR TODO EL TRABAJO"
+  close:
+    eyebrow: "FIN DEL CAPÍTULO TRES"
+    title: "Tráeme el problema"
+    emphasis: "detrás del ticket."
+    description: "Si tu equipo necesita un ingeniero capaz de sostener producto, sistema y ruta de entrega en el mismo marco, conversemos."
+    primary: "INICIAR CONVERSACIÓN"
+    secondary: "RECORRER LA TRAYECTORIA"
