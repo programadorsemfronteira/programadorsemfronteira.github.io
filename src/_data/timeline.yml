@@ -64,7 +64,7 @@ en:
       role: "PHP DEVELOPER → .NET DEVELOPER → LEAD DEVELOPER · LEVEL UP GAMES"
       problem: "One of Brazil's largest online-game publishers needed to serve players, payments, support, e-commerce, and large downloads under intense demand."
       story:
-        - "My infrastructure background changed the way I approached software. When servers struggled under traffic, I could follow the problem across the network, web server, cache, database, and deployment environment. I began mentoring a junior developer, moved to the .NET team closer to the core business, and eventually led a six-person team while managing projects and delivery."
+        - "My infrastructure background changed the way I approached software. When servers struggled under traffic, I could follow the problem across the network, web server, cache, database, and deployment environment. I built the CMS that gave editors access to site content, worked with marketing to launch campaigns, and delivered an early banner-serving system for the game websites. As web architecture owner, I carried SEO, accessibility, responsive and mobile-first development, and performance measurement with Google Analytics, Tag Manager, PageSpeed Insights, and Core Web Vitals. I began mentoring a junior developer, moved to the .NET team closer to the core business, and eventually led a six-person team while managing projects and delivery."
         - "Soon after joining, I identified security weaknesses and proposed mitigations. I was technically right, but I had not yet learned how to turn knowledge into organizational action. When the company was later attacked, I joined the incident response effort. Discovering a risk is only the beginning. A leader must communicate it in a way that makes action possible."
       learned: "Engineering leadership is helping people understand the problem, make better decisions, and move together when the stakes are real."
       mindset: "Own the outcome, not only the implementation."
@@ -77,7 +77,7 @@ en:
       role: "FRONTEND DEVELOPER / DEVOPS ENGINEER / SOFTWARE ARCHITECT · CROSSOVER"
       problem: "Global teams needed to modernize long-lived enterprise systems without disrupting the people already depending on them."
       story:
-        - "Crossover was my first experience working for a US company. I worked across frontend development, DevOps, cloud infrastructure, and software architecture, deepening my experience with Docker, Azure, AWS, CI/CD, and enterprise modernization."
+        - "Crossover was my first experience working for a US company. I worked across frontend development, DevOps, cloud infrastructure, and software architecture, deepening my experience with Docker, Azure, AWS, CI/CD, Terraform, and enterprise modernization."
         - "The role changed how I thought about architecture. A good idea was not enough. I had to make the reasoning visible, test assumptions, build proofs of concept, and give distributed teams evidence they could use to move forward."
       learned: "Architecture is not authority. It is the practice of turning ambiguity into decisions a team can understand, test, and execute."
       mindset: "Make the direction clear enough for others to build on it."
@@ -103,7 +103,7 @@ en:
       role: "SENIOR FULL-STACK DEVELOPER / AI ENGINEER · EARLY-STAGE PRODUCTS"
       problem: "Early-stage companies needed to turn uncertain ideas into products that people could use and the business could operate."
       story:
-        - "For almost three years, I helped small companies take ideas from paper to MVP and from MVP to production. There was rarely a large team or a perfect specification, so I moved between product discovery, interface decisions, APIs, data, cloud infrastructure, delivery, and mentoring."
+        - "For almost three years, I helped small companies take ideas from paper to MVP and from MVP to production. There was rarely a large team or a perfect specification, so I moved between product discovery, interface decisions, APIs, data, cloud infrastructure, delivery, and mentoring. At JDJ, I owned web architecture across products, including SEO, accessibility, responsive and mobile-first development, performance and Core Web Vitals."
         - "This was also where AI became central to my work, both as a product capability and an engineering partner. I learned that connecting an application to a model is the easy part. The real product lives in everything around it: context, validation, state, human handoff, security, recovery, cost, and trust."
       learned: "Early-stage engineering is the discipline of turning uncertainty into something useful, testable, and real."
       mindset: "Do not wait for certainty. Build the system that creates it."
@@ -189,7 +189,7 @@ pt-br:
       role: "DESENVOLVEDOR PHP → DESENVOLVEDOR .NET → DESENVOLVEDOR LÍDER · LEVEL UP GAMES"
       problem: "Uma das maiores publicadoras de jogos online do Brasil precisava atender jogadores, pagamentos, suporte, comércio eletrônico e grandes downloads sob demanda intensa."
       story:
-        - "Minha experiência em infraestrutura mudou a forma como eu abordava software. Quando os servidores sofriam com o tráfego, eu acompanhava o problema pela rede, servidor web, cache, banco de dados e implantação. Comecei orientando um desenvolvedor júnior, migrei para o time .NET mais próximo do núcleo do negócio e depois liderei uma equipe de seis pessoas."
+        - "Minha experiência em infraestrutura mudou a forma como eu abordava software. Quando os servidores sofriam com o tráfego, eu acompanhava o problema pela rede, servidor web, cache, banco de dados e implantação. Criei o CMS que deu aos editores acesso ao conteúdo do site, trabalhei com o marketing para lançar campanhas e entreguei um dos primeiros sistemas de veiculação de banners para os sites de jogos. Como responsável pela arquitetura web, cuidei de SEO, acessibilidade, desenvolvimento responsivo e mobile-first e medição de desempenho com Google Analytics, Tag Manager, PageSpeed Insights e Core Web Vitals. Comecei orientando um desenvolvedor júnior, migrei para o time .NET mais próximo do núcleo do negócio e depois liderei uma equipe de seis pessoas."
         - "Pouco depois de chegar, identifiquei vulnerabilidades e propus correções. Eu estava tecnicamente certo, mas ainda não sabia transformar conhecimento em ação organizacional. Quando a empresa sofreu um ataque, participei da resposta ao incidente. Descobrir um risco é apenas o começo. Um líder precisa comunicá-lo de uma forma que torne a ação possível."
       learned: "Liderança em engenharia é ajudar as pessoas a entender o problema, tomar decisões melhores e avançar juntas quando há muito em jogo."
       mindset: "Assumir o resultado, não apenas a implementação."
@@ -202,7 +202,7 @@ pt-br:
       role: "DESENVOLVEDOR FRONTEND / ENGENHEIRO DEVOPS / ARQUITETO DE SOFTWARE · CROSSOVER"
       problem: "Equipes globais precisavam modernizar sistemas corporativos longevos sem interromper as pessoas que já dependiam deles."
       story:
-        - "A Crossover foi minha primeira experiência trabalhando para uma empresa dos Estados Unidos. Atuei em frontend, DevOps, infraestrutura em nuvem e arquitetura, aprofundando minha experiência com Docker, Azure, AWS, CI/CD e modernização corporativa."
+        - "A Crossover foi minha primeira experiência trabalhando para uma empresa dos Estados Unidos. Atuei em frontend, DevOps, infraestrutura em nuvem e arquitetura, aprofundando minha experiência com Docker, Azure, AWS, CI/CD, Terraform e modernização corporativa."
         - "A função mudou minha forma de pensar sobre arquitetura. Uma boa ideia não bastava. Eu precisava tornar o raciocínio visível, testar hipóteses, construir provas de conceito e oferecer evidências para equipes distribuídas avançarem."
       learned: "Arquitetura não é autoridade. É transformar ambiguidade em decisões que uma equipe consegue entender, testar e executar."
       mindset: "Tornar a direção clara o bastante para que outros construam sobre ela."
@@ -228,7 +228,7 @@ pt-br:
       role: "DESENVOLVEDOR FULL-STACK SÊNIOR / ENGENHEIRO DE IA · PRODUTOS EM ESTÁGIO INICIAL"
       problem: "Empresas em estágio inicial precisavam transformar ideias incertas em produtos que pessoas pudessem usar e o negócio operar."
       story:
-        - "Por quase três anos, ajudei pequenas empresas a levar ideias do papel ao MVP e do MVP à produção. Raramente havia uma equipe grande ou especificação perfeita, então transitei entre produto, interface, APIs, dados, nuvem, entrega e mentoria."
+        - "Por quase três anos, ajudei pequenas empresas a levar ideias do papel ao MVP e do MVP à produção. Raramente havia uma equipe grande ou especificação perfeita, então transitei entre produto, interface, APIs, dados, nuvem, entrega e mentoria. Na JDJ, fui responsável pela arquitetura web em diferentes produtos, incluindo SEO, acessibilidade, desenvolvimento responsivo e mobile-first, desempenho e Core Web Vitals."
         - "Foi também quando a IA se tornou central no meu trabalho, como capacidade do produto e parceira de engenharia. Aprendi que conectar uma aplicação a um modelo é a parte fácil. O produto real está ao redor dele: contexto, validação, estado, transferência humana, segurança, recuperação, custo e confiança."
       learned: "Engenharia em estágio inicial é transformar incerteza em algo útil, testável e real."
       mindset: "Não esperar pela certeza. Construir o sistema que a produz."
@@ -314,7 +314,7 @@ es:
       role: "DESARROLLADOR PHP → DESARROLLADOR .NET → DESARROLLADOR LÍDER · LEVEL UP GAMES"
       problem: "Una de las mayores editoras de juegos online de Brasil necesitaba atender jugadores, pagos, soporte, comercio electrónico y grandes descargas bajo una demanda intensa."
       story:
-        - "Mi experiencia en infraestructura cambió mi forma de abordar el software. Cuando los servidores sufrían bajo el tráfico, podía seguir el problema por la red, el servidor web, la caché, la base de datos y el despliegue. Empecé orientando a un desarrollador júnior, pasé al equipo .NET más cerca del núcleo del negocio y terminé liderando a seis personas."
+        - "Mi experiencia en infraestructura cambió mi forma de abordar el software. Cuando los servidores sufrían bajo el tráfico, podía seguir el problema por la red, el servidor web, la caché, la base de datos y el despliegue. Construí el CMS que dio a los editores acceso al contenido del sitio, trabajé con marketing para lanzar campañas y entregué uno de los primeros sistemas de publicación de banners para los sitios de juegos. Como responsable de la arquitectura web, llevé SEO, accesibilidad, desarrollo adaptable y mobile-first, y medición de rendimiento con Google Analytics, Tag Manager, PageSpeed Insights y Core Web Vitals. Empecé orientando a un desarrollador júnior, pasé al equipo .NET más cerca del núcleo del negocio y terminé liderando a seis personas."
         - "Poco después de llegar, identifiqué vulnerabilidades y propuse mitigaciones. Tenía razón técnicamente, pero aún no sabía convertir conocimiento en acción organizativa. Cuando la empresa sufrió un ataque, participé en la respuesta al incidente. Descubrir un riesgo es solo el comienzo. Un líder debe comunicarlo de una forma que haga posible actuar."
       learned: "El liderazgo en ingeniería ayuda a las personas a entender el problema, tomar mejores decisiones y avanzar juntas cuando hay mucho en juego."
       mindset: "Asumir el resultado, no solo la implementación."
@@ -327,7 +327,7 @@ es:
       role: "DESARROLLADOR FRONTEND / INGENIERO DEVOPS / ARQUITECTO DE SOFTWARE · CROSSOVER"
       problem: "Los equipos globales necesitaban modernizar sistemas empresariales longevos sin interrumpir a las personas que dependían de ellos."
       story:
-        - "Crossover fue mi primera experiencia trabajando para una empresa de Estados Unidos. Trabajé en frontend, DevOps, infraestructura en la nube y arquitectura, profundizando mi experiencia con Docker, Azure, AWS, CI/CD y modernización empresarial."
+        - "Crossover fue mi primera experiencia trabajando para una empresa de Estados Unidos. Trabajé en frontend, DevOps, infraestructura en la nube y arquitectura, profundizando mi experiencia con Docker, Azure, AWS, CI/CD, Terraform y modernización empresarial."
         - "El puesto cambió mi forma de pensar sobre la arquitectura. Una buena idea no bastaba. Tenía que hacer visible el razonamiento, probar hipótesis, construir pruebas de concepto y ofrecer evidencia para que equipos distribuidos avanzaran."
       learned: "La arquitectura no es autoridad. Es convertir la ambigüedad en decisiones que un equipo puede entender, probar y ejecutar."
       mindset: "Hacer la dirección lo bastante clara para que otros construyan sobre ella."
@@ -353,7 +353,7 @@ es:
       role: "DESARROLLADOR FULL-STACK SÉNIOR / INGENIERO DE IA · PRODUCTOS EN ETAPA INICIAL"
       problem: "Las empresas en etapa inicial necesitaban convertir ideas inciertas en productos que las personas pudieran usar y el negocio operar."
       story:
-        - "Durante casi tres años, ayudé a pequeñas empresas a llevar ideas del papel al MVP y del MVP a producción. Rara vez había un equipo grande o una especificación perfecta, así que me moví entre producto, interfaz, API, datos, nube, entrega y mentoría."
+        - "Durante casi tres años, ayudé a pequeñas empresas a llevar ideas del papel al MVP y del MVP a producción. Rara vez había un equipo grande o una especificación perfecta, así que me moví entre producto, interfaz, API, datos, nube, entrega y mentoría. En JDJ, fui responsable de la arquitectura web de distintos productos, incluido SEO, accesibilidad, desarrollo adaptable y mobile-first, rendimiento y Core Web Vitals."
         - "También fue entonces cuando la IA se volvió central en mi trabajo, como capacidad de producto y compañera de ingeniería. Aprendí que conectar una aplicación a un modelo es la parte fácil. El producto real vive a su alrededor: contexto, validación, estado, transferencia humana, seguridad, recuperación, costo y confianza."
       learned: "La ingeniería en etapa inicial convierte la incertidumbre en algo útil, comprobable y real."
       mindset: "No esperar la certeza. Construir el sistema que la produce."

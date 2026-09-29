@@ -54,6 +54,7 @@ Aiah:
     - "Integrated Meta's WhatsApp API with the customer-service workflow, connecting messages to LLM responses, tool calls, and human handoff."
     - "Built validation and response guardrails to keep product, service, and contact information tied to real business data instead of fabricated model output."
     - "Used GraphQL, asynchronous message processing, RAG with pgvector, and AWS infrastructure to support the product and its recovery paths."
+    - "Implemented server-side rendering for public content so the product could be discovered by search engines without giving up the interactive application experience."
     - "Owned application architecture and production delivery, designing recovery behavior for AWS and external API interruptions so conversations could resume safely."
   impact: "Delivered WhatsApp-connected AI customer service with guarded replies, validated workflows, and human handoff. During an AWS outage, no messages were lost; after AWS recovered, the system resumed and answered every message."
   lesson: "Customer-facing AI needs both factual guardrails and failure recovery: a fluent reply is not enough if the information is invented or a message is lost."
@@ -70,6 +71,7 @@ Aiah:
         - "Integrei a API do WhatsApp da Meta ao fluxo de atendimento, conectando mensagens a respostas do LLM, chamadas de ferramentas e transferência para atendimento humano."
         - "Criei validações e proteções para manter informações sobre produtos, serviços e contatos vinculadas aos dados reais do negócio, evitando conteúdo inventado pelo modelo."
         - "Usei GraphQL, processamento assíncrono de mensagens, RAG com pgvector e infraestrutura AWS para sustentar o produto e seus fluxos de recuperação."
+        - "Implementei renderização no servidor para o conteúdo público ser encontrado em buscadores, sem abrir mão da experiência interativa da aplicação."
         - "Assumi a arquitetura da aplicação e a entrega em produção, projetando a recuperação de interrupções da AWS e de APIs externas para que as conversas pudessem continuar com segurança."
       impact: "Entreguei atendimento com IA integrado ao WhatsApp, com respostas protegidas, fluxos validados e transferência para uma pessoa. Durante uma indisponibilidade da AWS, nenhuma mensagem foi perdida; após a recuperação, o sistema voltou a responder a todas elas."
       lesson: "Uma IA voltada ao cliente precisa de proteções contra informações inventadas e de recuperação de falhas: uma resposta fluente não basta se uma mensagem se perde."
@@ -85,6 +87,7 @@ Aiah:
         - "Integré la API de WhatsApp de Meta en el flujo de atención, conectando mensajes con respuestas del LLM, llamadas a herramientas y transferencia a una persona."
         - "Creé validaciones y salvaguardas para mantener la información sobre productos, servicios y contactos vinculada a datos reales del negocio, evitando contenido inventado por el modelo."
         - "Usé GraphQL, procesamiento asíncrono de mensajes, RAG con pgvector e infraestructura de AWS para sostener el producto y sus rutas de recuperación."
+        - "Implementé renderizado en el servidor para que los buscadores encontraran el contenido público, sin renunciar a la experiencia interactiva de la aplicación."
         - "Asumí la arquitectura de la aplicación y la entrega en producción, diseñando la recuperación ante interrupciones de AWS y de API externas para que las conversaciones pudieran continuar de forma segura."
       impact: "Entregué atención con IA integrada con WhatsApp, con respuestas protegidas, flujos validados y transferencia a una persona. Durante una caída de AWS no se perdió ningún mensaje; tras la recuperación, el sistema volvió a responderlos todos."
       lesson: "Una IA orientada al cliente necesita protección frente a datos inventados y recuperación ante fallos: una respuesta fluida no basta si se pierde un mensaje."
@@ -195,6 +198,7 @@ Redestina:
     - "Monitored container arrivals in an external system and initiated the transfer workflow when action was needed."
     - "Coordinated checks, documentation, and notifications in the required order while safeguarding certificate-based access."
     - "Used DynamoDB Streams and SQS to drive downstream work and reprocess failed tasks."
+    - "Implemented server-side rendering for public pages, improving their search visibility while keeping the operational application interactive."
     - "Supported delivery through code review, engineering guidance, and junior-developer mentoring."
   impact: "Improved container handoff reliability through ordered steps and retryable tasks, while strengthening team delivery through code reviews and mentoring junior developers."
   lesson: "In logistics, reliability is a workflow property: secure access, ordered steps, and failure recovery matter as much as the happy path."
@@ -211,6 +215,7 @@ Redestina:
         - "Monitorei a chegada de contêineres em um sistema externo e iniciei o fluxo de transferência quando era preciso agir."
         - "Coordenei verificações, documentação e notificações na ordem necessária, protegendo o acesso por certificado."
         - "Usei DynamoDB Streams e SQS para acionar as próximas etapas e reprocessar tarefas com falha."
+        - "Implementei renderização no servidor para páginas públicas, melhorando sua encontrabilidade em buscadores e mantendo a aplicação operacional interativa."
         - "Apoiei a entrega com revisão de código, orientação técnica e mentoria de desenvolvedores iniciantes."
       impact: "Tornei as transferências mais confiáveis com etapas ordenadas e reprocessamento de falhas, enquanto fortalecia a entrega do time com revisões de código e mentoria de desenvolvedores juniores."
       lesson: "Em logística, confiabilidade depende do fluxo inteiro: acesso seguro, etapas na ordem certa e recuperação de falhas são tão importantes quanto o caminho ideal."
@@ -226,6 +231,7 @@ Redestina:
         - "Supervisé la llegada de contenedores en un sistema externo e inicié el flujo de traslado cuando era necesario actuar."
         - "Coordiné verificaciones, documentación y avisos en el orden requerido, protegiendo el acceso mediante certificado."
         - "Usé DynamoDB Streams y SQS para activar los pasos siguientes y reprocesar tareas fallidas."
+        - "Implementé renderizado en el servidor para páginas públicas, mejorando su visibilidad en buscadores y manteniendo interactiva la aplicación operativa."
         - "Apoyé la entrega con revisión de código, orientación técnica y mentoría a desarrolladores principiantes."
       impact: "Hice más fiables los traslados con pasos ordenados y reprocesamiento de fallos, mientras fortalecía las entregas del equipo mediante revisiones de código y mentoría a desarrolladores júnior."
       lesson: "En logística, la fiabilidad depende de todo el flujo: acceso seguro, pasos ordenados y recuperación ante fallos importan tanto como el camino ideal."
@@ -242,8 +248,9 @@ Rocketicons:
   approach:
     - "Together, we built a CLI that initializes TypeScript projects and writes selected icon components into local source for review and version control."
     - "We developed shared rendering utilities and Tailwind-compatible styling for React and React Native."
-    - "When Vercel and later AWS Amplify became too expensive for the project, we moved the localized explorer and versioned catalog to a static site on Cloudflare Pages."
-  impact: "Developers can keep only the icons they choose in their own codebase, with a consistent component API across web and native projects; the public catalog is delivered as a static site."
+    - "Built on an SSR foundation to generate the localized explorer and versioned catalog as a static site on Cloudflare Pages after Vercel and AWS Amplify became too expensive."
+    - "Designed SEO for search engines and AI agents so the public catalog can be discovered and understood."
+  impact: "Developers can keep only the icons they choose in their own codebase, with a consistent component API across web and native projects; the public catalog is generated from an SSR foundation and delivered statically on Cloudflare Pages."
   lesson: "For open source, architecture includes hosting economics: simplifying delivery can keep a useful project sustainable."
   metrics:
     - { value: "LOCAL", label: "SELECTED ICON SOURCE" }
@@ -257,8 +264,9 @@ Rocketicons:
       approach:
         - "Juntos, criamos uma CLI que configura projetos TypeScript e grava os componentes de ícones escolhidos no código local, onde podem ser revisados e versionados."
         - "Desenvolvemos utilitários de renderização e estilos compatíveis com Tailwind para React e React Native."
-        - "Quando Vercel e depois AWS Amplify ficaram caros demais para o projeto, levamos o explorador localizado e o catálogo versionado para um site estático no Cloudflare Pages."
-      impact: "Desenvolvedores mantêm apenas os ícones escolhidos no próprio código, com uma API de componentes consistente para projetos web e nativos; o catálogo público é entregue como site estático."
+        - "Usamos uma base com renderização no servidor para gerar o explorador localizado e o catálogo versionado como site estático no Cloudflare Pages, depois que Vercel e AWS Amplify ficaram caros demais para o projeto."
+        - "Projetei o SEO para buscadores e agentes de IA encontrarem e entenderem o catálogo público."
+      impact: "Desenvolvedores mantêm apenas os ícones escolhidos no próprio código, com uma API de componentes consistente para projetos web e nativos; o catálogo público é gerado a partir de uma base com renderização no servidor e entregue estaticamente no Cloudflare Pages."
       lesson: "Em projetos de código aberto, a arquitetura inclui o custo de hospedagem: simplificar a entrega pode manter o projeto sustentável."
       metrics:
         - { value: "LOCAL", label: "CÓDIGO DOS ÍCONES ESCOLHIDOS" }
@@ -271,8 +279,9 @@ Rocketicons:
       approach:
         - "Juntos, creamos una CLI que configura proyectos TypeScript y escribe los componentes de iconos elegidos en el código local para revisarlos y versionarlos."
         - "Desarrollamos utilidades de renderizado y estilos compatibles con Tailwind para React y React Native."
-        - "Cuando Vercel y después AWS Amplify resultaron demasiado costosos para el proyecto, llevamos el explorador localizado y el catálogo versionado a un sitio estático en Cloudflare Pages."
-      impact: "Los desarrolladores conservan solo los iconos elegidos en su propio código, con una API de componentes coherente para proyectos web y nativos; el catálogo público se entrega como sitio estático."
+        - "Usamos una base de renderizado en el servidor para generar el explorador localizado y el catálogo versionado como sitio estático en Cloudflare Pages, después de que Vercel y AWS Amplify resultaran demasiado costosos para el proyecto."
+        - "Diseñé el SEO para que buscadores y agentes de IA encuentren y entiendan el catálogo público."
+      impact: "Los desarrolladores conservan solo los iconos elegidos en su propio código, con una API de componentes coherente para proyectos web y nativos; el catálogo público se genera desde una base de renderizado en el servidor y se entrega estáticamente en Cloudflare Pages."
       lesson: "En código abierto, la arquitectura incluye el costo de alojamiento: simplificar la entrega puede mantener sostenible el proyecto."
       metrics:
         - { value: "LOCAL", label: "CÓDIGO DE ICONOS ELEGIDOS" }
@@ -382,7 +391,7 @@ Crossover:
   challenge: "Keep enterprise applications moving while replacing aging technology foundations and making delivery and infrastructure more repeatable."
   approach:
     - "Led an Adobe Flex-to-AngularJS migration for a legacy HR platform and integrated IBM Watson into an educational application."
-    - "Implemented CI/CD workflows and Docker-based environments for applications and databases."
+    - "Implemented CI/CD workflows, Docker-based environments for applications and databases, and Terraform during DevOps work."
     - "Validated IIS and Microsoft SQL Server workloads in Windows containers, creating evidence for a lower-cost shared Azure infrastructure approach."
   impact: "Modernized foundations and delivery practice across internal and client-facing systems while improving maintainability and infrastructure utilization."
   lesson: "A proof of concept is most useful when it turns a disputed infrastructure direction into an informed decision."
@@ -397,7 +406,7 @@ Crossover:
       challenge: "Manter aplicações corporativas em operação enquanto substituía tecnologias antigas e tornava a entrega e a infraestrutura mais reproduzíveis."
       approach:
         - "Liderei a migração de Adobe Flex para AngularJS em uma plataforma legada de RH e integrei IBM Watson a uma aplicação educacional."
-        - "Implementei fluxos de CI/CD e ambientes com Docker para aplicações e bancos de dados."
+        - "Implementei fluxos de CI/CD, ambientes com Docker para aplicações e bancos de dados e trabalhei com Terraform durante a experiência em DevOps."
         - "Validei cargas de IIS e Microsoft SQL Server em contêineres Windows, produzindo evidências para uma abordagem de infraestrutura Azure compartilhada e de menor custo."
       impact: "Modernizei a base tecnológica e a prática de entrega de sistemas internos e voltados a clientes, melhorando a manutenção e o aproveitamento da infraestrutura."
       lesson: "Uma prova de conceito é mais útil quando transforma uma decisão de infraestrutura contestada em uma escolha baseada em evidências."
@@ -411,7 +420,7 @@ Crossover:
       challenge: "Mantener en funcionamiento aplicaciones empresariales mientras sustituía tecnologías antiguas y hacía más reproducibles la entrega y la infraestructura."
       approach:
         - "Lideré la migración de Adobe Flex a AngularJS en una plataforma heredada de RR. HH. e integré IBM Watson en una aplicación educativa."
-        - "Implementé flujos de CI/CD y entornos con Docker para aplicaciones y bases de datos."
+        - "Implementé flujos de CI/CD, entornos con Docker para aplicaciones y bases de datos, y trabajé con Terraform durante mi experiencia en DevOps."
         - "Validé cargas de IIS y Microsoft SQL Server en contenedores Windows, aportando evidencia para una infraestructura compartida en Azure de menor costo."
       impact: "Modernicé la base tecnológica y las prácticas de entrega de sistemas internos y orientados a clientes, mejorando el mantenimiento y el uso de la infraestructura."
       lesson: "Una prueba de concepto es más útil cuando convierte una decisión de infraestructura discutida en una elección basada en evidencias."
@@ -427,9 +436,11 @@ Level Up Games:
   challenge: "At what was then Brazil's largest online-game publisher, keep a site on self-managed dedicated servers responsive under thousands of simultaneous requests while leading a six-person engineering team."
   approach:
     - "Delivered and modernized web, e-commerce, billing, payment, and large-file delivery systems using PHP, .NET, AngularJS, and Yii."
+    - "Built the CMS that gave editors access to site content, worked closely with marketing to launch campaigns, and delivered an early banner-serving system for the game websites."
+    - "Owned web architecture across SEO, accessibility, responsive and mobile-first development, and performance measurement with Google Analytics, Tag Manager, PageSpeed Insights, and Core Web Vitals."
     - "When I arrived, the web farm ran only Apache. I put Tux in front of it, then later moved to Varnish with Nginx to serve heavy traffic more efficiently; I also tuned the backend and added monitoring and incident-response integrations."
     - "Introduced Jenkins CI and blue-green deployment practices; mentored engineers through reviews, training, SOLID principles, and testing."
-  impact: "Made self-managed servers more efficient under thousands of simultaneous requests while sustaining product delivery, reliable releases, and the growth of a six-person team."
+  impact: "Made self-managed servers more efficient under thousands of simultaneous requests while sustaining editorial publishing, campaign delivery, reliable releases, and the growth of a six-person team."
   lesson: "Leadership is holding the product, the operating system, and the growth of the team in view at the same time."
   metrics:
     - { value: "6", label: "ENGINEERS LED" }
@@ -442,9 +453,11 @@ Level Up Games:
       challenge: "Na então maior publicadora de jogos online do Brasil, manter responsivo um site em servidores dedicados administrados por nós, sob milhares de requisições simultâneas, enquanto liderava uma equipe de seis engenheiros."
       approach:
         - "Entreguei e modernizei sistemas web, comércio eletrônico, cobrança, pagamentos e distribuição de arquivos grandes com PHP, .NET, AngularJS e Yii."
+        - "Criei o CMS que deu aos editores acesso ao conteúdo do site, trabalhei próximo ao marketing para lançar campanhas e entreguei um dos primeiros sistemas de veiculação de banners para os sites de jogos."
+        - "Fui responsável pela arquitetura web, incluindo SEO, acessibilidade, desenvolvimento responsivo e mobile-first e medição de desempenho com Google Analytics, Tag Manager, PageSpeed Insights e Core Web Vitals."
         - "Quando cheguei, a infraestrutura web usava apenas Apache. Coloquei Tux à frente dele e, mais tarde, migrei para Varnish com Nginx para atender ao tráfego com mais eficiência; também ajustei o backend e acrescentei monitoramento e integrações para resposta a incidentes."
         - "Introduzi CI com Jenkins e deploys blue-green; orientei engenheiros com revisões, treinamentos, princípios SOLID e testes."
-      impact: "Tornei os servidores administrados por nós mais eficientes sob milhares de requisições simultâneas, mantendo as entregas do produto, os lançamentos confiáveis e o desenvolvimento da equipe de seis pessoas."
+      impact: "Tornei os servidores administrados por nós mais eficientes sob milhares de requisições simultâneas, mantendo a publicação editorial, a entrega de campanhas, os lançamentos confiáveis e o desenvolvimento da equipe de seis pessoas."
       lesson: "Liderar é cuidar ao mesmo tempo do produto, da operação e do crescimento da equipe."
       metrics:
         - { value: "6", label: "ENGENHEIROS LIDERADOS" }
@@ -456,9 +469,11 @@ Level Up Games:
       challenge: "En la entonces mayor editora de juegos online de Brasil, mantener ágil un sitio en servidores dedicados administrados por nosotros, bajo miles de solicitudes simultáneas, mientras lideraba un equipo de seis ingenieros."
       approach:
         - "Entregué y modernicé sistemas web, comercio electrónico, facturación, pagos y distribución de archivos grandes con PHP, .NET, AngularJS y Yii."
+        - "Construí el CMS que dio a los editores acceso al contenido del sitio, trabajé cerca de marketing para lanzar campañas y entregué uno de los primeros sistemas de publicación de banners para los sitios de juegos."
+        - "Fui responsable de la arquitectura web, incluido SEO, accesibilidad, desarrollo adaptable y mobile-first, y medición de rendimiento con Google Analytics, Tag Manager, PageSpeed Insights y Core Web Vitals."
         - "Cuando llegué, la infraestructura web usaba solo Apache. Puse Tux delante de él y, más adelante, migré a Varnish con Nginx para atender el tráfico con mayor eficiencia; también ajusté el backend y añadí monitoreo e integraciones para responder a incidentes."
         - "Introduje CI con Jenkins y despliegues blue-green; orienté a ingenieros mediante revisiones, formación, principios SOLID y pruebas."
-      impact: "Hice más eficientes los servidores administrados por nosotros ante miles de solicitudes simultáneas, manteniendo las entregas del producto, los lanzamientos fiables y el desarrollo del equipo de seis personas."
+      impact: "Hice más eficientes los servidores administrados por nosotros ante miles de solicitudes simultáneas, manteniendo la publicación editorial, la entrega de campañas, los lanzamientos fiables y el desarrollo del equipo de seis personas."
       lesson: "Liderar es atender al mismo tiempo el producto, la operación y el crecimiento del equipo."
       metrics:
         - { value: "6", label: "INGENIEROS LIDERADOS" }
