@@ -4780,6 +4780,7 @@ main.hub ul li:hover {
   }
   .portfolio-home .portfolio-artifact {
     min-height: 450px;
+    overflow: visible;
   }
   .portfolio-home .artifact-status {
     font-size: 8px;
@@ -4826,8 +4827,7 @@ main.hub ul li:hover {
     display: none;
   }
   .artifact-principles {
-    font-size: 7px;
-    letter-spacing: 0.2em;
+    display: none;
   }
 }
 /* Journey: a chapter-based timeline, deliberately separate from the résumé-like
@@ -5270,26 +5270,31 @@ main.hub ul li:hover {
     right: auto;
     transform: none;
     width: 100%;
-    overflow-x: auto;
+    height: auto;
+    overflow: hidden;
     flex-direction: row;
-    justify-content: center;
+    align-items: stretch;
+    justify-content: stretch;
     gap: 0;
-    padding: 8px 18px;
+    padding: 8px 10px;
     background: rgba(252, 252, 251, 0.96);
     border-bottom: 1px solid #e2e3e5;
   }
   .timeline-rail:after {
-    right: 18px;
-    left: 18px;
+    right: 10px;
+    left: 10px;
     top: auto;
     bottom: 8px;
     width: auto;
     height: 1px;
   }
   .timeline-rail a {
-    min-width: auto;
-    padding: 8px 12px 14px;
+    flex: 1 1 0;
+    min-width: 0;
+    padding: 8px 3px 14px;
     text-align: center;
+    font-size: 8px;
+    letter-spacing: 0.06em;
   }
   .timeline-rail a:after {
     top: auto;
@@ -6509,6 +6514,20 @@ main.hub ul li:hover {
   html.portfolio-motion-ready .timeline-artifact[data-reveal-on-view].is-visible {
     opacity: 1;
     transform: translate3d(0, 0, 0) rotateY(0) rotateX(0);
+  }
+}
+@media (max-width: 800px) {
+  .timeline-artifact-shell {
+    perspective: none;
+  }
+  .timeline-artifact {
+    transform-style: flat;
+  }
+  html.portfolio-motion-ready .timeline-artifact[data-reveal-on-view] {
+    opacity: 1;
+    transform: none;
+    transition: none;
+    will-change: auto;
   }
 }
 @media (min-width: 801px) {

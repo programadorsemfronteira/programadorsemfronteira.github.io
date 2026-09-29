@@ -73,7 +73,10 @@
     artifact.append(figure, caption);
   });
 
-  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  if (
+    window.matchMedia("(prefers-reduced-motion: reduce)").matches ||
+    window.matchMedia("(max-width: 800px)").matches
+  ) return;
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (!entry.isIntersecting) return;
