@@ -19,7 +19,7 @@
       current.scale += (target.scale - current.scale) * ease;
 
       artifact.style.transform = `perspective(1100px) rotateX(${current.rotateX.toFixed(2)}deg) rotateY(${current.rotateY.toFixed(2)}deg) scale(${current.scale.toFixed(3)})`;
-      glare.style.background = `radial-gradient(420px circle at ${current.x * 100}% ${current.y * 100}%, color-mix(in oklab, #ad6900 24%, transparent), transparent 55%)`;
+      glare.style.background = `radial-gradient(420px circle at ${current.x * 100}% ${current.y * 100}%, color-mix(in oklab, #9a551c 24%, transparent), transparent 55%)`;
 
       const settling = Math.abs(target.rotateX - current.rotateX) > 0.01 || Math.abs(target.rotateY - current.rotateY) > 0.01 || Math.abs(target.scale - current.scale) > 0.001;
       frame = hovering || settling ? requestAnimationFrame(render) : undefined;

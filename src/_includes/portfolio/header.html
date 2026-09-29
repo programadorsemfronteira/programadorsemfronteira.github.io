@@ -1,4 +1,4 @@
-{% assign engineering_path = '/' | append: page.lang | append: '/engineering/' %}{% if page.lang == 'en' %}{% assign engineering_path = '/engineering/' %}{% endif %}{% assign portfolio_ui = site.data.portfolio[page.lang].ui %}
+{% assign engineering_path = '/' | append: page.lang | append: '/engineering/' %}{% if page.lang == 'en' %}{% assign engineering_path = '/engineering/' %}{% endif %}{% assign portfolio_ui = site.data.portfolio[page.lang].ui %}{% assign linkedin_url = 'https://www.linkedin.com/in/' | append: site.linkedin_username | append: '/' %}
 <header class="portfolio-header">
   <div class="portfolio-header-inner">
     <a class="portfolio-brand" href="/{{ page.lang }}/" aria-label="{{ portfolio_ui.home_label }}"><b>JA</b><span>JEFERSON AMORIM</span></a>
@@ -7,11 +7,11 @@
       <a href="/{{ page.lang }}/work/" data-nav-target="work"{% if page.url contains '/work/' %} aria-current="page"{% endif %}>{{ page.copy.work }}</a>
       <a href="/{{ page.lang }}/journey/" data-nav-target="journey"{% if page.url contains '/journey/' %} aria-current="page"{% endif %}>{{ page.copy.journey }}</a>
       <a href="{{ engineering_path }}" data-nav-target="engineering"{% if page.url contains '/engineering/' %} aria-current="page"{% endif %}>{{ page.copy.engineering }}</a>
-      <a href="/{{ page.lang }}/#writing" data-nav-target="writing">{{ page.copy.writing }}</a>
     </nav>
+    <a class="portfolio-linkedin" href="{{ linkedin_url }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i><span aria-hidden="true">IN</span></a>
     <nav class="portfolio-languages" aria-label="{{ page.copy.language_navigation }}">
       <a href="{% if page.language_path == 'engineering/' %}/engineering/{% else %}/en/{{ page.language_path }}{% endif %}" lang="en">EN</a><span>/</span><a href="/pt-br/{{ page.language_path }}" lang="pt-BR">PT</a><span>/</span><a href="/es/{{ page.language_path }}" lang="es">ES</a>
     </nav>
-    <a class="portfolio-connect" href="#contact">{{ page.copy.connect }} ↗</a>
+    <a class="portfolio-connect" href="{{ linkedin_url }}" target="_blank" rel="noopener noreferrer">{{ page.copy.connect }} {% include portfolio/arrow-up-right.html %}</a>
   </div>
 </header>

@@ -1,7 +1,7 @@
 # Evidence for the extended Work case-study cards. Keep claims traceable to
 # Jeferson's LinkedIn profile or to the portfolio research notes.
 G2i:
-  heading: { en: "Building AI training environments", pt-br: "Ambientes para<br>treinar IA", es: "Entornos para<br>entrenar IA" }
+  heading: { en: "Building AI<br>training environments", pt-br: "Ambientes para<br>treinar IA", es: "Entornos para<br>entrenar IA" }
   period: { en: "JAN 2026-PRESENT", pt-br: "JAN 2026-HOJE", es: "ENE 2026-HOY" }
   role: "Senior Software Engineer / AI Engineer"
   challenge: "Deliver dependable training environments for a frontier AI lab while working across unfamiliar codebases and customer-facing workstreams."

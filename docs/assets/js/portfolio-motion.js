@@ -4,7 +4,9 @@
   const revealTargets = document.querySelectorAll(
     '.portfolio-feature, .portfolio-journey, .portfolio-close, .work-heading, .tag-explorer, .work-list article'
   );
-  const viewportTargets = document.querySelectorAll('[data-reveal-on-view]');
+  // Journey artifacts manage their own once-only 3D entrance. Keeping them out
+  // of this repeating observer prevents a threshold crossing from resetting them.
+  const viewportTargets = document.querySelectorAll('[data-reveal-on-view]:not(.timeline-artifact)');
 
   revealTargets.forEach((element) => element.classList.add('scroll-reveal'));
   viewportTargets.forEach((element) => element.classList.add('scroll-reveal'));

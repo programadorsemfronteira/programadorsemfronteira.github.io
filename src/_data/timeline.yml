@@ -16,6 +16,14 @@ en:
   technology_label: "TECH"
   transition: "The next chapter called for a wider system."
   work_link: "SEE THE WORK"
+  image_alts:
+    - "A late-1990s home computer and handwritten programming notes."
+    - "An early home network lab with cables, a switch, and a system diagram."
+    - "A game-platform engineering desk with delivery and operations tools."
+    - "A remote cloud-architecture workstation with deployment sketches."
+    - "An accessibility and product-platform workbench with component tokens."
+    - "Early product sketches, a prototype, and launch-planning tools."
+    - "An AI-native engineering workstation with a human final review."
   close:
     eyebrow: "THE NEXT CHAPTER"
     title: "The technology keeps changing."
@@ -133,6 +141,14 @@ pt-br:
   technology_label: "TECNOLOGIAS"
   transition: "O capítulo seguinte exigiu um sistema mais amplo."
   work_link: "VER O TRABALHO"
+  image_alts:
+    - "Um computador doméstico dos anos 1990 e anotações de programação manuscritas."
+    - "Um laboratório doméstico de rede com cabos, switch e diagrama de sistema."
+    - "Uma mesa de engenharia de plataforma de jogos com ferramentas de entrega e operações."
+    - "Uma estação remota de arquitetura em nuvem com esboços de implantação."
+    - "Uma bancada de acessibilidade e plataforma de produto com tokens de componentes."
+    - "Esboços de produto inicial, um protótipo e ferramentas de planejamento de lançamento."
+    - "Uma estação de engenharia nativa em IA com revisão humana final."
   close:
     eyebrow: "O PRÓXIMO CAPÍTULO"
     title: "A tecnologia continua mudando."
@@ -250,6 +266,14 @@ es:
   technology_label: "TECNOLOGÍAS"
   transition: "El capítulo siguiente exigió un sistema más amplio."
   work_link: "VER EL TRABAJO"
+  image_alts:
+    - "Un ordenador doméstico de los años 1990 y notas de programación manuscritas."
+    - "Un laboratorio doméstico de red con cables, switch y diagrama de sistema."
+    - "Un escritorio de ingeniería de plataforma de juegos con herramientas de entrega y operaciones."
+    - "Una estación remota de arquitectura en la nube con bocetos de despliegue."
+    - "Un banco de accesibilidad y plataforma de producto con tokens de componentes."
+    - "Bocetos de producto inicial, un prototipo y herramientas de planificación de lanzamiento."
+    - "Una estación de ingeniería nativa de IA con revisión humana final."
   close:
     eyebrow: "EL PRÓXIMO CAPÍTULO"
     title: "La tecnología sigue cambiando."

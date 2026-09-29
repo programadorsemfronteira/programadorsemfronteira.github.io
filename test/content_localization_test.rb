@@ -98,6 +98,20 @@ class ContentLocalizationTest < Minitest::Test
     end
   end
 
+  def test_generated_linkedin_links_open_in_a_new_tab
+    offenders = []
+
+    Dir[File.join(ROOT, "docs", "**", "*.html")].sort.each do |file|
+      File.read(file).scan(/<a\b[^>]*href="[^"]*linkedin\.com[^"]*"[^>]*>/i).each do |anchor|
+        next if anchor.include?('target="_blank"') && anchor.match?(/rel="[^"]*noopener[^"]*noreferrer[^"]*"/)
+
+        offenders << "#{relative(file)}: #{anchor}"
+      end
+    end
+
+    assert_empty offenders
+  end
+
   private
 
   def yaml(path)

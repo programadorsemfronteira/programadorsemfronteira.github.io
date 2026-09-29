@@ -2711,8 +2711,8 @@ main.hub ul li:hover {
 .portfolio-nav {
   display: flex;
   align-items: center;
-  gap: 32px;
-  margin-left: 36px;
+  gap: 40px;
+  margin-left: 150px;
 }
 
 .portfolio-nav a, .portfolio-languages {
@@ -2721,21 +2721,6 @@ main.hub ul li:hover {
   letter-spacing: 0.16em;
   text-decoration: none;
   color: #676970;
-}
-
-.portfolio-languages {
-  margin-left: auto;
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
-
-.portfolio-connect {
-  background: #08080a;
-  color: #fff;
-  padding: 0 20px;
-  margin-left: 16px;
-  letter-spacing: 0.12em;
 }
 
 .portfolio-nav a {
@@ -2747,7 +2732,7 @@ main.hub ul li:hover {
 }
 
 .portfolio-nav a:after {
-  background: #ad6900;
+  background: #9a551c;
   bottom: 10px;
   content: "";
   height: 2px;
@@ -2765,6 +2750,27 @@ main.hub ul li:hover {
 
 .portfolio-nav a:hover:after, .portfolio-nav a:focus-visible:after, .portfolio-nav a[aria-current]:after {
   transform: scaleX(1);
+}
+
+.portfolio-languages {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  align-self: center;
+  height: 34px;
+  padding: 0 12px;
+  border: 1px solid #d8d9dc;
+}
+
+.portfolio-connect {
+  align-self: center;
+  height: 34px;
+  background: #08080a;
+  color: #fff;
+  padding: 0 20px;
+  margin-left: 16px;
+  letter-spacing: 0.12em;
 }
 
 .portfolio-work {
@@ -2802,14 +2808,14 @@ main.hub ul li:hover {
 }
 
 .portfolio-script {
-  color: #ad6900;
+  color: #9a551c;
   font: italic 42px/1 Georgia, serif;
   margin: 0.1em 0 0.55em;
 }
 
 .portfolio-rule {
   width: 120px;
-  border-top: 2px solid #ad6900;
+  border-top: 2px solid #9a551c;
   margin: 24px 0 18px;
 }
 
@@ -2970,7 +2976,7 @@ main.hub ul li:hover {
 }
 
 .portfolio-capabilities li span {
-  color: #ad6900;
+  color: #9a551c;
   font: 700 12px "Courier New", monospace;
   letter-spacing: 0.15em;
 }
@@ -3009,11 +3015,11 @@ main.hub ul li:hover {
 }
 
 .portfolio-capabilities li:hover, .portfolio-capabilities li:focus-within {
-  border-top-color: #ad6900;
+  border-top-color: #9a551c;
 }
 
 .portfolio-capabilities li:hover:before, .portfolio-capabilities li:focus-within:before {
-  background: #ad6900;
+  background: #9a551c;
 }
 
 .portfolio-work {
@@ -3081,7 +3087,7 @@ main.hub ul li:hover {
   position: relative;
   background: #fcfcfb;
   border: 1px solid #d8d9dc;
-  color: #ad6900;
+  color: #9a551c;
   font: 700 10px "Courier New", monospace;
   letter-spacing: 0.16em;
 }
@@ -3155,7 +3161,7 @@ main.hub ul li:hover {
 }
 
 .work-case-copy dt {
-  color: #ad6900;
+  color: #9a551c;
   font: 700 10px "Courier New", monospace;
   letter-spacing: 0.16em;
 }
@@ -3199,7 +3205,7 @@ main.hub ul li:hover {
 }
 
 .work-list article:hover .work-case-meta {
-  border-bottom-color: #ad6900;
+  border-bottom-color: #9a551c;
 }
 
 .work-list article:hover .work-case-index {
@@ -3283,7 +3289,7 @@ main.hub ul li:hover {
 }
 
 .portfolio-journey article p:first-child {
-  color: #ad6900;
+  color: #9a551c;
   font: 700 11px "Courier New", monospace;
   letter-spacing: 0.14em;
 }
@@ -3413,7 +3419,7 @@ main.hub ul li:hover {
 }
 
 .project-index {
-  color: #ad6900;
+  color: #9a551c;
   font: 700 13px "Courier New", monospace;
 }
 
@@ -3483,7 +3489,7 @@ main.hub ul li:hover {
 }
 
 .work-list aside a {
-  color: #ad6900;
+  color: #9a551c;
   font-size: 11px;
   font-weight: 800;
   letter-spacing: 0.1em;
@@ -3587,13 +3593,57 @@ main.hub ul li:hover {
     top: 96px;
   }
 }
+.timeline-artifact {
+  padding: 0;
+  overflow: hidden;
+  background: #f2f1ed;
+}
+
+.timeline-artifact-frame {
+  min-height: 0;
+  margin: 0;
+  flex: 1;
+  overflow: hidden;
+}
+
+.timeline-artifact-frame img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.timeline-artifact-caption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: 54px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 10px 18px;
+  border-top: 1px solid #d6d7da;
+  background: #fcfcfb;
+}
+
+.timeline-artifact-caption span {
+  color: #9a551c;
+  font: 700 9px/1.45 "Courier New", monospace;
+  letter-spacing: 0.14em;
+}
+
+.timeline-artifact-caption small {
+  color: #777980;
+  text-align: right;
+}
+
 @media (prefers-reduced-motion: no-preference) {
-  html.portfolio-motion-ready [data-reveal-on-view] {
+  html.portfolio-motion-ready [data-reveal-on-view]:not(.timeline-artifact) {
     opacity: 0;
     transform: translateY(28px);
     transition: opacity 0.62s ease-out, transform 0.62s cubic-bezier(0.22, 1, 0.36, 1);
   }
-  html.portfolio-motion-ready [data-reveal-on-view].is-visible {
+  html.portfolio-motion-ready [data-reveal-on-view]:not(.timeline-artifact).is-visible {
     opacity: 1;
     transform: translateY(0);
   }
@@ -3763,7 +3813,7 @@ main.hub ul li:hover {
 }
 
 .portfolio-work .work-case-copy dt {
-  color: #ad6900;
+  color: #9a551c;
   font: 700 10px "Courier New", monospace;
   letter-spacing: 0.16em;
 }
@@ -3803,7 +3853,7 @@ main.hub ul li:hover {
 }
 
 .portfolio-work .work-list article:hover .work-case-meta {
-  border-bottom-color: #ad6900;
+  border-bottom-color: #9a551c;
 }
 
 .portfolio-work .work-list article:hover .work-case-index {
@@ -3829,7 +3879,7 @@ main.hub ul li:hover {
   content: "→";
   position: absolute;
   left: 0;
-  color: #ad6900;
+  color: #9a551c;
 }
 
 .portfolio-work .work-case-lesson dd {
@@ -3891,7 +3941,7 @@ main.hub ul li:hover {
 }
 
 .portfolio-work .work-case-meta .work-case-identity strong {
-  color: #ad6900;
+  color: #9a551c;
   font-weight: 700;
 }
 
@@ -3960,7 +4010,7 @@ main.hub ul li:hover {
   bottom: -1px;
   left: -1px;
   width: 2px;
-  background: #ad6900;
+  background: #9a551c;
   transform: scaleY(0);
   transform-origin: top;
   transition: transform 0.42s cubic-bezier(0.22, 1, 0.36, 1);
@@ -4391,6 +4441,15 @@ main.hub ul li:hover {
   margin-bottom: 0;
 }
 
+.portfolio-footer-inner section {
+  padding-bottom: 76px;
+}
+
+@media (max-width: 800px) {
+  .portfolio-footer-inner section {
+    padding-bottom: 0;
+  }
+}
 /* Rocketicons / Bootstrap Icons: footer contact links. */
 .portfolio-footer .portfolio-footer-connect a {
   display: flex;
@@ -4402,7 +4461,7 @@ main.hub ul li:hover {
 
 .portfolio-footer-connect a:hover,
 .portfolio-footer-connect a:focus-visible {
-  color: #ad6900;
+  color: #9a551c;
 }
 
 .portfolio-footer-connect svg {
@@ -4454,7 +4513,7 @@ main.hub ul li:hover {
   z-index: 0;
   inset: 14px 0 22px;
   pointer-events: none;
-  background: linear-gradient(#ad6900, #ad6900) left top/16px 1px no-repeat, linear-gradient(#ad6900, #ad6900) left top/1px 16px no-repeat, linear-gradient(#ad6900, #ad6900) right top/16px 1px no-repeat, linear-gradient(#ad6900, #ad6900) right top/1px 16px no-repeat, linear-gradient(#ad6900, #ad6900) left bottom/16px 1px no-repeat, linear-gradient(#ad6900, #ad6900) left bottom/1px 16px no-repeat, linear-gradient(#ad6900, #ad6900) right bottom/16px 1px no-repeat, linear-gradient(#ad6900, #ad6900) right bottom/1px 16px no-repeat;
+  background: linear-gradient(#9a551c, #9a551c) left top/16px 1px no-repeat, linear-gradient(#9a551c, #9a551c) left top/1px 16px no-repeat, linear-gradient(#9a551c, #9a551c) right top/16px 1px no-repeat, linear-gradient(#9a551c, #9a551c) right top/1px 16px no-repeat, linear-gradient(#9a551c, #9a551c) left bottom/16px 1px no-repeat, linear-gradient(#9a551c, #9a551c) left bottom/1px 16px no-repeat, linear-gradient(#9a551c, #9a551c) right bottom/16px 1px no-repeat, linear-gradient(#9a551c, #9a551c) right bottom/1px 16px no-repeat;
   opacity: 0.78;
 }
 
@@ -4471,7 +4530,7 @@ main.hub ul li:hover {
 }
 
 .portfolio-home .artifact-status span {
-  color: #ad6900;
+  color: #9a551c;
 }
 
 .artifact-portrait {
@@ -4508,7 +4567,7 @@ main.hub ul li:hover {
 }
 
 .artifact-portrait-meta span:first-child {
-  color: #ad6900;
+  color: #9a551c;
 }
 
 .artifact-portrait-frame {
@@ -4525,7 +4584,7 @@ main.hub ul li:hover {
   position: absolute;
   inset: 8px;
   pointer-events: none;
-  background: linear-gradient(#ad6900, #ad6900) left top/14px 1px no-repeat, linear-gradient(#ad6900, #ad6900) left top/1px 14px no-repeat, linear-gradient(#ad6900, #ad6900) right top/14px 1px no-repeat, linear-gradient(#ad6900, #ad6900) right top/1px 14px no-repeat, linear-gradient(#ad6900, #ad6900) left bottom/14px 1px no-repeat, linear-gradient(#ad6900, #ad6900) left bottom/1px 14px no-repeat, linear-gradient(#ad6900, #ad6900) right bottom/14px 1px no-repeat, linear-gradient(#ad6900, #ad6900) right bottom/1px 14px no-repeat;
+  background: linear-gradient(#9a551c, #9a551c) left top/14px 1px no-repeat, linear-gradient(#9a551c, #9a551c) left top/1px 14px no-repeat, linear-gradient(#9a551c, #9a551c) right top/14px 1px no-repeat, linear-gradient(#9a551c, #9a551c) right top/1px 14px no-repeat, linear-gradient(#9a551c, #9a551c) left bottom/14px 1px no-repeat, linear-gradient(#9a551c, #9a551c) left bottom/1px 14px no-repeat, linear-gradient(#9a551c, #9a551c) right bottom/14px 1px no-repeat, linear-gradient(#9a551c, #9a551c) right bottom/1px 14px no-repeat;
 }
 
 .artifact-portrait-frame img {
@@ -4612,7 +4671,7 @@ main.hub ul li:hover {
 }
 
 .portfolio-home .artifact-code code i {
-  color: #ad6900;
+  color: #9a551c;
   font-style: normal;
 }
 
@@ -4857,7 +4916,7 @@ main.hub ul li:hover {
   padding: 12px 16px;
   background: #fcfcfb;
   border: 1px solid #d8d9dc;
-  color: #ad6900;
+  color: #9a551c;
   font: 700 10px "Courier New", monospace;
   letter-spacing: 0.14em;
 }
@@ -4906,10 +4965,10 @@ main.hub ul li:hover {
   height: 32px;
   display: grid;
   place-items: center;
-  border: 1px solid #ad6900;
+  border: 1px solid #9a551c;
   border-radius: 50%;
   background: #fcfcfb;
-  color: #ad6900;
+  color: #9a551c;
   font: 700 10px "Courier New", monospace;
 }
 
@@ -4935,7 +4994,7 @@ main.hub ul li:hover {
 }
 
 .timeline-artifact small {
-  color: #ad6900;
+  color: #9a551c;
   font: 700 9px/1.5 "Courier New", monospace;
   letter-spacing: 0.14em;
 }
@@ -4986,7 +5045,7 @@ main.hub ul li:hover {
 
 .timeline-insights h3 {
   margin: 0 0 12px;
-  color: #ad6900;
+  color: #9a551c;
   font: 700 10px "Courier New", monospace;
   letter-spacing: 0.15em;
 }
@@ -5016,7 +5075,7 @@ main.hub ul li:hover {
 .timeline-transition {
   margin: 38px 0 0;
   padding-left: 18px;
-  border-left: 2px solid #ad6900;
+  border-left: 2px solid #9a551c;
   color: #777980;
   font: italic 17px/1.45 Georgia, serif;
 }
@@ -5122,6 +5181,11 @@ main.hub ul li:hover {
     margin-top: 28px;
   }
 }
+/* Field Notes remains unpublished until its editorial content is ready. */
+.portfolio-nav a[data-nav-target=writing], .portfolio-footer a[href="/blog.html"], .portfolio-close a[href="/blog.html"] {
+  display: none;
+}
+
 /* Persistent Journey rail: it reflects the chapter in view and each stop is a
    native anchor, so navigation remains useful without JavaScript as well. */
 .timeline-list:after {
@@ -5181,18 +5245,18 @@ main.hub ul li:hover {
 }
 
 .timeline-rail a:hover, .timeline-rail a:focus-visible, .timeline-rail a.is-active {
-  color: #ad6900;
+  color: #9a551c;
 }
 
 .timeline-rail a:hover:after, .timeline-rail a:focus-visible:after, .timeline-rail a.is-active:after {
-  background: #ad6900;
+  background: #9a551c;
   transform: translateY(-50%) scale(1.25);
 }
 
 .timeline-marker {
   left: -17px;
   right: auto;
-  border-color: #ad6900;
+  border-color: #9a551c;
 }
 
 .timeline-chapter {
@@ -5346,7 +5410,7 @@ main.hub ul li:hover {
 }
 
 .engineering-core span {
-  color: #ad6900;
+  color: #9a551c;
   font: 900 38px/1 Arial, sans-serif;
   letter-spacing: -0.08em;
 }
@@ -5430,7 +5494,7 @@ main.hub ul li:hover {
 }
 
 .engineering-hero-visual figcaption span:first-child {
-  color: #ad6900;
+  color: #9a551c;
 }
 
 .engineering-hero-visual figcaption span:last-child {
@@ -5482,7 +5546,7 @@ main.hub ul li:hover {
   justify-content: space-between;
   gap: 24px;
   border-bottom: 1px solid #d7d8db;
-  color: #ad6900;
+  color: #9a551c;
   font: 700 10px/1.4 "Courier New", monospace;
   letter-spacing: 0.18em;
   text-transform: uppercase;
@@ -5541,7 +5605,7 @@ main.hub ul li:hover {
 }
 
 .engineering-model-steps span {
-  color: #ad6900;
+  color: #9a551c;
   font: 700 10px "Courier New", monospace;
   letter-spacing: 0.14em;
 }
@@ -5637,7 +5701,7 @@ main.hub ul li:hover {
   bottom: -1px;
   left: -1px;
   width: 2px;
-  background: #ad6900;
+  background: #9a551c;
   transform: scaleY(0);
   transform-origin: top;
   transition: transform 0.42s cubic-bezier(0.22, 1, 0.36, 1);
@@ -5665,7 +5729,7 @@ main.hub ul li:hover {
 .engineering-principle-label {
   position: relative;
   z-index: 1;
-  color: #ad6900;
+  color: #9a551c;
   font: 700 10px/1.4 "Courier New", monospace;
   letter-spacing: 0.18em;
 }
@@ -5777,7 +5841,7 @@ main.hub ul li:hover {
 
 .engineering-ai header .section-eyebrow {
   grid-column: 1/-1;
-  color: #ad6900;
+  color: #9a551c;
 }
 
 .engineering-ai header .portfolio-script {
@@ -5808,7 +5872,7 @@ main.hub ul li:hover {
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  color: #ad6900;
+  color: #9a551c;
   font: 700 10px/1.4 "Courier New", monospace;
   letter-spacing: 0.22em;
 }
@@ -5867,7 +5931,7 @@ main.hub ul li:hover {
 }
 
 .engineering-ai-figure li b {
-  color: #ad6900;
+  color: #9a551c;
   font: 700 10px/1.5 "Courier New", monospace;
   letter-spacing: 0.16em;
 }
@@ -5895,7 +5959,7 @@ main.hub ul li:hover {
 }
 
 .engineering-ai-boundaries .section-eyebrow {
-  color: #ad6900;
+  color: #9a551c;
 }
 
 .engineering-ai-boundaries ul {
@@ -5919,7 +5983,7 @@ main.hub ul li:hover {
   content: "→";
   position: absolute;
   left: 0;
-  color: #ad6900;
+  color: #9a551c;
   font-weight: 900;
 }
 
@@ -5978,7 +6042,7 @@ main.hub ul li:hover {
   position: relative;
   z-index: 1;
   margin-bottom: 32px;
-  color: #ad6900;
+  color: #9a551c;
   font: 700 10px/1.4 "Courier New", monospace;
   letter-spacing: 0.2em;
 }
@@ -5999,7 +6063,7 @@ main.hub ul li:hover {
 }
 
 .engineering-proof-evidence blockquote em {
-  color: #ad6900;
+  color: #9a551c;
   font: italic 1.08em/1 Georgia, serif;
   font-weight: 400;
 }
@@ -6029,7 +6093,7 @@ main.hub ul li:hover {
 .engineering-proof-list span {
   position: relative;
   z-index: 1;
-  color: #ad6900;
+  color: #9a551c;
   font: 700 9px/1.5 "Courier New", monospace;
   letter-spacing: 0.15em;
 }
@@ -6080,9 +6144,97 @@ main.hub ul li:hover {
     box-shadow: 0 20px 36px rgba(8, 8, 10, 0.2);
   }
   50% {
-    box-shadow: 0 20px 48px rgba(173, 105, 0, 0.35);
+    box-shadow: 0 20px 48px rgba(154, 85, 28, 0.35);
   }
 }
+.portfolio-linkedin {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 34px;
+  margin-left: auto;
+  padding: 0 10px;
+  border: 1px solid #d8d9dc;
+  color: #676970;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.portfolio-linkedin:hover, .portfolio-linkedin:focus-visible {
+  color: #08080a;
+}
+
+.portfolio-languages {
+  margin-left: 8px;
+}
+
+@media (max-width: 800px) {
+  .portfolio-linkedin {
+    display: none;
+  }
+  .portfolio-languages {
+    margin-left: auto;
+  }
+}
+.portfolio-page :focus-visible {
+  outline-color: #9a551c;
+}
+
+.portfolio-work .work-list article:hover .work-case-index {
+  color: rgba(154, 85, 28, 0.3);
+}
+
+.artifact-connector, .artifact-connector:after {
+  border-color: rgba(154, 85, 28, 0.7);
+}
+
+.engineering-hero-system {
+  background: radial-gradient(circle at center, rgba(154, 85, 28, 0.08), transparent 42%), #fcfcfb;
+}
+
+.engineering-principle-grid .is-featured b {
+  color: rgba(154, 85, 28, 0.45);
+}
+
+.engineering-proof-evidence blockquote:after {
+  color: rgba(154, 85, 28, 0.16);
+}
+
+.engineering-ai-figure li {
+  border-left-color: rgba(154, 85, 28, 0.5);
+}
+
+@media (min-width: 801px) {
+  .timeline-list {
+    width: min(1732px, 100% - 128px);
+    padding: 32px 24px 128px 0;
+  }
+  .timeline-chapter {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 100px;
+    align-items: start;
+    min-height: 0;
+    padding: 0 0 190px;
+  }
+  .timeline-artifact {
+    position: sticky;
+    top: 96px;
+    align-self: start;
+    box-sizing: border-box;
+    min-height: 0;
+    aspect-ratio: 1.22/1;
+  }
+  .timeline-copy {
+    padding-top: 22px;
+  }
+}
+.engineering-proof-list a:hover, .engineering-proof-list a:focus-visible {
+  border-color: rgba(154, 85, 28, 0.6);
+}
+
 @keyframes engineering-orbit {
   to {
     transform: rotate(360deg);
@@ -6334,6 +6486,54 @@ main.hub ul li:hover {
 
 .timeline-story p:last-child {
   margin-bottom: 0;
+}
+
+.timeline-artifact-shell {
+  min-width: 0;
+  perspective: 1200px;
+  perspective-origin: center;
+}
+
+.timeline-artifact {
+  transform-style: preserve-3d;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html.portfolio-motion-ready .timeline-artifact[data-reveal-on-view] {
+    opacity: 0;
+    transform: perspective(1200px) translate3d(0, 80px, -220px) rotateY(-12deg) rotateX(6deg);
+    transform-origin: center;
+    will-change: transform, opacity;
+    transition: opacity 0.55s ease-out, transform 0.72s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  html.portfolio-motion-ready .timeline-artifact[data-reveal-on-view].is-visible {
+    opacity: 1;
+    transform: translate3d(0, 0, 0) rotateY(0) rotateX(0);
+  }
+}
+@media (min-width: 801px) {
+  .timeline-artifact-shell {
+    position: sticky;
+    top: 96px;
+    align-self: start;
+    box-sizing: border-box;
+    min-height: 0;
+    aspect-ratio: 1.22/1;
+  }
+  .timeline-artifact {
+    position: static;
+    order: initial;
+    width: 100%;
+    height: 100%;
+    min-height: 0;
+    aspect-ratio: auto;
+  }
+  .timeline-chapter.is-artifact-right .timeline-artifact-shell {
+    order: 2;
+  }
+  .timeline-chapter.is-artifact-right .timeline-copy {
+    order: 1;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -185,7 +185,7 @@ Writing: blog archive and individual articles
    percentage scores.
 7. **Writing and community**  -  latest posts plus links to YouTube, Instagram,
    and other public work. This is deliberately secondary.
-8. **Contact**  -  LinkedIn, GitHub, and email.
+8. **Contact**  -  LinkedIn and GitHub.
 
 ### G2i narrative requirements
 

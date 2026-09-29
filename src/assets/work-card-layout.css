@@ -3,17 +3,43 @@
   grid-template-columns:minmax(0,1fr) minmax(0,1fr);
   min-height:0;
 }
-.portfolio-work .work-case-intro{
-  grid-column:1;
+.portfolio-work .work-case-title{
+  grid-column:1/-1;
   grid-row:2;
   padding:64px 52px 0;
+}
+.portfolio-work .work-case-title h2{
+  width:100%;
+  min-height:2em;
+  margin:0 0 clamp(1.5rem,2vw,2rem);
+  font-size:clamp(2.25rem,3vw,3rem)!important;
+  line-height:1.05!important;
+  letter-spacing:-.045em!important;
+  text-wrap:balance;
+}
+/* Published pages created before the shared title band retain the same full
+   card measure until the next site build regenerates their markup. */
+.portfolio-work .work-case-intro h2{
+  width:calc(200% + 104px);
+  max-width:none;
+  min-height:2em;
+  margin:0 0 clamp(1.5rem,2vw,2rem);
+  font-size:clamp(2.25rem,3vw,3rem)!important;
+  line-height:1.05!important;
+  letter-spacing:-.045em!important;
+  text-wrap:balance;
+}
+.portfolio-work .work-case-intro{
+  grid-column:1;
+  grid-row:3;
+  padding:32px 52px 0;
 }
 .portfolio-work .work-case-intro dl{
   margin:48px 0 0;
 }
 .portfolio-work .work-case-detail{
   grid-column:1;
-  grid-row:3;
+  grid-row:4;
   padding:0 52px 58px;
 }
 .portfolio-work .work-case-detail dl{
@@ -23,7 +49,7 @@
 .portfolio-work .work-case-aside{
   display:block;
   grid-column:2;
-  grid-row:3;
+  grid-row:4;
   align-self:start;
   min-width:0;
   padding:20px 52px 58px;
@@ -81,6 +107,35 @@
 .portfolio-work .work-case-aside .project-tags+.text-link{
   margin-top:36px;
 }
+.portfolio-work .work-case-aside>.work-case-chapter-link{
+  color:#676970;
+  position:relative;
+  transition:color .2s ease;
+}
+.portfolio-work .work-case-chapter-link>span{
+  display:inline-block;
+  position:relative;
+}
+.portfolio-work .work-case-chapter-link>span:after{
+  background:#9a551c;
+  bottom:-8px;
+  content:"";
+  height:2px;
+  left:0;
+  position:absolute;
+  transform:scaleX(0);
+  transform-origin:left center;
+  transition:transform .2s ease;
+  width:100%;
+}
+.portfolio-work .work-case-chapter-link:hover,
+.portfolio-work .work-case-chapter-link:focus-visible{
+  color:#08080a;
+}
+.portfolio-work .work-case-chapter-link:hover>span:after,
+.portfolio-work .work-case-chapter-link:focus-visible>span:after{
+  transform:scaleX(1);
+}
 @media (min-width:801px){
   .portfolio-work .work-list{max-width:1260px}
   .portfolio-work .work-case-meta{min-height:124px;padding:0 52px 7px;align-items:end}
@@ -88,6 +143,8 @@
   .portfolio-work .work-case-meta p:last-child{align-self:end;margin-bottom:18px}
 }
 @media (min-width:521px) and (max-width:800px){
+  .portfolio-work .work-case-title{padding:34px 24px 0}
+  .portfolio-work .work-case-intro h2{width:auto}
   .portfolio-work .work-case-intro{padding:34px 24px 0}
   .portfolio-work .work-case-intro dl{margin-top:28px}
   .portfolio-work .work-case-detail{padding:0 24px 36px}
@@ -100,7 +157,9 @@
 }
 @media (max-width:520px){
   .portfolio-work .work-list article{grid-template-columns:minmax(0,1fr)}
-  .portfolio-work .work-case-intro,.portfolio-work .work-case-detail,.portfolio-work .work-case-aside{grid-column:1;grid-row:auto;min-width:0}
+  .portfolio-work .work-case-title,.portfolio-work .work-case-intro,.portfolio-work .work-case-detail,.portfolio-work .work-case-aside{grid-column:1;grid-row:auto;min-width:0}
+  .portfolio-work .work-case-title{padding:30px 20px 0}
+  .portfolio-work .work-case-intro h2{width:auto}
   .portfolio-work .work-case-intro{padding:30px 20px 0}
   .portfolio-work .work-case-intro dl{margin-top:28px}
   .portfolio-work .work-case-detail{padding:0 20px 12px}
@@ -122,7 +181,7 @@
 }
 .portfolio-work .work-close .section-eyebrow{
   margin:0;
-  color:#ad6900;
+  color:#9a551c;
   font-size:11px;
   letter-spacing:.3em;
 }
@@ -134,7 +193,7 @@
   letter-spacing:-.055em;
 }
 .portfolio-work .work-close h2 em{
-  color:#ad6900;
+  color:#9a551c;
   font-family:"Instrument Serif",Georgia,serif!important;
   font-size:1.08em;
   font-weight:400;
