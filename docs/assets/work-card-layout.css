@@ -1,0 +1,245 @@
+/* Shared two-column case study layout for every Work card. */
+.portfolio-work .work-list article{
+  grid-template-columns:minmax(0,1fr) minmax(0,1fr);
+  min-height:0;
+}
+.portfolio-work .work-case-title{
+  grid-column:1/-1;
+  grid-row:2;
+  padding:64px 52px 0;
+}
+.portfolio-work .work-case-title h2{
+  width:100%;
+  min-height:2em;
+  margin:0 0 clamp(1.5rem,2vw,2rem);
+  font-size:clamp(2.25rem,3vw,3rem)!important;
+  line-height:1.05!important;
+  letter-spacing:-.045em!important;
+  text-wrap:balance;
+}
+/* Published pages created before the shared title band retain the same full
+   card measure until the next site build regenerates their markup. */
+.portfolio-work .work-case-intro h2{
+  width:calc(200% + 104px);
+  max-width:none;
+  min-height:2em;
+  margin:0 0 clamp(1.5rem,2vw,2rem);
+  font-size:clamp(2.25rem,3vw,3rem)!important;
+  line-height:1.05!important;
+  letter-spacing:-.045em!important;
+  text-wrap:balance;
+}
+.portfolio-work .work-case-intro{
+  grid-column:1;
+  grid-row:3;
+  padding:32px 52px 0;
+}
+.portfolio-work .work-case-intro dl{
+  margin:48px 0 0;
+}
+.portfolio-work .work-case-detail{
+  grid-column:1;
+  grid-row:4;
+  padding:0 52px 58px;
+}
+.portfolio-work .work-case-detail dl{
+  margin:0;
+  border-top:0;
+}
+.portfolio-work .work-case-aside{
+  display:block;
+  grid-column:2;
+  grid-row:4;
+  align-self:start;
+  min-width:0;
+  padding:20px 52px 58px;
+  border:0;
+}
+.portfolio-work .work-case-media{
+  display:none;
+}
+.portfolio-work .work-case-aside>.section-eyebrow{
+  margin:0 0 18px;
+}
+.portfolio-work .work-case-aside .project-tags{
+  margin:0;
+  gap:6px;
+}
+.portfolio-work .work-case-aside .project-tags li{
+  cursor:default;
+  padding:6px 8px;
+  border-radius:4px;
+  color:#3d4046;
+  font-size:13px;
+  line-height:1.3;
+}
+.portfolio-work .work-case-aside .work-case-metrics{
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:16px;
+  margin:36px 0 0;
+  padding:32px 0 0;
+}
+.portfolio-work .work-case-aside .work-case-metrics p{
+  min-width:0;
+  gap:10px;
+}
+.portfolio-work .work-case-aside .work-case-metrics strong{
+  color:#08080a;
+  font-size:30px;
+  line-height:1.05;
+  overflow-wrap:anywhere;
+}
+.portfolio-work .work-case-aside .work-case-metrics span{
+  font-size:11px;
+  line-height:1.5;
+}
+.portfolio-work .work-case-aside>.text-link{
+  display:block;
+  width:100%;
+  margin:46px 0 0;
+  padding-top:30px;
+  border-top:1px solid #e2e3e5;
+  color:#08080a;
+  font-size:12px;
+  line-height:1.5;
+  letter-spacing:.2em;
+}
+.portfolio-work .work-case-aside .project-tags+.text-link{
+  margin-top:36px;
+}
+.portfolio-work .work-case-aside>.work-case-chapter-link{
+  color:#676970;
+  position:relative;
+  transition:color .2s ease;
+}
+.portfolio-work .work-case-chapter-link>span{
+  display:inline-block;
+  position:relative;
+}
+.portfolio-work .work-case-chapter-link>span:after{
+  background:#9a551c;
+  bottom:-8px;
+  content:"";
+  height:2px;
+  left:0;
+  position:absolute;
+  transform:scaleX(0);
+  transform-origin:left center;
+  transition:transform .2s ease;
+  width:100%;
+}
+.portfolio-work .work-case-chapter-link:hover,
+.portfolio-work .work-case-chapter-link:focus-visible{
+  color:#08080a;
+}
+.portfolio-work .work-case-chapter-link:hover>span:after,
+.portfolio-work .work-case-chapter-link:focus-visible>span:after{
+  transform:scaleX(1);
+}
+@media (min-width:801px){
+  .portfolio-work .work-list{max-width:1260px}
+  .portfolio-work .work-case-meta{min-height:124px;padding:0 52px 7px;align-items:end}
+  .portfolio-work .work-case-index{align-self:end;margin-bottom:23px;color:rgba(8,8,10,.23);font-size:72px}
+  .portfolio-work .work-case-meta p:last-child{align-self:end;margin-bottom:18px}
+}
+@media (min-width:521px) and (max-width:800px){
+  .portfolio-work .work-case-title{padding:34px 24px 0}
+  .portfolio-work .work-case-intro h2{width:auto}
+  .portfolio-work .work-case-intro{padding:34px 24px 0}
+  .portfolio-work .work-case-intro dl{margin-top:28px}
+  .portfolio-work .work-case-detail{padding:0 24px 36px}
+  .portfolio-work .work-case-aside{padding:14px 24px 36px}
+  .portfolio-work .work-case-aside .project-tags li{font-size:10px;padding:4px 6px}
+  .portfolio-work .work-case-aside .work-case-metrics{gap:7px;margin-top:24px;padding-top:22px}
+  .portfolio-work .work-case-aside .work-case-metrics strong{font-size:22px}
+  .portfolio-work .work-case-aside .work-case-metrics span{font-size:8px}
+  .portfolio-work .work-case-aside>.text-link{font-size:10px;margin-top:28px;padding-top:22px}
+}
+@media (max-width:520px){
+  .portfolio-work .work-list article{grid-template-columns:minmax(0,1fr)}
+  .portfolio-work .work-case-title,.portfolio-work .work-case-intro,.portfolio-work .work-case-detail,.portfolio-work .work-case-aside{grid-column:1;grid-row:auto;min-width:0}
+  .portfolio-work .work-case-title{padding:30px 20px 0}
+  .portfolio-work .work-case-intro h2{width:auto}
+  .portfolio-work .work-case-intro{padding:30px 20px 0}
+  .portfolio-work .work-case-intro dl{margin-top:28px}
+  .portfolio-work .work-case-detail{padding:0 20px 12px}
+  .portfolio-work .work-case-aside{padding:16px 20px 32px}
+  .portfolio-work .work-case-aside .project-tags li{font-size:11px;padding:6px 8px}
+  .portfolio-work .work-case-aside .work-case-metrics{gap:10px;margin-top:28px;padding-top:24px}
+  .portfolio-work .work-case-aside .work-case-metrics strong{font-size:28px}
+  .portfolio-work .work-case-aside .work-case-metrics span{font-size:9px;letter-spacing:.1em!important}
+  .portfolio-work .work-case-aside>.text-link{margin-top:32px;padding-top:24px}
+}
+/* Closing bridge from the Work case studies to the career timeline. */
+.portfolio-work .work-close{
+  width:min(1260px,calc(100% - 48px));
+  min-height:470px;
+  margin:68px auto 0;
+  padding:60px 24px 150px;
+  border-top:1px solid #e2e3e5;
+  text-align:center;
+}
+.portfolio-work .work-close .section-eyebrow{
+  margin:0;
+  color:#9a551c;
+  font-size:11px;
+  letter-spacing:.3em;
+}
+.portfolio-work .work-close h2{
+  margin:28px 0 0;
+  color:#08080a;
+  font-size:clamp(38px,4.2vw,64px);
+  line-height:1.12;
+  letter-spacing:-.055em;
+}
+.portfolio-work .work-close h2 em{
+  color:#9a551c;
+  font-family:"Instrument Serif",Georgia,serif!important;
+  font-size:1.08em;
+  font-weight:400;
+  letter-spacing:-.035em;
+  white-space:nowrap;
+}
+.portfolio-work .work-close-actions{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:14px;
+  margin-top:42px;
+}
+.portfolio-work .work-close-actions .button{
+  display:inline-flex;
+  min-height:54px;
+  min-width:250px;
+  align-items:center;
+  justify-content:center;
+  padding:14px 24px;
+  border-color:#b9bbc0;
+  background:#fcfcfb;
+  color:#08080a;
+  font-size:12px;
+  letter-spacing:.16em;
+  line-height:1.4;
+}
+.portfolio-work .work-close-actions .button-solid{
+  border-color:#08080a;
+  background:#08080a;
+  color:#fff;
+}
+@media (max-width:800px){
+  .portfolio-work .work-close{
+    width:calc(100% - 32px);
+    min-height:0;
+    margin-top:28px;
+    padding:48px 12px 100px;
+  }
+  .portfolio-work .work-close h2{font-size:clamp(34px,6vw,48px)}
+  .portfolio-work .work-close h2 em{white-space:normal}
+}
+@media (max-width:520px){
+  .portfolio-work .work-close{padding:44px 8px 80px}
+  .portfolio-work .work-close h2{font-size:38px}
+  .portfolio-work .work-close h2 em{display:block}
+  .portfolio-work .work-close-actions{flex-direction:column;align-items:stretch;gap:10px;margin-top:32px}
+  .portfolio-work .work-close-actions .button{width:100%;min-width:0}
+}

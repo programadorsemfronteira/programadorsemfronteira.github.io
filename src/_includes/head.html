@@ -1,7 +1,12 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  {%- seo -%}
+  {%- if page.layout == 'portfolio' or page.layout == 'portfolio-home' -%}
+    <title>{{ page.title | escape }}</title>
+    {%- seo title=false -%}
+  {%- else -%}
+    {%- seo -%}
+  {%- endif -%}
 
   {%- feed_meta -%}
 
@@ -20,7 +25,14 @@
   <link href="/assets/lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}?v=portfolio-field-notes-hidden-1">
+  {%- if page.layout == 'portfolio' or page.layout == 'portfolio-home' -%}<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800;900&amp;family=Instrument+Serif:ital@0;1&amp;family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap"><link rel="stylesheet" href="{{ "/assets/portfolio-typography.css" | relative_url }}?v=portfolio-type-scale-1">{%- endif -%}
+  {%- if page.enable_tag_filter -%}<link rel="stylesheet" href="{{ "/assets/work-card-layout.css" | relative_url }}?v=work-card-layout-8">{%- endif -%}
+  {%- if page.enable_timeline_navigation -%}<link rel="stylesheet" href="{{ "/assets/portfolio-journey-hotfix.css" | relative_url }}?v=journey-artifact-images-1">{%- endif -%}
+
+  {%- if page.layout == 'portfolio' or page.layout == 'portfolio-home' -%}
+    <script>if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) document.documentElement.classList.add('portfolio-motion-ready');</script>
+  {%- endif -%}
 
   {%- if page.name == '404.html' -%}
     <link rel="stylesheet" href="{{ "/assets/404.css" | relative_url }}">
@@ -31,4 +43,3 @@
     {%- include google-analytics.html -%}
   {%- endif -%}
 </head>
-

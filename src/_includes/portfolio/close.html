@@ -1,0 +1,10 @@
+<section class="portfolio-close{% if include.class_name %} {{ include.class_name }}{% endif %}"{% if include.section_id %} id="{{ include.section_id }}"{% endif %}>
+  <p class="section-eyebrow">{{ include.eyebrow }}</p>
+  <h2>{{ include.title }}</h2>
+  <p class="portfolio-script">{{ include.emphasis }}</p>
+  <p>{{ include.description }}</p>
+  <p class="portfolio-actions">
+    <a class="button button-solid" href="{{ include.primary_href }}"{% if include.primary_href contains 'linkedin.com' %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ include.primary }} {% include portfolio/arrow-up-right.html %}</a>
+    {% if include.secondary and include.secondary_href %}<a class="button" href="{{ include.secondary_href }}"{% if include.secondary_href contains 'linkedin.com' %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ include.secondary }} {% include portfolio/arrow-up-right.html %}</a>{% endif %}
+  </p>
+</section>

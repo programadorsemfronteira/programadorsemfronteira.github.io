@@ -60,7 +60,7 @@ Deixe tudo documentando em arquivos readme, não esqueça que você está venden
 
 Projetos acadêmicos são ótimas oportunidades para criar experiência, geralmente fazemos ele em equipe, que é como funciona o mercado do trabalho. Então escolha com cuidado o que será o seu projeto.
 
-Se você pretende trabalhar criando softwares, faça com que seu projeto seja a criação de um. Pense em cada detalhe e faça da melhor forma possível. Para descobrir quais ferramentas, banco de dados, frameworks você vai usar, [faça uma pesquisa de mercado e descubra quais ferramentas estão sendo requisitadas no momento](https://www.linkedin.com/jobs/search?keywords=desenvolvedor&location=Brasil&geoId=106057199&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0). Não deixe de automatizar o processo de teste e de publicação, mostre que você domina todo o processo de desenvolvimento.
+Se você pretende trabalhar criando softwares, faça com que seu projeto seja a criação de um. Pense em cada detalhe e faça da melhor forma possível. Para descobrir quais ferramentas, banco de dados, frameworks você vai usar, [faça uma pesquisa de mercado e descubra quais ferramentas estão sendo requisitadas no momento](https://www.linkedin.com/jobs/search?keywords=desenvolvedor&location=Brasil&geoId=106057199&trk=public_jobs_jobs-search-bar_search-submit&position=1&pageNum=0){: target="_blank" rel="noopener noreferrer" }. Não deixe de automatizar o processo de teste e de publicação, mostre que você domina todo o processo de desenvolvimento.
 
 Quando você está estudando, você não precisa criar nenhum aplicativo que seja comercial. Apenas usar metodologias certas, padrões atuais e zelar pela qualidade vai ser o suficiente para você mostrar o seu valor em uma entrevista.
 
@@ -68,7 +68,7 @@ Quando você está estudando, você não precisa criar nenhum aplicativo que sej
 
 Se você fizer com que o seu projeto se torne um case real, sua experiencia profissional estará mais do que comprovada. Uma forma de se conseguir isso é procurar por ONGs, Sindicatos. Talvez alguém em sua família tenha um negócio que precisa ter algum processo automatizado.  Resolva o problemas deles e você terá algo que irá agregar muito em seu currículo.
 
->[Trabalho voluntário também pode ser uma alternativa](https://www.linkedin.com/jobs/search?keywords=&location=Estados%20Unidos&locationId=&geoId=103644278&f_TPR=&f_JT=V&position=1&pageNum=0)
+>[Trabalho voluntário também pode ser uma alternativa](https://www.linkedin.com/jobs/search?keywords=&location=Estados%20Unidos&locationId=&geoId=103644278&f_TPR=&f_JT=V&position=1&pageNum=0){: target="_blank" rel="noopener noreferrer" }
 
 Falando em ONGs, várias procuram por trabalhadores voluntários. É uma ótima forma de se conseguir experiencia. Você pode conseguir inclusive uma experiencia internacional dessa forma. Além de melhorar a suas habilidades você terá a chance de conhecer pessoas que já estão no mercado. Não tem como negar o poder do networking quanto estamos tentando concorrer para alguma posição. Ter alguém dentro de uma empresa que ateste o seu caráter pode te abrir portas, afinal, habilidades nós podemos testar, mas como descobrir quem você de fato é? 
 
